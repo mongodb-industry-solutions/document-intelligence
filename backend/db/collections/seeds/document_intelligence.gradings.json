@@ -1,0 +1,1600 @@
+[{
+  "_id": {
+    "$oid": "68d153acc99081fbef4055db"
+  },
+  "question": "What can you do for me?",
+  "context_preview": "[Source: 5b_Rating_Methodology_Healthcare_Technology_Sector.docx] [Chunk 1/3] [Score: 0.620]\n# ATLAS CREDIT ADVISORS: Healthcare Technology Rating Methodology - Executive Summary\n\n**Version:** 3.2 | **Effective:** August 2024 | **Document ID:** ACA-METHOD-HLTH-2024\n\n## SCOPE AND RATING FRAMEWORK\n\n**Covered Entities:** EHR providers, practice management software, healthcare analytics, revenue cycle management, telehealth platforms, healthcare cybersecurity, medical device software\n\n### Core Ratin",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document content is focused on healthcare technology sector analysis, rating methodologies, default studies and risk factors. It does not contain any information that directly answers or relates to the meta-question \"What can you do for me?\" The document does not describe services, capabilities, or offerings that could address what can be done for someone. While the document is detailed and informative about healthcare technology sector analysis, it is not relevant to understanding what services or assistance can be provided to a user."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T13:48:28.829Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d155561599e01445086a0e"
+  },
+  "question": "What can you do for me?",
+  "context_preview": "[Source: 5b_Rating_Methodology_Healthcare_Technology_Sector.docx] [Chunk 1/3] [Score: 0.611]\n# ATLAS CREDIT ADVISORS: Healthcare Technology Rating Methodology - Executive Summary\n\n**Version:** 3.2 | **Effective:** August 2024 | **Document ID:** ACA-METHOD-HLTH-2024\n\n## SCOPE AND RATING FRAMEWORK\n\n**Covered Entities:** EHR providers, practice management software, healthcare analytics, revenue cycle management, telehealth platforms, healthcare cybersecurity, medical device software\n\n### Core Ratin",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document content consists of detailed rating methodologies and analysis for healthcare technology and aerospace manufacturing sectors, focusing on default risks, recovery rates, and various assessment factors. It does not contain any information about services, capabilities, or offerings that would answer \"What can you do for me?\". The content is highly technical and specific to credit rating analysis rather than describing any services or capabilities available to a user."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T13:55:34.849Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d15e5aba31330d12af4760"
+  },
+  "question": "Summarize the key points from my documents",
+  "context_preview": "[Source: 5b_Rating_Methodology_Healthcare_Technology_Sector.docx] [Chunk 1/3] [Score: 0.611]\n# ATLAS CREDIT ADVISORS: Healthcare Technology Rating Methodology - Executive Summary\n\n**Version:** 3.2 | **Effective:** August 2024 | **Document ID:** ACA-METHOD-HLTH-2024\n\n## SCOPE AND RATING FRAMEWORK\n\n**Covered Entities:** EHR providers, practice management software, healthcare analytics, revenue cycle management, telehealth platforms, healthcare cybersecurity, medical device software\n\n### Core Ratin",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are highly relevant to providing a summary of key points as they contain detailed information about:\n\n1. Healthcare Technology Rating Methodology including:\n- Core rating factors and their weights\n- Market position assessment criteria\n- Customer base quality metrics\n- Cybersecurity considerations\n\n2. Default Risk Analysis covering:\n- Primary default triggers in healthcare tech sector\n- Recovery rates for different types of debt\n- Case studies of defaults\n\n3. Aerospace Manufacturing Sector information including:\n- Default risk factors\n- Recovery rate analysis\n- Financial indicators\n\nThe documents provide comprehensive, structured information that directly enables summarizing key points across multiple business sectors and risk factors."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T14:34:02.207Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d15ea6ba31330d12af4761"
+  },
+  "question": "Analyze trends and patterns in my data",
+  "context_preview": "[Source: 3b_Healthcare_Technology_Sector_Analysis.docx] [Chunk 4/4] [Score: 0.648]\n### Going-Concern vs. Liquidation:\n- 73% of healthcare IT defaults resulted in going-concern sales\n- Average going-concern premium: 15% above liquidation value\n- Strategic buyers (larger healthcare IT companies) in 68% of transactions\n\n## FINANCIAL METRIC ANALYSIS\n\n### Pre-Default Warning Indicators:\n\n#### 24 Months Before Default:\n- Revenue growth deceleration to <10% (from >20% sector average)\n- EBITDA margin co",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to analyzing trends and patterns as it contains extensive data and analysis of trends in the healthcare technology sector, specifically:\n\n1. Clear temporal patterns in default rates:\n- Detailed year-by-year default rate analysis (2014-2024)\n- COVID-19 impact patterns (2020-2021)\n- Historical default rate trends across different periods\n\n2. Statistical patterns across different categories:\n- Default rates by rating category (AAA/AA through B)\n- Comparative analysis across healthcare IT, technology sector, and all industries\n- Recovery rates by different types of debt instruments\n\n3. Trend analysis in key metrics:\n- Revenue growth patterns\n- EBITDA margin trends\n- Customer churn rates\n- Financial performance metrics over time\n\n4. Pattern analysis of default triggers:\n- Ranked analysis of default causes (cybersecurity, customer concentration, etc.)\n- Quantified impact patterns for each trigger\n- Clear statistical breakdowns (e.g., 28% defaults from cybersecurity)\n\nThe document provides comprehensive trend data with specific numbers, percentages, and temporal analysis, making it highly relevant for trend and pattern analysis."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T14:35:18.368Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d166ca25d17c2ec1e55a40"
+  },
+  "question": "Summarize the key points from my documents",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/3] [Score: 0.598]\n## Primary Default Risk Factors\n\n### 1. Customer Concentration Risk (31% of defaults)\n\n- **High Risk Indicators**: >40% revenue from single customer, >60% from single program\n- **Case Study**: SkyComponents Inc. - 85% revenue from Boeing 737 MAX suppliers, defaulted within 18 months of MAX grounding\n\n### 2. Operational Leverage (27% of defaults)\n\n- High fixed costs, specialized workforce, limited operational flexib",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to providing a summary of key points as it contains comprehensive and structured information about:\n\n1. Primary default risk factors in aerospace manufacturing (customer concentration, operational leverage, working capital, quality issues, technology obsolescence)\n2. COVID-19 impact analysis including successful and failed strategies\n3. Default patterns across different segments\n4. Financial warning indicators before defaults\n5. Recovery rate analysis for different supplier tiers\n6. Comparative assessment of AeroTech vs peers\n\nThe document is well-organized with clear headings and subheadings, making it ideal for summarizing key points. The content provides both high-level insights and specific details with quantitative metrics, case studies, and industry benchmarks."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:10:02.941Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d16a5325079df7f86fbf8c"
+  },
+  "question": "Summarize the key points from my documents",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/3] [Score: 0.598]\n## Primary Default Risk Factors\n\n### 1. Customer Concentration Risk (31% of defaults)\n\n- **High Risk Indicators**: >40% revenue from single customer, >60% from single program\n- **Case Study**: SkyComponents Inc. - 85% revenue from Boeing 737 MAX suppliers, defaulted within 18 months of MAX grounding\n\n### 2. Operational Leverage (27% of defaults)\n\n- High fixed costs, specialized workforce, limited operational flexib",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.99,
+    "reasoning": "The document is highly relevant as it contains a comprehensive analysis of the aerospace manufacturing sector with clear key points and structured information. Specifically:\n\n1. It provides a detailed executive summary and default rate analysis across different rating categories\n2. Lists 5 primary default risk factors with percentages (Customer Concentration 31%, Operational Leverage 27%, Working Capital 19%, Quality/Regulatory 14%, Technology Obsolescence 9%)\n3. Includes COVID-19 impact analysis with successful and failed strategies\n4. Details financial warning indicators and metrics\n5. Provides recovery rate analysis for different supplier tiers\n6. Contains comparative assessment of AeroTech versus peers\n\nThe document is well-structured with clear headings and subheadings, making it easy to identify and summarize key points, which directly addresses the user's request for summarization."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:25:07.389Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d16a9425079df7f86fbf8d"
+  },
+  "question": "Analyze trends and patterns in my data",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\" which means there is no actual content to analyze. The user question asks about analyzing trends and patterns in data, but since there is no data or content provided in the document, it is clearly not relevant. The confidence is 1.0 because it is absolutely certain that an empty/no document result cannot provide any information for data analysis."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:26:12.834Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d16af425079df7f86fbf8e"
+  },
+  "question": "How the credit rating looks for the AeroTech Manufactoring company?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.801]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the question about AeroTech Manufacturing's credit rating for several reasons:\n1. It is explicitly a credit rating report for AeroTech Manufacturing Corp.\n2. It clearly states the credit rating as BB+ with a Stable Outlook right at the beginning\n3. The document provides comprehensive details about the rating rationale, including:\n   - Key strengths and credit constraints\n   - Financial metrics and performance\n   - Rating sensitivities (upgrade and downgrade scenarios)\n   - Stable outlook explanation\n4. The document includes detailed financial and operational information that supports the credit rating assessment"
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:27:48.956Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d16b4425079df7f86fbf8f"
+  },
+  "question": "And trends expected for this company?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 2/2] [Score: 0.738]\n#### Industry Environment:\n- Commercial aviation recovering to pre-COVID levels supporting demand\n- Defense spending stability providing countercyclical balance\n- Challenges: skilled labor shortages, raw material cost inflation, supply chain complexity\n\n### Rating Sensitivities\n\n#### Upgrade Drivers (potential BBB-):\n- Revenue growth above $450M with EBITDA margins >16%\n- Net Debt/EBITDA sustained below 2.0x\n",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to expected trends for AeroTech Manufacturing Corp. It contains multiple sections discussing future outlook and trends:\n\n1. Stable Outlook section explicitly discusses 12-24 month expectations\n2. Rating Sensitivities section outlines potential upgrade/downgrade scenarios based on future performance metrics\n3. Key Monitoring Factors section lists trends to watch (margin sustainability, working capital management)\n4. Industry Environment section mentions trends like commercial aviation recovery and challenges\n5. Supporting Factors section discusses forward-looking elements like commercial aviation recovery and multi-year contract coverage\n\nThe document provides comprehensive information about both positive trends (aviation recovery, operational efficiency gains) and potential challenges (competitive pricing pressure, labor shortages) that the company is expected to face."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:29:08.064Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d171565f350909522c95eb"
+  },
+  "question": "Analyze trends and patterns in selected documents",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\", which means there is no actual content to analyze for trends and patterns. Without any substantive document content, it is impossible to perform the requested analysis. Therefore, this document is clearly not relevant to the user's question about analyzing trends and patterns."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:55:02.339Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d171b55f350909522c95ec"
+  },
+  "question": "Trends about the credit rating of the AeroTech company",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.771]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the question about credit rating trends of AeroTech company for several reasons:\n\n1. It is explicitly a credit rating report for AeroTech Manufacturing Corp. with a current rating of BB+ (Stable Outlook)\n2. It provides detailed rating rationale and factors that could influence future rating changes:\n   - Upgrade drivers that could lead to BBB- rating\n   - Downgrade drivers that could affect the rating negatively\n3. It includes current credit metrics and financial performance that support the rating:\n   - Net Debt/EBITDA: 2.3x\n   - Interest Coverage: 4.1x\n4. The document discusses the stable outlook for the next 12-24 months and key monitoring factors\n5. It compares AeroTech's BB+ rating with peer companies\n\nThe document directly addresses credit rating information and potential trends, making it completely relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-09-22T15:56:37.953Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d275cad9c1330c724f6504"
+  },
+  "question": "Summarize the key points from selected documents",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\", which means there are no documents available to summarize key points from. This is clearly not relevant to fulfilling the user's request for a summary of key points, as there is no actual content to analyze."
+  },
+  "graded_at": {
+    "$date": "2025-09-23T10:26:18.326Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d27625d9c1330c724f6505"
+  },
+  "question": "What are the documents saying about the AeroTech credit rating? What's the score?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.808]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant to the question about AeroTech's credit rating and score. Specifically:\n\n1. The first document is a Credit Rating Summary that explicitly states AeroTech's rating as BB+ with a Stable Outlook (dated September 2024)\n\n2. The second document is a Ratings Outlook Update that:\n- Affirms the BB+ rating\n- Revises the outlook from Stable to Positive (dated December 2024)\n- Indicates potential for upgrade to BBB- within 12-18 months\n\nThe documents provide comprehensive details about the rating rationale, including financial metrics, strengths, constraints, and factors that could lead to rating changes. This is directly responsive to the user's question about AeroTech's credit rating and score."
+  },
+  "graded_at": {
+    "$date": "2025-09-23T10:27:49.401Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d2765fdd11a7ee31b1962b"
+  },
+  "question": "What are the documents saying about the AeroTech credit rating? What's the score?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.794]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant to the question about AeroTech's credit rating and score. Specifically:\n\n1. The first document is a credit rating report that explicitly states AeroTech's rating as BB+ with a Stable outlook (as of September 2024)\n2. The second document is a ratings outlook update from December 2024 that:\n   - Affirms the BB+ rating\n   - Revises the outlook from Stable to Positive\n   - Indicates potential for upgrade to BBB- within 12-18 months\n\nThe documents provide comprehensive details about the rating rationale, including financial metrics, strengths, constraints, and factors that could lead to rating changes. This makes them directly relevant to answering questions about AeroTech's credit rating."
+  },
+  "graded_at": {
+    "$date": "2025-09-23T10:28:47.903Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d296084dea61b2783e300e"
+  },
+  "question": "What are the documents saying about the AeroTech credit rating? What's the score?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.794]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant to the question about AeroTech's credit rating and score. Specifically:\n\n1. The first document is a credit rating report that explicitly states AeroTech's rating as BB+ with a Stable Outlook (dated September 2024)\n\n2. The second document is a Ratings Outlook Update that:\n- Affirms the BB+ rating\n- Revises the outlook from Stable to Positive (dated December 2024)\n- Indicates potential for upgrade to BBB- within 12-18 months\n\nThe documents provide comprehensive details about the rating rationale, including financial metrics, strengths, constraints, and rating sensitivities that support the BB+ rating. This makes them directly relevant to answering the user's question about AeroTech's credit rating and score."
+  },
+  "graded_at": {
+    "$date": "2025-09-23T12:43:52.292Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68d29e449a627861af1499b0"
+  },
+  "question": "What are the documents saying about the AeroTech credit rating? What's the score?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.794]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\nSovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024\n\n## Rating Rationale\n\nBB+ rating reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer base: 47 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant to the question about AeroTech's credit rating and score. The documents explicitly discuss:\n\n1. Current credit rating: BB+ with Stable outlook (from first document)\n2. Rating outlook revision to Positive (from second document)\n3. Detailed rating rationale including strengths and constraints\n4. Specific rating sensitivities and upgrade/downgrade drivers\n5. Path to potential BBB- upgrade\n6. Financial metrics and performance supporting the rating\n\nThe documents are credit rating reports that directly address the credit rating of AeroTech Manufacturing Corp., making them perfectly aligned with the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-09-23T13:19:00.785Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5aac9cdb6585b7664337"
+  },
+  "question": "Find key points about employee policie",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\". There is no actual content to analyze for relevance to employee policies. Since there is no information at all, this document cannot contain any keywords or semantic meaning related to employee policies."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:08:44.128Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5ab39cdb6585b7664338"
+  },
+  "question": "What are the main components of employee policies and workplace guidelines, including HR policies, code of conduct, and attendance rules?",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" which means there is no content related to employee policies, workplace guidelines, HR policies, code of conduct, or attendance rules. The document is completely empty of any relevant information to answer the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:08:51.708Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5abc9cdb6585b7664339"
+  },
+  "question": "What are the essential elements that should be included in a company's employee handbook, specifically covering:\n- Human Resources policies on employment, benefits, and leave\n- Professional code of conduct and workplace behavior standards\n- Attendance and time-off policies, including reporting procedures\n- Disciplinary procedures and compliance requirements",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" and contains no content whatsoever related to employee handbooks, HR policies, code of conduct, attendance policies, or disciplinary procedures. There are no keywords or semantic meaning that matches any aspect of the user's question about essential elements of a company's employee handbook."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:09:00.580Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5aca9cdb6585b766433a"
+  },
+  "question": "What are the mandatory and recommended components of a corporate employee handbook, including:\n1. Standard HR policies regarding:\n- Employment status classifications (full-time, part-time, exempt, non-exempt)\n- Benefits eligibility and enrollment procedures\n- Family Medical Leave Act (FMLA) and other leave policies\n\n2. Workplace conduct guidelines covering:\n- Professional behavior expectations\n- Anti-harassment and discrimination policies\n- Dress code and workplace etiquette\n\n3. Attendance management protocols:\n- Work schedules and time tracking requirements\n- PTO request procedures\n- Sick leave reporting process\n\n4. Progressive discipline framework:\n- Performance improvement procedures\n- Documentation requirements\n- Termination policies\n- Legal compliance with federal and state labor laws\n\nPlease provide examples from standard corporate handbook templates or HR best practices.",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/3] [Score: 0.585]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.98,
+    "reasoning": "This document is clearly not relevant to the user's question about employee handbook components. The document is a credit rating outlook update for AeroTech Manufacturing Corp and focuses entirely on:\n\n1. Company financial performance and metrics\n2. Contract awards with Boeing and Lockheed Martin\n3. Facility consolidation and operational improvements\n4. Market environment assessment\n5. Credit rating trajectory analysis\n\nThere is no content related to:\n- HR policies\n- Employee handbooks\n- Workplace conduct guidelines\n- Leave policies\n- Benefits\n- Discipline procedures\n- Any other personnel management topics\n\nThe only minor HR-adjacent mention is a brief reference to \"skilled labor market challenges being addressed through apprenticeship programs\" but this is in context of supply chain discussion, not employee handbook policies."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:09:14.104Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5ad89cdb6585b766433b"
+  },
+  "question": "What are the essential sections and legal requirements for a US employee handbook, specifically:\n\n1. Core employment policies:\n- FLSA worker classifications and overtime eligibility\n- Standard benefits package eligibility criteria\n- Federal and state-mandated leave policies (FMLA, ADA accommodations)\n\n2. Equal Employment Opportunity (EEO) policies:\n- Title VII compliance requirements\n- Sexual harassment prevention guidelines\n- Workplace discrimination reporting procedures\n\n3. Attendance and time-off management:\n- Standard operating hours and overtime policies\n- Paid Time Off (PTO) accrual and request protocols\n- Absence notification requirements\n\n4. Employee relations and corrective action:\n- Performance management steps\n- Documentation standards for disciplinary actions\n- At-will employment statement\n- State-specific termination requirements\n\nPlease include specific examples from SHRM-approved templates or DOL guidelines for companies with 50+ employees.",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" and contains no content related to any of the requested employee handbook sections, legal requirements, SHRM templates, or DOL guidelines. The document is completely empty of any relevant information about employment policies, EEO policies, attendance management, or employee relations topics specified in the question. Therefore, it is definitively not relevant to answering the user's detailed query about employee handbook requirements."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:09:28.022Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5ae49cdb6585b766433c"
+  },
+  "question": "What are the mandatory and recommended components of a US employee handbook for companies with 50+ employees? Specifically:\n\n1. Required federal employment policies:\n- FLSA exempt vs. non-exempt classification criteria\n- Minimum wage and overtime calculations\n- FMLA eligibility and leave administration\n- ADA reasonable accommodation process\n\n2. Title VII compliance requirements:\n- EEO policy statement language\n- Anti-harassment policy components\n- Protected class discrimination prevention\n- Internal complaint procedures\n\n3. Wage and hour policies:\n- Work schedule documentation\n- PTO/vacation accrual calculations\n- Call-out procedures and consequences\n- Overtime authorization process\n\n4. Progressive discipline framework:\n- Written warning templates\n- Performance improvement plan structure\n- Employment-at-will disclaimer language\n- Final paycheck requirements by state\n\nPlease provide current SHRM and Department of Labor guidelines, including sample policy language and compliance checklists for multi-state employers.",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" and contains no content related to any of the requested employee handbook components, federal employment policies, Title VII compliance requirements, wage and hour policies, or progressive discipline framework. There are no keywords or semantic meanings that match the detailed query about US employee handbook requirements. The complete absence of relevant content makes this a clear non-match with very high confidence."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:09:40.202Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5af39cdb6585b766433d"
+  },
+  "question": "\"What are the essential policies required by federal law for a US employee handbook in 2024, specifically for private companies with 50+ employees?\n\nPart 1: Core Federal Requirements\n- What specific FLSA policy language is required for explaining exempt vs. non-exempt status?\n- What must be included in FMLA leave policies per DOL guidelines?\n- What are the current DOL-mandated wage and hour documentation requirements?\n\nPart 2: Discrimination & Harassment\n- What is the required EEO statement language per EEOC guidelines?\n- What elements must be included in harassment prevention policies?\n- What are the minimum requirements for internal complaint procedures?\n\nPlease include:\n- Current DOL and EEOC compliance requirements\n- SHRM-recommended policy templates\n- Required state-specific additions for California, New York, and Texas\n- Citations to relevant federal regulations (29 CFR)\"",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 2/3] [Score: 0.583]\n### Operational Benefits:\n- Consolidated six facilities into four strategically located plants\n- Eliminated $4.2 million in annual fixed costs\n- Improved asset utilization rates from 78% to 91%\n- Reduced logistics costs by 15% through optimized geographic footprint\n\n### Financial Impact:\n- One-time restructuring costs: $8.5 million (completed)\n- Annual cost savings: $6.8 million (fully realized by Q1 2025)\n- Improv",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.99,
+    "reasoning": "This document is clearly not relevant to the user's question about employee handbook requirements. The document content is focused entirely on AeroTech Manufacturing Corp's financial outlook, operational performance, facility consolidation, and market environment in the aerospace industry. It contains no information about:\n1. Federal employment laws\n2. Employee handbook policies\n3. FLSA requirements\n4. FMLA policies\n5. EEO statements\n6. Harassment prevention\n7. DOL or EEOC compliance requirements\n8. HR policies or procedures\n\nThe document is a financial/operational update report and contains no HR policy or employment law content whatsoever."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:09:55.284Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5b029cdb6585b766433e"
+  },
+  "question": "Required federal employment policies for 2024 US employee handbooks:\n\n1. FLSA compliance requirements:\n- Exact policy language for exempt/non-exempt classification\n- Current minimum wage and overtime requirements\n- Record-keeping requirements under 29 CFR 516\n\n2. FMLA policy requirements (50+ employees):\n- Eligibility criteria and leave entitlements\n- Notice requirements and certification procedures\n- DOL-mandated FMLA policy statements\n\n3. Equal Employment Opportunity policies:\n- EEOC-compliant non-discrimination statement\n- Anti-harassment policy requirements\n- Internal complaint procedures per federal guidelines\n\n4. State-specific handbook requirements for:\n- California Labor Code requirements\n- New York State employment law requirements\n- Texas Workforce Commission requirements\n\nPlease include specific regulatory citations and SHRM-recommended template language where available.",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/3] [Score: 0.577]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.98,
+    "reasoning": "This document is clearly not relevant to the user's question about required federal employment policies for employee handbooks. The document is a credit rating outlook update for AeroTech Manufacturing Corp from Sovereign Risk Analytics. It discusses:\n1. Credit rating changes (BB+ with positive outlook)\n2. Contract awards with Boeing and Lockheed Martin\n3. Financial performance metrics (revenue, EBITDA, cash flow)\n4. Facility consolidation program\n\nThere is no mention of any employment policies, labor laws, FLSA, FMLA, EEO requirements, or state-specific employment regulations that the user is asking about. The document's content is entirely focused on financial and operational aspects of the company rather than HR policies or regulatory compliance requirements."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:10:10.091Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5dd09cdb6585b76643d8"
+  },
+  "question": "What questions have I asked you so far?",
+  "context_preview": "[Source: 3b_Healthcare_Technology_Sector_Analysis.docx] [Chunk 2/4] [Score: 0.566]\n\n### Healthcare IT Sector Outperformance:\nThe healthcare technology sector demonstrated superior credit performance across all rating categories, with default rates 45-55% lower than the broader technology sector average. This outperformance reflects the defensive characteristics of healthcare spending and mission-critical nature of healthcare IT infrastructure.\n\n## KEY FINDINGS BY SUBSECTOR\n\n### 1. EHR and Practi",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content is a detailed analysis of healthcare technology and aerospace manufacturing sectors, focusing on default rates, risk factors, and performance metrics. It does not contain any information about previous questions asked by the user or any discussion of user interactions. The content is completely unrelated to tracking or recording what questions have been asked so far."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:22:08.273Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68da5dd99cdb6585b76643d9"
+  },
+  "question": "What is the conversation history between me and this AI assistant in our current chat session?",
+  "context_preview": "[Source: 1b. NexGen Healthcare - Due Diligence Appendix.docx] [Chunk 2/2] [Score: 0.555]\n---\n\n- Patient safety reinforced through AI-driven diagnostic decision support\n\n- Workforce diversity: 46% women, 39% minority representation in leadership\n\n## Governance & Compliance\n\n- HIPAA compliance: zero reportable breaches in past 3 years\n- SOC 2 Type II certification across all core systems\n- Independent Board with healthcare IT expertise; majority non-executive\n\n## Disclaimer\nThis appendix contains ",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.99,
+    "reasoning": "The provided document content contains information about various companies (NexGen Healthcare, AeroTech Manufacturing, and AuroraTech Systems) including their financial data, ESG metrics, credit ratings, and business performance. None of the documents contain any information about conversation history between a user and an AI assistant. The documents are completely unrelated to chat history or dialogue between users and AI."
+  },
+  "graded_at": {
+    "$date": "2025-09-29T10:22:17.444Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68df8b4246f399ebf8c2d635"
+  },
+  "question": "How the Aerospace Manufactoring sector is going? Give me a short overview",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 1/4] [Score: 0.792]\n# Aerospace Manufacturing Sector - Default Study Summary\n\nSovereign Risk Analytics | November 2024 | Study Period: 2014-2024\n\n## Executive Summary\n\nAnalysis of 267 aerospace manufacturing companies reveals sector-specific default patterns and risk factors critical for credit evaluation. The aerospace sector showed significant COVID-19 stress but demonstrated resilience in recovery, with default rates now below hist",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to understanding how the Aerospace Manufacturing sector is performing. Key evidence includes:\n\n1. Clear sector overview in multiple documents showing current state and trends\n2. Specific market data showing recovery and growth:\n   - Overall sector CAGR 2024-2027: 8.4%\n   - Commercial aviation growing at 9.2% CAGR\n   - Defense & space growing at 6.8% CAGR\n3. Recovery indicators:\n   - Global passenger traffic at 102% of 2019 levels\n   - Strong financial metrics (median EBITDA margin: 15.8%)\n   - Robust defense market stability\n4. Clear market size data ($874B total addressable market)\n5. Geographic distribution of production\n6. Current sector health indicators including default rates and recovery patterns\n\nThe documents provide comprehensive, recent (2024) analysis of the aerospace manufacturing sector's performance, making them directly relevant to answering how the sector is doing."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T08:37:22.124Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68df8b9e46f399ebf8c2d636"
+  },
+  "question": "And what's the final credit rating score for AeroTech company?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.787]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about AeroTech's credit rating. Specifically, it states in the Rating Action Summary that AeroTech's current rating is BB+ with a positive outlook, and there is potential for upgrade to BBB- within the next 12-18 months. The document provides extensive details about the rating analysis, including:\n1. Current rating: BB+ (Stable)\n2. Action: Outlook revised to Positive\n3. Potential upgrade path to BBB-\n4. Specific quantitative and qualitative factors that would support the rating upgrade\nThe document directly addresses the credit rating status and potential trajectory for AeroTech."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T08:38:54.904Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68df8d4146f399ebf8c2d637"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 4c_Market_Economic_Research_Publication.pdf] [Chunk 1/3] [Score: 0.596]\n# Aerospace Manufacturing Sector - Market Research Summary\nSovereign Risk Analytics | October 2024\n\n**Important:** This document is highly relevant for credit rating reports related to companies in the Aerospace Manufacturing sector, as it highlights momentum, growth, market size, and other key indicators that should be considered when crafting financial credit ratings in this industry.\n\n## Executive Summary\n\nThe ae",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.99,
+    "reasoning": "The documents are clearly about the aerospace manufacturing sector, specifically covering:\n\n1. Market research and economic analysis of the aerospace manufacturing industry\n2. Default risk study and credit analysis for aerospace manufacturers\n3. A specific company (AeroTech Manufacturing) credit rating outlook update\n\nThe content directly answers \"what these documents are about\" with comprehensive coverage of:\n- Market size, growth rates, and geographic distribution\n- Default rates and risk factors in the sector\n- Commercial aviation and defense market analysis\n- Supply chain and technological trends\n- Financial metrics and operational indicators\n- Credit rating analysis and outlook\n\nThe documents are interconnected and focused on providing detailed analysis of the aerospace manufacturing sector from different angles (market research, risk analysis, and company-specific assessment)."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T08:45:53.187Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68dfbaeaa305954b6e6a27ef"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/4] [Score: 0.589]\n### Default Drivers by Segment:\n1. Program delays/cancellations: 34%\n2. Quality/regulatory failures: 28%\n3. Customer concentration: 21%\n4. Cyclical demand: 17%\n\n![Pie chart showing default drivers distribution in the Engine Components sector. Four segments shown in different shades of blue: Program delays/cancellations (34%) largest slice in dark blue, Quality/regulatory failures (28%) in medium blue, Customer conc",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.99,
+    "reasoning": "These documents are clearly about the aerospace manufacturing sector, specifically covering:\n\n1. A detailed sector study analyzing default rates, risk factors, and financial performance in the aerospace manufacturing industry\n2. A market research report on the aerospace manufacturing sector covering market fundamentals, growth projections, and industry trends\n3. A ratings outlook update for AeroTech Manufacturing Corp, a company in the aerospace sector\n\nThe documents provide comprehensive coverage of the aerospace manufacturing industry from different angles - credit risk, market analysis, and a specific company rating. The content is highly focused and directly answers what these documents are about, making this assessment highly confident."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T12:00:42.136Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68dfbc5ea305954b6e6a283c"
+  },
+  "question": "What is the final credit rating mentioned by this report?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 1/2] [Score: 0.795]\n# AeroTech Manufacturing Corp. - Credit Rating Summary\n\n**Sovereign Risk Analytics | Rating: BB+ (Stable Outlook) | September 10, 2024**\n\n## Rating Rationale\n\n**BB+ rating** reflects AeroTech's solid position as a Tier 2 aerospace supplier with diversified commercial (60%) and defense (35%) exposure, improving operational efficiency, and adequate liquidity coverage.\n\n## Key Strengths:\n\n- Diversified customer ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the question as it explicitly states the credit rating in the very beginning of the report: \"Rating: BB+ (Stable Outlook)\" from Sovereign Risk Analytics. This rating is consistently referenced throughout the document, including discussions of upgrade and downgrade scenarios around this BB+ rating. The document is a credit rating report, so it directly addresses the question about the final credit rating."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T12:06:54.210Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68dfe957145da44f7eb90974"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/4] [Score: 0.582]\n### Default Drivers by Segment:\n1. Program delays/cancellations: 34%\n2. Quality/regulatory failures: 28%\n3. Customer concentration: 21%\n4. Cyclical demand: 17%\n\n![Pie chart showing default drivers distribution in the Engine Components sector. Four segments shown in different shades of blue: Program delays/cancellations (34%) largest slice in dark blue, Quality/regulatory failures (28%) in medium blue, Customer conc",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "These documents are clearly about the aerospace manufacturing sector, specifically focusing on:\n\n1. A comprehensive sector study analyzing default risks, financial metrics, and performance indicators in the aerospace manufacturing industry\n2. Market research and economic analysis of the aerospace manufacturing sector\n3. A specific company (AeroTech Manufacturing) outlook update and rating action notice\n\nThe documents provide detailed information about:\n- Default rates and risk factors in the aerospace sector\n- Market fundamentals and growth projections\n- Supply chain analysis\n- Financial performance metrics\n- Technology trends and disruption\n- Company-specific analysis (AeroTech)\n\nThe content directly answers what these documents are about, with extensive detail and clear organization across multiple related documents focused on the aerospace manufacturing sector."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T15:18:47.553Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68dff7cf145da44f7eb90a25"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/4] [Score: 0.582]\n### Default Drivers by Segment:\n1. Program delays/cancellations: 34%\n2. Quality/regulatory failures: 28%\n3. Customer concentration: 21%\n4. Cyclical demand: 17%\n\n![Pie chart showing default drivers distribution in the Engine Components sector. Four segments shown in different shades of blue: Program delays/cancellations (34%) largest slice in dark blue, Quality/regulatory failures (28%) in medium blue, Customer conc",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "These documents are clearly about the aerospace manufacturing sector, specifically focusing on:\n\n1. A comprehensive sector study analyzing default risks, financial metrics, and performance indicators in the aerospace manufacturing industry\n2. Market research and economic analysis of the aerospace manufacturing sector\n3. A specific company (AeroTech Manufacturing) outlook update and rating action notice\n\nThe documents provide detailed information about:\n- Default rates and risk factors in the aerospace sector\n- Market fundamentals and growth projections\n- Financial and operational analysis\n- Supply chain dynamics\n- Technology trends\n- Credit rating considerations\n\nThe content is highly relevant to answering \"what these documents are about\" as they present a clear and detailed picture of the aerospace manufacturing sector from multiple angles (risk analysis, market research, and company-specific outlook)."
+  },
+  "graded_at": {
+    "$date": "2025-10-03T16:20:31.017Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e776c9145da44f7eb90adc"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/4] [Score: 0.589]\n### Default Drivers by Segment:\n1. Program delays/cancellations: 34%\n2. Quality/regulatory failures: 28%\n3. Customer concentration: 21%\n4. Cyclical demand: 17%\n\n![Pie chart showing default drivers distribution in the Engine Components sector. Four segments shown in different shades of blue: Program delays/cancellations (34%) largest slice in dark blue, Quality/regulatory failures (28%) in medium blue, Customer conc",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are clearly about aerospace manufacturing sector analysis and specifically focus on:\n\n1. A detailed sector study analyzing default patterns and risk factors in the aerospace manufacturing industry over 2014-2024\n2. A ratings outlook update for AeroTech Manufacturing Corp., including analysis of their recent performance and future prospects\n\nThe content directly answers \"what these documents are about\" with comprehensive coverage of:\n- Default rates and risk analysis\n- Subsector performance\n- Financial indicators\n- Company-specific analysis (AeroTech)\n- Industry trends and outlook\n\nThe documents are formal analytical reports from Sovereign Risk Analytics providing both industry-wide analysis and company-specific assessment."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T08:48:09.473Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e778ec145da44f7eb90add"
+  },
+  "question": "What would be the final credit rating you propose for this case?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.769]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to determining the final credit rating proposal because it contains:\n\n1. Current rating information: BB+ with outlook revised to positive\n2. Explicit mention of potential upgrade path to BBB- within 12-18 months\n3. Detailed quantitative and qualitative targets for achieving BBB- rating:\n   - Revenue > $475M annually\n   - EBITDA margins > 16.5%\n   - Net Debt/EBITDA < 2.0x\n   - FCF > $35M annually\n4. Timeline expectations for rating changes\n5. Comprehensive financial and operational metrics to support rating analysis\n6. Risk factors and monitoring points that could affect rating trajectory\n\nThe document provides extensive information directly related to credit rating assessment and future rating direction."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T08:57:16.971Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e7d6a077c8fbfb9abdf8b4"
+  },
+  "question": "In one paragraph tell me what are these documents about?",
+  "context_preview": "[Source: Exception_Report.pdf] [Chunk 1/3] [Score: 0.581]\n# FIRST NATIONAL BANK\nCredit Card Operations - Quality Assurance Division\n\n# EXCEPTION REPORT\nREPORTING PERIOD: MARCH 2024\n\n⚠️ **EXCEPTION ALERT: Merchant Non-Response Pattern Detected - 15 Cases Requiring Escalation**\n\n## Report Details\n\n| Field | Value | Field | Value |\n|-------|-------|-------|-------|\n| Report Number: | EXC-2024-Q1-047 | Generated By: | Quality Assurance System |\n| Report Date: | March 31, 2024 | Reviewed By: | Michae",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are directly relevant to explaining what they are about. They consist of an Exception Report and Operational Memo from First National Bank's Credit Card Operations division, specifically detailing issues with merchant non-responses to credit card disputes. The documents outline 15 high-priority cases where merchants failed to respond to chargeback notifications within the required 10-day timeframe, representing 65.2% of total exceptions. The documents include detailed statistics, case analyses, compliance impacts, and new operational procedures to address these issues. The content directly answers what these documents are about, providing comprehensive context about the nature, purpose, and subject matter of the documents."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T15:37:04.288Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e7d6cb77c8fbfb9abdf8b5"
+  },
+  "question": "what was the affected person? give me the name",
+  "context_preview": "[Source: Payment_Investigation_Ticket.pdf] [Chunk 1/3] [Score: 0.687]\n# FIRST NATIONAL BANK\nPayment Investigation Department\n\n# PAYMENT INVESTIGATION TICKET\nTICKET #INV-2024-003847\n\n**Investigation Status:** • ACTIVE - UNDER INVESTIGATION  \n**Initiated:** March 15, 2024 | **Last Updated:** March 22, 2024\n\n⚠ **PRIORITY LEVEL: HIGH** - Cardholder dispute with merchant non-response\n\n## TICKET INFORMATION\n\n| Field | Details |\n|-------|---------|\n| TICKET NUMBER | INV-2024-003847 |\n| RELATED DISPUTE ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document clearly identifies Sarah Mitchell as the affected person in multiple places:\n1. In the Payment Investigation Ticket, she is listed as the Account Holder with account number 4532-XXXX-XXXX-8891\n2. In the Credit Card Settlement Statement, she is again identified as the Account Holder involved in dispute case DSP-2024-003847\n3. The documents show she had a dispute with CleanAir Electronics for $347.99 and was the cardholder who received the resolution in her favor\n\nThe identification of Sarah Mitchell as the affected person is consistent across multiple documents and clearly establishes her as the central individual affected by this payment dispute case."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T15:37:47.417Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e7eedf145da44f7eb90b36"
+  },
+  "question": "What are these documents about?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 2/4] [Score: 0.589]\n### Default Drivers by Segment:\n1. Program delays/cancellations: 34%\n2. Quality/regulatory failures: 28%\n3. Customer concentration: 21%\n4. Cyclical demand: 17%\n\n![Pie chart showing default drivers distribution in the Engine Components sector. Four segments shown in different shades of blue: Program delays/cancellations (34%) largest slice in dark blue, Quality/regulatory failures (28%) in medium blue, Customer conc",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.99,
+    "reasoning": "These documents are clearly about the aerospace manufacturing sector, specifically focusing on:\n\n1. Default risk analysis and patterns in the aerospace manufacturing industry\n2. Market research and economic analysis of the aerospace sector\n3. Detailed breakdown of default drivers and risk factors\n4. Financial and operational metrics specific to aerospace manufacturers\n\nThe documents directly answer \"what these documents are about\" by providing clear titles, executive summaries, and comprehensive content focused on aerospace manufacturing sector analysis. The content includes market sizes, growth rates, default rates, risk factors, and case studies - all specifically related to aerospace manufacturing."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T17:20:31.279Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e7f00a145da44f7eb90b37"
+  },
+  "question": "How is AeroTech company rated by rating agencies?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.756]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is directly relevant to AeroTech's credit rating. Specifically, in the first chunk, it clearly states that AeroTech Manufacturing Corp. has:\n1. Current Rating: BB+ (Stable)\n2. Action: Outlook revised to Positive from Stable\n3. Potential upgrade to BBB- within next 12-18 months\n\nThe document provides extensive details about the rating action, including the rationale for the outlook revision (new contracts, operational performance, facility consolidation) and specific metrics that would be required for an upgrade to BBB-. This makes it highly relevant to answering the question about AeroTech's rating."
+  },
+  "graded_at": {
+    "$date": "2025-10-09T17:25:30.040Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e9234e8d92097184f7de3e"
+  },
+  "question": "What is the current credit rating and outlook?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.682]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is directly relevant to the question about current credit rating and outlook. Specifically, in the first chunk of the document, it explicitly states:\n\n1. Current Rating: BB+ (Stable)\n2. Action: Outlook Revised to Positive\n3. Date: December 3, 2024\n\nThe document provides detailed information about the rating and outlook change, including the rationale behind the positive outlook revision (new contracts, strong Q4 performance, and facility consolidation success). It also mentions potential for upgrade to BBB- within 12-18 months. This information directly answers the user's question about current credit rating and outlook."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:16:30.278Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e923788d92097184f7de3f"
+  },
+  "question": "What are the key leverage and liquidity metrics?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 3/4] [Score: 0.638]\n**Failed Strategies:**\n- Maintaining high fixed costs\n- Excessive leverage (>4x debt/EBITDA)\n- Single-customer commercial focus\n\n![Horizontal bar chart showing default concentration by segment. Business aviation suppliers leads at 23% (dark blue), followed by Single-customer commercial at 18% (medium blue), High leverage companies at 15% (light blue), and Regional aircraft suppliers at 12% (very light blue). Bars e",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document contains multiple relevant leverage and liquidity metrics:\n\nLeverage metrics:\n- Debt/EBITDA thresholds (>3.5x as warning indicator, >4x as failed strategy)\n- Net Debt/EBITDA targets (2.1x current, target below 1.8x by 2026)\n- Interest coverage ratio (<2.0x as warning indicator)\n\nLiquidity metrics:\n- Current ratio (<1.1x as warning indicator)\n- Working capital days (>120 days vs sector median 95 days)\n- Cash conversion cycle (111 days)\n- Days sales outstanding (58 days)\n- Inventory days (95 days)\n\nThe document provides comprehensive coverage of both leverage and liquidity metrics, including specific thresholds, current levels, and sector comparisons, making it highly relevant to the question."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:17:12.716Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e923ab8d92097184f7de40"
+  },
+  "question": "What factors could lead to a rating upgrade or downgrade?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 4/4] [Score: 0.689]\nPotential upgrade consideration following successful Q2 2025 earnings demonstrating new program execution and sustained margin improvement.\n\n## RISK FACTORS AND MONITORING POINTS\n\n### Execution Risks:\n- New program ramp-up complexity and timing\n- Integration of higher production volumes without quality issues\n- Workforce scaling to meet increased demand\n- Supply chain management for expanded operations\n\n---\n[Source",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant as it explicitly discusses factors that could lead to a rating upgrade, particularly in the sections \"Path to BBB- Upgrade\" and \"KEY CATALYSTS FOR OUTLOOK REVISION\". Specifically:\n\nUpgrade factors include:\n1. Quantitative targets:\n- Revenue above $475M annually\n- EBITDA margins above 16.5%\n- Net Debt/EBITDA below 2.0x\n- Free cash flow above $35M annually\n\n2. Qualitative factors:\n- Successful execution of new program ramp-ups\n- Operational efficiency improvements\n- Market share gains\n- Strong customer relationships\n\nRisk factors that could lead to downgrade:\n- Execution risks in new program ramp-ups\n- Integration issues with higher production volumes\n- Workforce scaling challenges\n- Supply chain management issues\n- Customer concentration risks\n- Quality/regulatory issues\n\nThe document provides comprehensive coverage of both upside and downside rating factors with specific metrics and thresholds."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:18:03.558Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e928a4bc08b1bf65b5d817"
+  },
+  "question": "What was the resolution outcome - in favor of whom?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.730]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. Multiple sections explicitly state that the dispute was resolved in favor of the cardholder:\n\n1. The very first section of the Credit Card Settlement Statement has a clear heading \"RESOLVED IN FAVOR OF CARDHOLDER\"\n2. The document shows that the full disputed amount of $347.99 plus finance charges of $4.52 (total $352.51) was credited to the cardholder\n3. The investigation findings section states \"The dispute has been resolved in favor of the cardholder. The temporary credit previously issued will be made permanent.\"\n4. Multiple documents reference this resolution, including the settlement statement, operational memo, and exception report, all confirming the case was resolved in the cardholder's favor."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:39:16.975Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e928c1bc08b1bf65b5d818"
+  },
+  "question": "What is the disputed amount and final settlement?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 2/2] [Score: 0.758]\n\n## FINAL SETTLEMENT AMOUNT\n\nDisputed Charge Removed: $347.99\nRelated Finance Charges Credited: $4.52\n\n**TOTAL PERMANENT CREDIT TO YOUR ACCOUNT: $352.51**\n\n*file://Users/andrea.alaman/Downloads/settlement_statement.html*\n\n2/4\n\n---\n\n# Credit Card Settlement Statement\n*10/3/25, 4:20 PM*\n\n**Effective Date:** April 12, 2024\n\n## UPDATED ACCOUNT BALANCE\n\n| Item | Amount |\n|------|---------|\n| Previous Account Balance (Before Set",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it directly contains both the disputed amount and final settlement information:\n\n1. Disputed amount: $347.99 (shown in multiple places including the original transaction and dispute details)\n\n2. Final settlement amount: $352.51 total, which includes:\n- Disputed charge removed: $347.99\n- Related finance charges credited: $4.52\n\nThe document shows this was resolved in favor of the cardholder with a permanent credit to the account. This information is clearly stated in the settlement statement and matches exactly what the user is asking about."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:39:45.857Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68e928ddbc08b1bf65b5d819"
+  },
+  "question": "How long did the resolution take?",
+  "context_preview": "[Source: Operational_Memo.pdf] [Chunk 2/3] [Score: 0.697]\n## NEW PROCEDURES - EFFECTIVE IMMEDIATELY\n\n### 1. ENHANCED MERCHANT NOTIFICATION TIMELINE\n\n| Day | Action Required | Responsible Party |\n|-----|----------------|-------------------|\n| Day 1 | Initial chargeback notification sent via payment processor | Investigation Team |\n| Day 5 | Follow-up email sent directly to merchant | Investigation Team |\n| Day 8 | Phone contact attempt; document all communication | Investigation Team |\n| Day 10 |",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are highly relevant to the resolution timeline question as they contain multiple explicit references to timing:\n\n1. The dispute was filed on March 15, 2024\n2. The case was resolved with final settlement on April 12, 2024\n3. Total resolution time was approximately 28 days\n\nThe documents also provide context about standard resolution timeframes:\n- Current average resolution time is 18.4 days\n- Target resolution time is 12 days or less\n- Regulatory requirement is 45 days\n- Internal SLA is 15 days\n\nThe documents include detailed timeline information and dates throughout the resolution process, making them directly relevant to understanding how long the resolution took."
+  },
+  "graded_at": {
+    "$date": "2025-10-10T15:40:13.418Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee11b0fe08f51e036c8d0e"
+  },
+  "question": "What is the current credit rating and outlook?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.683]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is directly relevant to the question about current credit rating and outlook. Specifically, in the first section \"RATING ACTION SUMMARY\", it clearly states that AeroTech Manufacturing Corp. has:\n1. Current Rating: BB+ (Stable)\n2. Action: Outlook revised to Positive from Stable\n3. Date: December 3, 2024\n\nThis information directly and explicitly answers the user's question about both the current credit rating and outlook. The document also provides detailed reasoning for the outlook revision, including new contract awards, strong Q4 2024 performance, and successful facility consolidation."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T09:02:40.026Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee1f070d9348218e91a935"
+  },
+  "question": "What are the key leverage and liquidity metrics?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 3/4] [Score: 0.630]\n**Failed Strategies:**\n- Maintaining high fixed costs\n- Excessive leverage (>4x debt/EBITDA)\n- Single-customer commercial focus\n\n![Horizontal bar chart showing default concentration by segment. Business aviation suppliers leads at 23% (dark blue), followed by Single-customer commercial at 18% (medium blue), High leverage companies at 15% (light blue), and Regional aircraft suppliers at 12% (very light blue). Bars e",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about leverage and liquidity metrics as it contains several specific metrics and thresholds related to both leverage and liquidity:\n\nLeverage metrics:\n- Debt/EBITDA thresholds (>3.5x as warning indicator, >4x as failed strategy)\n- Interest coverage ratio (<2.0x as warning indicator)\n\nLiquidity metrics:\n- Current ratio (<1.1x)\n- Working capital days (>120 days vs sector median 95)\n\nThe document provides both specific numerical thresholds and comparative sector medians for these key financial metrics, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T09:59:35.202Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee21470d9348218e91a970"
+  },
+  "question": "What is the current credit rating and outlook?",
+  "context_preview": "[Source: 2c_AeroTech_Manufacturing_Outlook_Update.pdf] [Chunk 1/4] [Score: 0.683]\n# SOVEREIGN RISK ANALYTICS\n\n## Ratings Outlook Update & Action Notice\n\n**Company:** AeroTech Manufacturing Corp.  \n**Current Rating:** BB+ (Stable)  \n**Action:** Outlook Revised to Positive  \n**Date:** December 3, 2024  \n**Lead Analyst:** Marcus Thompson, CFA\n\n## RATING ACTION SUMMARY\n\nSovereign Risk Analytics has revised AeroTech Manufacturing Corp.'s outlook to positive from stable while affirming the BB+ long-te",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is directly relevant to the question about current credit rating and outlook. Specifically, in the first chunk of the document under \"RATING ACTION SUMMARY\", it explicitly states:\n\n1. Current Rating: BB+ (Stable)\n2. Action: Outlook Revised to Positive\n3. Date: December 3, 2024\n\nThe document provides detailed information about the rating and outlook change, including the rationale behind the positive outlook revision (new contracts, strong Q4 performance, facility consolidation) and potential path to BBB- upgrade within 12-18 months. This makes it highly relevant to answering the question about current credit rating and outlook."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T10:09:11.653Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee217c0d9348218e91a971"
+  },
+  "question": "What are the key leverage and liquidity metrics?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 3/4] [Score: 0.639]\n**Failed Strategies:**\n- Maintaining high fixed costs\n- Excessive leverage (>4x debt/EBITDA)\n- Single-customer commercial focus\n\n![Horizontal bar chart showing default concentration by segment. Business aviation suppliers leads at 23% (dark blue), followed by Single-customer commercial at 18% (medium blue), High leverage companies at 15% (light blue), and Regional aircraft suppliers at 12% (very light blue). Bars e",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant as it contains multiple specific references to leverage and liquidity metrics:\n\nLeverage metrics:\n- Debt/EBITDA thresholds (>3.5x as warning indicator, >4x as failed strategy)\n- Current Net Debt/EBITDA of 2.3x vs peer average 2.8x\n- Target Net Debt/EBITDA below 1.8x by 2026\n\nLiquidity metrics:\n- Current ratio <1.1x mentioned as financial indicator\n- Working capital metrics (working capital days >120 as warning sign)\n- Interest coverage <2.0x as warning indicator\n- Cash conversion cycle: 111 days\n- Days sales outstanding: 58 days\n- Inventory days: 95 days\n\nThe document provides comprehensive coverage of both leverage and liquidity metrics, including current levels, peer comparisons, and warning thresholds."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T10:10:04.887Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee22930d9348218e91a9bb"
+  },
+  "question": "What is the disputed amount and final settlement?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 2/2] [Score: 0.700]\n\n## FINAL SETTLEMENT AMOUNT\n\nDisputed Charge Removed: $347.99\nRelated Finance Charges Credited: $4.52\n\n**TOTAL PERMANENT CREDIT TO YOUR ACCOUNT: $352.51**\n\n*file://Users/andrea.alaman/Downloads/settlement_statement.html*\n\n2/4\n\n---\n\n# Credit Card Settlement Statement\n*10/3/25, 4:20 PM*\n\n**Effective Date:** April 12, 2024\n\n## UPDATED ACCOUNT BALANCE\n\n| Item | Amount |\n|------|---------|\n| Previous Account Balance (Before Set",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it explicitly states both the disputed amount and final settlement details:\n\n1. Disputed amount: $347.99 (shown in multiple places including the original transaction and dispute filing)\n\n2. Final settlement amount: $352.51 total, which includes:\n- $347.99 (disputed charge removed)\n- $4.52 (related finance charges credited)\n\nThe document shows this was resolved in favor of the cardholder with a permanent credit to the account. This information appears in multiple sections including the \"FINAL SETTLEMENT AMOUNT\" section and is corroborated across multiple document chunks."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T10:14:43.220Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee22b20d9348218e91a9bc"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.656]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" with specific details:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued ($347.99 disputed charge + $4.52 finance charges)\n3. The resolution was finalized on April 12, 2024\n4. The temporary credit was converted to permanent\n5. The case (#DSP-2024-003847) was closed with this settlement\n\nThe document provides comprehensive details about the final resolution outcome, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T10:15:14.341Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee2b63de6fa65cad9238cb"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.687]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it explicitly states the resolution outcome of the credit card dispute case. Specifically, the document shows that:\n\n1. The dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" (clearly stated in multiple places)\n2. The resolution resulted in:\n   - Permanent credit of $347.99 for the disputed charge\n   - Additional credit of $4.52 for finance charges\n   - Total permanent credit to account of $352.51\n3. The document provides detailed explanation of why it was resolved in cardholder's favor (merchant failed to process refund within timeframe despite proper return of merchandise)\n4. The resolution was final and closed dispute case #DSP-2024-003647"
+  },
+  "graded_at": {
+    "$date": "2025-10-14T10:52:19.520Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee6ca9ce1377f1912ba2ad"
+  },
+  "question": "What is the current credit rating and outlook?",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\". There is no information about credit ratings or outlook, so this document is clearly not relevant to the user's question about current credit rating and outlook."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T15:30:49.402Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee6e66ce1377f1912ba2ae"
+  },
+  "question": "What are the key leverage and liquidity metrics?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 3/4] [Score: 0.637]\n**Failed Strategies:**\n- Maintaining high fixed costs\n- Excessive leverage (>4x debt/EBITDA)\n- Single-customer commercial focus\n\n![Horizontal bar chart showing default concentration by segment. Business aviation suppliers leads at 23% (dark blue), followed by Single-customer commercial at 18% (medium blue), High leverage companies at 15% (light blue), and Regional aircraft suppliers at 12% (very light blue). Bars e",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about key leverage and liquidity metrics as it contains multiple specific references to these measures:\n\nLeverage metrics:\n- Mentions excessive leverage (>4x debt/EBITDA) as a failed strategy\n- Debt/EBITDA >3.5x as a warning indicator\n- Interest coverage <2.0x as a warning indicator\n- Current AeroTech leverage of 2.3x vs peer average 2.8x\n\nLiquidity metrics:\n- Current ratio <1.1x\n- Working capital days >120 (vs sector median 95)\n\nThese metrics are directly related to assessing a company's leverage and liquidity position, making the document clearly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T15:38:14.494Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68ee73a9ce1377f1912ba2cf"
+  },
+  "question": "What are the key leverage and liquidity metrics?",
+  "context_preview": "[Source: 3c_Aerospace_Manufacturing_Sector_Study.docx] [Chunk 3/4] [Score: 0.636]\n**Failed Strategies:**\n- Maintaining high fixed costs\n- Excessive leverage (>4x debt/EBITDA)\n- Single-customer commercial focus\n\n![Horizontal bar chart showing default concentration by segment. Business aviation suppliers leads at 23% (dark blue), followed by Single-customer commercial at 18% (medium blue), High leverage companies at 15% (light blue), and Regional aircraft suppliers at 12% (very light blue). Bars e",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about leverage and liquidity metrics as it contains several specific metrics and thresholds:\n\nLeverage metrics:\n- Mentions excessive leverage (>4x debt/EBITDA) as a failed strategy\n- Debt/EBITDA >3.5x as a warning indicator\n- Interest coverage <2.0x as a warning indicator\n- Current AeroTech leverage at 2.3x vs peer average 2.8x\n\nLiquidity metrics:\n- Current ratio <1.1x\n- Working capital days >120 (vs sector median 95)\n\nThese are direct, quantitative measures of both leverage and liquidity, making the document clearly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-14T16:00:41.940Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f607e1089c836d73aeaec3"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly shows that:\n\n1. The dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\"\n2. The specific resolution details include:\n   - Permanent credit of $347.99 for the disputed charge\n   - Additional credit of $4.52 for finance charges\n   - Total permanent credit to account: $352.51\n3. The document provides the complete resolution rationale, stating that the cardholder properly returned the merchandise but the merchant failed to process the refund within their stated timeframe.\n\nThe resolution outcome is explicitly stated multiple times throughout the document with full details of the financial settlement and reasoning."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T09:58:57.043Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62337b5a4e2695103cfa5"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" and provides detailed information about the resolution:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued to the account, which includes:\n   - Original disputed charge: $347.99\n   - Finance charge credit: $4.52\n3. The document includes the investigation findings, determination rationale, and final settlement details\n4. The resolution was finalized on April 12, 2024\n5. The case was closed with dispute reference number DSP-2024-003847\n\nThe resolution outcome is clearly documented with specific details about the financial settlement and confirmation that the temporary credit was converted to permanent."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T11:55:35.305Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6237eb5a4e2695103cfb9"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" with specific details:\n\n1. The dispute was resolved in the cardholder's favor with a total permanent credit of $352.51\n2. This amount includes the original disputed charge of $347.99 plus finance charges of $4.52\n3. The temporary credit was converted to a permanent credit\n4. The resolution was finalized on April 12, 2024\n5. The case (DSP-2024-003847) was closed with this settlement\n\nThe document provides comprehensive details about the resolution outcome, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T11:56:46.274Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62640b5a4e2695103cfcd"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" with specific details:\n\n1. The dispute was resolved in the cardholder's favor with a total permanent credit of $352.51\n2. This amount includes:\n   - Original disputed charge of $347.99\n   - Finance charges of $4.52\n3. The temporary credit was converted to permanent\n4. The resolution was final and closed dispute case #DSP-2024-003647\n5. The settlement date was April 12, 2024\n\nThe document provides comprehensive details about the resolution outcome, making it directly relevant to the question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:08:32.146Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62661b5a4e2695103cfe1"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" multiple times and provides detailed information about the resolution:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued to the account, which includes:\n   - Original disputed charge: $347.99\n   - Finance charge credit: $4.52\n3. The document provides the full settlement details, including:\n   - Settlement date: April 12, 2024\n   - Updated account balance after settlement\n   - Confirmation that the temporary credit was converted to permanent\n   - Case closure information (case #DSP-2024-003647)\n\nThe resolution details are thoroughly documented in the credit card settlement statement with official authorization and all relevant financial adjustments."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:09:05.471Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62703b5a4e2695103cff5"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.642]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement explicitly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" multiple times. Specific details of the resolution include:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued ($347.99 for the original charge plus $4.52 in finance charges)\n3. The temporary credit was converted to permanent\n4. The case (DSP-2024-003847) was closed with final settlement\n5. The resolution was based on evidence showing the cardholder properly returned the merchandise but the merchant failed to process the refund\n\nThe document provides comprehensive details about the final resolution outcome, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:11:47.886Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62724b5a4e2695103d009"
+  },
+  "question": "How long did the resolution take?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.682]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about resolution time. Multiple pieces of evidence show the timeline:\n\n1. Dispute was filed on March 15, 2024\n2. Final resolution/settlement date was April 12, 2024\n3. Total resolution time was approximately 28 days\n\nThe document also provides additional context about resolution timing:\n- The case exceeded 16 days without merchant response\n- The bank's internal SLA target was 15 days\n- The actual average resolution time was 18.4 days\n- They had a regulatory requirement of 45 days maximum\n\nThis information directly answers how long the resolution process took."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:12:20.639Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62751b5a4e2695103d01d"
+  },
+  "question": "What is the disputed amount and final settlement?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 2/2] [Score: 0.756]\n\n## FINAL SETTLEMENT AMOUNT\n\nDisputed Charge Removed: $347.99\nRelated Finance Charges Credited: $4.52\n\n**TOTAL PERMANENT CREDIT TO YOUR ACCOUNT: $352.51**\n\n*file://Users/andrea.alaman/Downloads/settlement_statement.html*\n\n2/4\n\n---\n\n# Credit Card Settlement Statement\n*10/3/25, 4:20 PM*\n\n**Effective Date:** April 12, 2024\n\n## UPDATED ACCOUNT BALANCE\n\n| Item | Amount |\n|------|---------|\n| Previous Account Balance (Before Set",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it explicitly states both the disputed amount and final settlement details:\n\n1. Disputed amount: $347.99 (shown in multiple places including the original transaction amount)\n2. Final settlement amount: $352.51 total, which includes:\n   - Disputed charge removed: $347.99\n   - Related finance charges credited: $4.52\n\nThe settlement details are clearly documented in the credit card settlement statement, showing both the original disputed amount and the final settlement amount including finance charges. The document also shows this was resolved in favor of the cardholder with a permanent credit to the account."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:13:05.999Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62793b5a4e2695103d03e"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.621]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" and provides detailed information about the resolution:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued ($347.99 for the original charge plus $4.52 in finance charges)\n3. The document includes the full settlement statement with investigation findings, determination, and financial settlement details\n4. The resolution was final and closed dispute case #DSP-2024-003647\n5. The settlement date was April 12, 2024\n\nThe document provides comprehensive details about the resolution outcome, making it directly relevant to the question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:14:11.317Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f627e6b5a4e2695103d05f"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.621]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" and provides detailed information about the resolution:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued to the account ($347.99 for the original charge plus $4.52 in finance charges)\n3. The document includes the full settlement statement with investigation findings, determination, and financial details\n4. The resolution was final and closed dispute case #DSP-2024-003647\n5. The settlement date was April 12, 2024\n\nThe document provides comprehensive details about how and in whose favor the dispute was resolved, making it directly relevant to the question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:15:34.085Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62808b5a4e2695103d073"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.621]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly states that the dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\" and provides detailed information about the resolution:\n\n1. The dispute was resolved in the cardholder's favor\n2. A permanent credit of $352.51 was issued ($347.99 disputed charge + $4.52 finance charges)\n3. The resolution was finalized on April 12, 2024\n4. The temporary credit was converted to permanent\n5. The document includes the full financial settlement details and updated account balance\n\nThe resolution outcome is explicitly stated multiple times throughout the document with complete details of the settlement terms."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:16:08.540Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f629eb30e578dea182a5f4"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. The Credit Card Settlement Statement clearly shows that:\n\n1. The dispute was \"RESOLVED IN FAVOR OF CARDHOLDER\"\n2. The specific resolution details include:\n   - Permanent credit of $347.99 for the disputed charge\n   - Additional credit of $4.52 for finance charges\n   - Total permanent credit to account: $352.51\n3. The document provides explicit reasoning for the resolution, stating that the cardholder properly returned the merchandise but the merchant failed to process the refund within their stated timeframe.\n\nThe resolution outcome is a central focus of the document and is stated multiple times with complete details about the financial settlement and its implications."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:24:11.057Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62a0b30e578dea182a608"
+  },
+  "question": "How long did the resolution take?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.682]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about resolution time. Multiple pieces of evidence show the timeline:\n\n1. Dispute was filed on March 15, 2024\n2. Final resolution/settlement date was April 12, 2024\n3. Total resolution time was approximately 28 days\n\nThe documents also mention specific timeline details:\n- Original transaction: Feb 10, 2024\n- Dispute filed: March 15, 2024\n- Temporary credit issued: March 20, 2024\n- Final resolution: April 12, 2024\n\nAdditionally, the documents discuss resolution time metrics:\n- Current average resolution time was 18.4 days\n- Internal SLA target was 15 days\n- Regulatory requirement was 45 days\n\nThis comprehensive timeline information makes the document directly relevant to answering how long the resolution took."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:24:43.798Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62a2930e578dea182a61c"
+  },
+  "question": "What is the disputed amount and final settlement?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 2/2] [Score: 0.741]\n\n## FINAL SETTLEMENT AMOUNT\n\nDisputed Charge Removed: $347.99\nRelated Finance Charges Credited: $4.52\n\n**TOTAL PERMANENT CREDIT TO YOUR ACCOUNT: $352.51**\n\n*file://Users/andrea.alaman/Downloads/settlement_statement.html*\n\n2/4\n\n---\n\n# Credit Card Settlement Statement\n*10/3/25, 4:20 PM*\n\n**Effective Date:** April 12, 2024\n\n## UPDATED ACCOUNT BALANCE\n\n| Item | Amount |\n|------|---------|\n| Previous Account Balance (Before Set",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it directly contains both the disputed amount and final settlement information:\n\n1. Disputed amount: $347.99 (clearly stated multiple times in the documents)\n2. Final settlement amount: $352.51 total, which includes:\n   - $347.99 (disputed charge removed)\n   - $4.52 (related finance charges credited)\n\nThis information is explicitly shown in multiple sections, including the \"FINAL SETTLEMENT AMOUNT\" section and detailed financial breakdowns in the settlement statement. The document shows the dispute was resolved in favor of the cardholder with a permanent credit to their account."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:25:13.882Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62a4b30e578dea182a630"
+  },
+  "question": "How long did the resolution take?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.717]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about resolution time. Multiple pieces of evidence show the timeline:\n\n1. Dispute was filed on March 15, 2024\n2. Final resolution date was April 12, 2024\n3. Total resolution time was approximately 28 days\n\nThe document also provides context about resolution timing:\n- The bank's internal SLA target was 15 days\n- Current average resolution time was 18.4 days\n- This case appeared in an exception report for taking longer than standard timeframes\n- The delay was due to merchant non-response despite multiple contact attempts\n\nThe timeline is clearly documented across multiple sources (Settlement Statement, Exception Report, and Investigation Ticket), making this highly relevant to understanding how long the resolution took."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:25:47.275Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62cbb30e578dea182a651"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was resolved in favor of the cardholder with clear details:\n\n1. The document title directly states \"RESOLVED IN FAVOR OF CARDHOLDER\"\n2. The final settlement shows:\n- Total permanent credit of $352.51 ($347.99 disputed charge + $4.52 finance charges)\n- The dispute was closed (case #DSP-2024-003647)\n- The temporary credit was converted to permanent\n- The resolution was finalized on April 12, 2024\n\nThe document provides comprehensive details about the resolution outcome, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:36:11.378Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f62e3230e578dea182a665"
+  },
+  "question": "What was the resolution outcome?",
+  "context_preview": "[Source: Credit_Card_Settlement_Statement.pdf] [Chunk 1/2] [Score: 0.646]\n# FIRST NATIONAL BANK\n## Credit Card Services - Dispute Resolution Department\n\n# DISPUTE SETTLEMENT STATEMENT\n### RESOLVED IN FAVOR OF CARDHOLDER\n\n**Account Information:**\n- **Account Holder:** Sarah Mitchell\n- **Account Number:** 4532-XXXX-XXXX-8891\n- **Dispute Reference Number:** DSP-2024-003847\n- **Settlement Date:** April 12, 2024\n- **Case Officer:** Robert Chen, Dispute Resolution Specialist\n\n### DISPUTE SUMMARY\n\n| It",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the resolution outcome question. It explicitly states that the dispute was resolved in favor of the cardholder with clear details:\n\n1. The document title directly states \"RESOLVED IN FAVOR OF CARDHOLDER\"\n2. The final settlement shows:\n- Total permanent credit of $352.51 ($347.99 disputed charge + $4.52 finance charges)\n- The dispute was closed (case #DSP-2024-003647)\n- The temporary credit was converted to permanent\n- The resolution was finalized on April 12, 2024\n\nThe document provides comprehensive details about the resolution outcome, making it directly relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:42:26.423Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6303f30e578dea182a679"
+  },
+  "question": "What is the disputed amount?",
+  "context_preview": "[Source: Credit_Card_Reconciliation_Report.pdf] [Chunk 1/2] [Score: 0.713]\n# FIRST NATIONAL BANK\n## Credit Card Services Division\n\n# ACCOUNT RECONCILIATION REPORT\n\n**Account Holder:** Sarah Mitchell  \n**Account Number:** 4532-XXXX-XXXX-8891  \n**Statement Period:** February 1, 2024 - February 29, 2024  \n**Report Date:** March 20, 2024  \n**Reconciliation Status:** DISPUTE UNDER REVIEW\n\n### TRANSACTION DETAILS\n\n| Date | Merchant | Transaction Type | Amount | Status |\n|------|----------|------------",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they clearly and consistently show the disputed amount across multiple sources:\n\n1. Credit Card Reconciliation Report shows a disputed charge of $347.99 from CleanAir Electronics\n2. Credit Card Settlement Statement confirms the disputed amount of $347.99\n3. Payment Investigation Ticket shows the transaction amount under investigation as $347.99\n4. Dispute Letter explicitly states \"I am writing to dispute a charge of $347.99\"\n\nThe disputed amount of $347.99 appears consistently throughout all documents, making this information highly reliable and directly relevant to the question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:51:11.202Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6306c30e578dea182a68d"
+  },
+  "question": "How long did the resolution take?",
+  "context_preview": "[Source: Operational_Memo.pdf] [Chunk 2/3] [Score: 0.701]\n## NEW PROCEDURES - EFFECTIVE IMMEDIATELY\n\n### 1. ENHANCED MERCHANT NOTIFICATION TIMELINE\n\n| Day | Action Required | Responsible Party |\n|-----|----------------|-------------------|\n| Day 1 | Initial chargeback notification sent via payment processor | Investigation Team |\n| Day 5 | Follow-up email sent directly to merchant | Investigation Team |\n| Day 8 | Phone contact attempt; document all communication | Investigation Team |\n| Day 10 |",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are highly relevant to the resolution timeline question as they contain multiple explicit references to timing:\n\n1. The case (DSP-003847) was resolved in 28 days total:\n- Dispute filed on March 15, 2024\n- Final resolution/settlement date was April 12, 2024\n\n2. The documents also show:\n- Current average resolution time of 18.4 days\n- Target goal of 12 days or less\n- Regulatory requirement of 45 days maximum\n- This specific case took 16 days before being approved for automatic resolution due to merchant non-response\n\nThe timing information is clearly documented across multiple sources including the settlement statement, operational memo, and exception report, making this highly relevant to understanding how long the resolution process took."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T12:51:56.886Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6335430e578dea182a719"
+  },
+  "question": "What factors could lead to a rating upgrade or downgrade?",
+  "context_preview": "[Source: 1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf] [Chunk 2/3] [Score: 0.695]\n## Debt Structure\n- Total Debt: $165M (Term Loan A $120M + Revolver $15M drawn)\n- Covenant cushion adequate: Max Net Debt/EBITDA 3.25x vs current 2.3x\n\n## Market Position and Outlook\n\n### Competitive Position:\n- Established Tier 2 supplier with 15+ year average customer relationships\n- Specialized in difficult-to-machine materials (titanium, Inconel) and complex geometries\n- Geographic advantage with six U.S.",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The documents are highly relevant as they explicitly detail both upgrade and downgrade factors for AeroTech's credit rating:\n\nUpgrade Drivers (to BBB-):\n- Revenue growth above $450M with EBITDA margins >16%\n- Net Debt/EBITDA sustained below 2.0x\n- Major new program wins diversifying customer base\n- Revenue sustained above $475M annually\n- EBITDA margins consistently above 16.5%\n- Free cash flow generation above $35M annually\n- Successful execution of new program ramp-ups\n\nDowngrade Drivers:\n- Revenue below $375M or EBITDA margins <12%\n- Net Debt/EBITDA above 3.0x or liquidity concerns\n- Loss of key programs representing >15% of revenue\n\nThe documents provide comprehensive information about specific financial metrics, operational performance targets, and qualitative factors that could trigger rating changes."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T13:04:20.267Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64e9d95015379250a3697"
+  },
+  "question": "What is the investment thesis?",
+  "context_preview": "[Source: PressRelease_Amazon.docx] [Chunk 3/3] [Score: 0.635]\n\n## Summary\n\n- Nasdaq's modernization of Calypso on AWS marks a defining step toward platformization of financial infrastructure.\n\n- The partnership strengthens recurring-revenue visibility, operational leverage, and competitive positioning against legacy vendors.\n\n- For AWS (Amazon), it deepens penetration into the regulated finance vertical, reinforcing cloud leadership credibility.\n\n- Investors should monitor:\n  - Client adoption r",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the investment thesis question for several reasons:\n\n1. It explicitly contains a section titled \"Investment Thesis Takeaways\" that outlines four key aspects:\n- Strategic Fit\n- Growth Catalyst\n- Competitive Edge\n- Long-Term View\n\n2. The document provides detailed business and market implications for both Nasdaq and AWS, including:\n- Revenue model shifts\n- Strategic positioning\n- Market opportunities\n- Competitive advantages\n\n3. There's a comprehensive analysis of:\n- Strategic context\n- Market opportunities\n- Risk factors\n- Long-term growth potential\n- Financial implications\n\n4. The document even includes an investment thesis framework diagram and detailed tables analyzing different aspects of the investment opportunity.\n\nThe content is specifically structured to present and analyze investment considerations, making it directly relevant to understanding the investment thesis."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:00:45.895Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64ec795015379250a36ab"
+  },
+  "question": "What are the key valuation metrics?",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document content explicitly states \"No relevant documents found\" which means there is no information about valuation metrics or any other content. Therefore, this document is clearly not relevant to the user's question about key valuation metrics."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:01:27.070Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64ed195015379250a36b8"
+  },
+  "question": "What are the most commonly used financial metrics and ratios for valuing companies, such as P/E ratio, EV/EBITDA, and price-to-book value?",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" and contains no content at all related to financial metrics, valuation ratios, P/E ratio, EV/EBITDA, price-to-book value, or any other company valuation methods. There is a complete absence of relevant information to answer the user's question about commonly used financial metrics and ratios."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:01:37.993Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64edd95015379250a36c5"
+  },
+  "question": "What are the key financial valuation multiples and ratios used by investment analysts, including:\n- Price-to-Earnings (P/E) ratio calculation and interpretation\n- Enterprise Value to EBITDA (EV/EBITDA) methodology\n- Price-to-Book (P/B) ratio analysis\n- Common industry benchmarks for these metrics in company valuation?",
+  "context_preview": "No relevant documents found",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 1,
+    "reasoning": "The document explicitly states \"No relevant documents found\" and contains no content whatsoever about financial valuation multiples, P/E ratios, EV/EBITDA, P/B ratios, or any industry benchmarks. There is a complete absence of any relevant information related to the user's question about financial valuation metrics and their analysis."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:01:49.815Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64eed95015379250a36d2"
+  },
+  "question": "Please explain the following financial valuation metrics used in equity analysis:\n\n1. How is the Price-to-Earnings (P/E) ratio calculated, and what P/E ranges are typically considered high or low for public companies?\n\n2. What is the step-by-step process for calculating Enterprise Value to EBITDA (EV/EBITDA), and how do analysts interpret this multiple?\n\n3. What components make up the Price-to-Book (P/B) ratio calculation, and what are typical P/B benchmarks across different sectors?\n\n4. What are the median valuation multiples (P/E, EV/EBITDA, P/B) for major industries like Technology, Financial Services, Healthcare, and Industrial companies as of the most recent fiscal year?",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 1/3] [Score: 0.594]\n# McKinsey Technology Trends Outlook 2025 — Investor Summary\n\n## 1. Macro View: Frontier Technologies Re-Shaping Global Competition\n\nMcKinsey identifies 13 frontier technology trends across three clusters:\n\n- AI Revolution: Agentic AI and Artificial Intelligence\n- Compute & Connectivity Frontiers: Semiconductors, connectivity, cloud/edge, immersive reality, cybersecurity, quantum\n- Cutting-Edge Engineer",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document is not relevant to the user's question about financial valuation metrics. The document is a McKinsey technology trends report that focuses on:\n1. Technology sector trends and investments\n2. AI developments and adoption\n3. Compute and connectivity frontiers\n4. Engineering and physical technology frontiers\n\nWhile the document does contain some financial/investment information (like equity investments in different sectors), it does not discuss or explain any of the specific financial valuation metrics asked about in the question (P/E ratio, EV/EBITDA, P/B ratio, or industry median multiples). The financial content is limited to investment amounts and growth rates in technology sectors, rather than valuation methodologies or multiples."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:02:05.407Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64f0095015379250a36df"
+  },
+  "question": "Please explain these key equity valuation metrics:\n\n1. What is the standard formula for calculating the trailing twelve month (TTM) P/E ratio? What P/E ranges are considered low (<10x), moderate (10-20x), and high (>20x) based on historical S&P 500 averages?\n\n2. How do you calculate Enterprise Value (EV) and EBITDA separately to derive the EV/EBITDA multiple? What are the specific balance sheet and income statement line items needed?\n\n3. What is the formula for calculating P/B ratio using shareholders' equity and market capitalization? How do typical P/B ratios differ between asset-heavy sectors (e.g., banks, real estate) versus asset-light sectors (e.g., software)?\n\n4. What were the median trailing P/E, EV/EBITDA, and P/B ratios as of December 2023 for:\n- S&P 500 Technology sector (XLK)\n- S&P 500 Financials sector (XLF) \n- S&P 500 Healthcare sector (XLV)\n- S&P 500 Industrials sector (XLI)\n\nPlease include specific numerical ranges and sector benchmarks in the response.",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 2/3] [Score: 0.647]\n\n### Use Cases:\n- McKinsey QuantumBlack increased credit analyst productivity by 60%\n- Banktrade autonomous cybersecurity\n- Salesforce Agentforce workflow automation\n- Cursor and Manus AI automating code development\n\n### Technology Stack:\n- ML & NLP → Reasoning models → Integration layers (LangChain, Pinecone)\n- Observability tools (LangSmith)\n\n### Risks & Opportunities:\nGovernance and liability framewo",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document is not relevant to the user's question about equity valuation metrics and formulas. The document is a McKinsey technology trends report that focuses on:\n1. Technology sector trends and investments\n2. AI revolution and adoption\n3. Compute and connectivity frontiers\n4. Engineering and physical frontiers\n5. Investment outlook for different technology sectors\n\nWhile the document does contain some investment-related content, it does not discuss any of the specific valuation metrics (P/E ratio, EV/EBITDA, P/B ratio) or their calculations that the user asked about. There are no mentions of these financial ratios or their sector-specific benchmarks. The investment-related content in the document is primarily focused on investment trends and growth outlooks rather than valuation metrics."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:02:24.241Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64f1695015379250a36ec"
+  },
+  "question": "Please explain the following equity valuation fundamentals:\n\n1. TTM P/E Ratio calculation:\n- What is the exact formula using net income and current share price?\n- What are the historical S&P 500 P/E ranges from 1990-2023?\n- How do analysts classify P/E levels (low/medium/high)?\n\n2. Enterprise Value and EBITDA components:\n- How to calculate EV using market cap, debt, cash and equivalents\n- EBITDA calculation from operating income and D&A\n- Common EV/EBITDA benchmarks by industry\n\n3. Price-to-Book (P/B) analysis:\n- Formula using total shareholders' equity and market value\n- Typical P/B ranges for financial institutions vs technology companies\n- Why P/B varies between capital-intensive and asset-light businesses\n\n4. Current market valuation metrics (as of Q4 2023):\nFor S&P 500 sectors (XLK, XLF, XLV, XLI):\n- Median TTM P/E\n- Median EV/EBITDA\n- Median P/B\n- 5-year historical averages for comparison\n\nPlease provide specific formulas, numerical ranges, and sector-level data.",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 2/3] [Score: 0.627]\n\n### Use Cases:\n- McKinsey QuantumBlack increased credit analyst productivity by 60%\n- Banktrade autonomous cybersecurity\n- Salesforce Agentforce workflow automation\n- Cursor and Manus AI automating code development\n\n### Technology Stack:\n- ML & NLP → Reasoning models → Integration layers (LangChain, Pinecone)\n- Observability tools (LangSmith)\n\n### Risks & Opportunities:\nGovernance and liability framewo",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document is not relevant to the user's question about equity valuation fundamentals for the following reasons:\n\n1. The document is a McKinsey technology trends report focusing on frontier technologies, AI revolution, compute & connectivity, and engineering developments.\n\n2. While the document contains some investment-related content, it does not discuss any of the specific valuation metrics requested:\n- No mention of P/E ratios or calculations\n- No discussion of Enterprise Value or EBITDA\n- No Price-to-Book ratio analysis\n- No current market valuation metrics for S&P 500 sectors\n\n3. The financial information presented is limited to investment amounts in technology sectors and growth trends, rather than valuation fundamentals.\n\n4. The document's tables and metrics focus on technology sector maturity levels, growth outlooks, and investment signals, not financial valuation metrics.\n\nGiven the complete absence of equity valuation content, I am highly confident (0.95) that this document is not relevant to the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:02:46.093Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64f2895015379250a36f9"
+  },
+  "question": "Please explain these key stock valuation metrics:\n\n1. Price-to-Earnings (P/E) Ratio:\n- What is the basic formula: (Stock Price per Share) / (Earnings per Share)?\n- What is considered a normal P/E ratio for the S&P 500?\n- What P/E levels indicate overvalued vs undervalued stocks?\n\n2. Enterprise Value (EV) Calculation:\n- How do you calculate Enterprise Value from market capitalization?\n- What is the formula for EBITDA margin?\n- What are typical EV/EBITDA multiples for major industries?\n\n3. Price-to-Book Value (P/BV):\n- How is book value per share calculated?\n- What is a normal P/B ratio for banks versus tech companies?\n- Why do asset-heavy versus asset-light companies have different P/B ratios?\n\n4. Current Market Valuations (2023):\nFor Technology (XLK), Financials (XLF), Healthcare (XLV):\n- What are the current P/E ratios?\n- What are the current P/B ratios?\n- How do these compare to 5-year averages?\n\nPlease provide specific formulas and industry benchmarks.",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 1/3] [Score: 0.616]\n# McKinsey Technology Trends Outlook 2025 — Investor Summary\n\n## 1. Macro View: Frontier Technologies Re-Shaping Global Competition\n\nMcKinsey identifies 13 frontier technology trends across three clusters:\n\n- AI Revolution: Agentic AI and Artificial Intelligence\n- Compute & Connectivity Frontiers: Semiconductors, connectivity, cloud/edge, immersive reality, cybersecurity, quantum\n- Cutting-Edge Engineer",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document is not relevant to the user's question about stock valuation metrics. The document is a McKinsey technology trends report that focuses on:\n1. Technology sector trends and investments\n2. AI revolution and adoption\n3. Compute and connectivity frontiers\n4. Engineering and physical frontiers\n5. Investment sector outlooks\n\nWhile the document does contain some investment-related content and metrics, it does not discuss any of the specific stock valuation metrics asked about in the question (P/E ratios, Enterprise Value, EBITDA, Price-to-Book ratios, or current market valuations for XLK, XLF, XLV). The financial metrics mentioned in the document are primarily about investment volumes and growth rates in various technology sectors, not stock valuation fundamentals."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:03:04.842Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f64f3c95015379250a3706"
+  },
+  "question": "Please explain the following stock market valuation fundamentals:\n\n1. P/E Ratio Analysis:\n- What is the standard calculation method for trailing P/E ratio?\n- What is the historical average P/E ratio for S&P 500 (1990-2023)?\n- What are the industry-standard P/E thresholds for value vs. growth stocks?\n\n2. Enterprise Value Components:\n- What is the detailed formula for calculating Enterprise Value (including debt, cash, and preferred shares)?\n- What is the standard EBITDA margin calculation in financial analysis?\n- What are the median EV/EBITDA multiples for S&P 500 sectors as of 2023?\n\n3. Book Value Metrics:\n- What is the standard formula for calculating tangible book value per share?\n- What are the typical P/B ratio ranges for commercial banks vs. software companies?\n- How do capital-intensive vs. intellectual property-based business models affect P/B ratios?\n\n4. Sector-Specific Metrics (2023 Q3):\nFor SPDR sector ETFs:\n- What are the current TTM P/E ratios for XLK, XLF, and XLV?\n- What are their current price-to-book ratios?\n- How do these compare to their 2018-2023 averages?\n\nPlease include Bloomberg or S&P Capital IQ data where applicable.",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 2/3] [Score: 0.614]\n\n### Use Cases:\n- McKinsey QuantumBlack increased credit analyst productivity by 60%\n- Banktrade autonomous cybersecurity\n- Salesforce Agentforce workflow automation\n- Cursor and Manus AI automating code development\n\n### Technology Stack:\n- ML & NLP → Reasoning models → Integration layers (LangChain, Pinecone)\n- Observability tools (LangSmith)\n\n### Risks & Opportunities:\nGovernance and liability framewo",
+  "grading_result": {
+    "binary_score": "no",
+    "confidence": 0.95,
+    "reasoning": "The document is not relevant to the user's question about stock market valuation fundamentals. The document is a technology sector research report that focuses on:\n1. Technology use cases and trends\n2. Artificial Intelligence developments\n3. Compute and connectivity frontiers\n4. Engineering and physical frontiers\n5. Investment sector outlooks for technology-related areas\n\nWhile the document does contain an \"Investment Takeaways\" section, it does not discuss any of the specific valuation metrics asked about in the question:\n- No mention of P/E ratios\n- No discussion of Enterprise Value calculations\n- No information about book value metrics\n- No data about SPDR sector ETF valuations\n\nThe document's content is focused on technology trends and qualitative sector outlooks rather than quantitative valuation fundamentals."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:03:24.179Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6503b95015379250a371b"
+  },
+  "question": "What is the next big bet?",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 3/3] [Score: 0.651]\n\n---\n\n# Strategic Positioning & Conclusion\n\n## Strategic Positioning:\n\n1. **AI Core Stack Investments**\n   - Models, agents, and hardware integration\n\n2. **Infrastructure Enablers**\n   - Semiconductors\n   - Cloud/edge\n   - Sustainable grids\n\n3. **Applied AI Industrials**\n   - Robotics\n   - Mobility\n   - Bioengineering\n\n4. **Governance & Trust**\n   - Cybersecurity\n   - AI ethics\n   - Data provenance\n\n## ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.9,
+    "reasoning": "The document is highly relevant to identifying \"the next big bet\" as it contains detailed analysis of future technology trends and investment opportunities. Specifically:\n\n1. The McKinsey report outlines strategic positioning and investment opportunities across multiple technology sectors through 2025-2030\n\n2. Key \"big bet\" areas explicitly highlighted include:\n- AI Core Stack Investments (models, agents, hardware)\n- Infrastructure Enablers (semiconductors, cloud/edge, sustainable grids)\n- Applied AI Industrials (robotics, mobility, bioengineering)\n- Sustainability and quantum computing as long-term opportunities\n\n3. The report provides specific investment outlooks and maturity assessments for different sectors, helping identify where the next big opportunities lie\n\n4. Clear indicators of emerging trends are provided through metrics like equity investment amounts, YoY growth, and adoption stages"
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:07:39.626Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f6507c95015379250a372f"
+  },
+  "question": "What are the main growth drivers and risks?",
+  "context_preview": "[Source: PressRelease_Amazon.docx] [Chunk 2/3] [Score: 0.653]\n\n## 4. Business and Market Implications\n\n### For Nasdaq (NDAQ)\n\n- **Strategic Positioning**: Moves further from exchange operator to end-to-end financial-technology provider.\n- **Revenue Model Shift**: Increases potential for subscription-based recurring revenue and higher margins through managed services.\n- **Client Penetration**: Access to Nasdaq's existing 3,800+ financial clients, including 97% of global systemically important ban",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about growth drivers and risks as it explicitly covers both aspects:\n\nGrowth Drivers:\n1. Strategic positioning and revenue model shifts for Nasdaq\n2. AWS's vertical penetration in financial services\n3. Cloud adoption and AI-enabled financial intelligence\n4. New revenue streams via managed services\n5. Market expansion opportunities\n6. Recurring revenue potential\n\nRisks (explicitly outlined in Section 5):\n1. Execution Risk - complexity in migrating data\n2. Regulatory Uncertainty\n3. Market Adoption Lag\n4. Competition from other providers\n\nThe document provides comprehensive coverage of both growth catalysts and risk factors, making it directly relevant to the user's question. The information is detailed and structured, with specific sections dedicated to business implications, risk factors, and investment thesis takeaways."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T15:08:44.338Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f65cbd89ee8663e99bb417"
+  },
+  "question": "What KYC documents were provided for verification?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 3/3] [Score: 0.718]\n## 10. APPLICANT SIGNATURE\n\n**APPLICANT NAME (PRINT)**: JONATHAN MICHAEL RICHARDSON  \n**DATE**: 05/10/2025\n\n![Signature box containing a cursive signature reading 'J. Richardson' in black ink against white background](signature.png)\n\n## FOR OFFICE USE ONLY\n\n**APPLICATION REFERENCE NUMBER**: KYC-2025-10-00847  \n**DATE RECEIVED**: 05/10/2025\n\n**REVIEWED BY**: Sarah Chen - Compliance Officer\n\n**RISK RATING**:\n- [ ] Low\n- [x] Medium\n- ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant as it explicitly lists the KYC documents provided for verification in Section 8 \"REQUIRED SUPPORTING DOCUMENTS CHECKLIST\". The checked items indicate that the following documents were provided:\n1. Copy of valid government-issued photo identification\n2. Proof of residential address\n3. Proof of income/employment\n\nAdditionally, Section 2 specifies that a passport was provided as the ID document with details like ID number, issuing country, and validity dates. This information directly answers what KYC documents were provided for verification."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T16:01:01.898Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f65d0f89ee8663e99bb42b"
+  },
+  "question": "Are there any PEP or sanctions concerns?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 2/3] [Score: 0.690]\nfile:///Users/andrea.alaman/Downloads/kyc_onboarding_form.html\n\n---\n\n# 5. ACCOUNT INFORMATION\n\n**ACCOUNT TYPE** *\n- [x] Individual\n- [ ] Joint\n- [ ] Corporate\n- [ ] Trust\n\n**SERVICES REQUIRED** *\n- [x] Investment Management\n- [x] Wealth Advisory\n- [ ] Private Banking\n- [ ] Custody Services\n\n**EXPECTED INITIAL DEPOSIT (USD)**  \n$150,000\n\n**EXPECTED ANNUAL TRANSACTIONS**\n- [ ] 1-10\n- [x] 11-50\n- [ ] > 50\n\n# 6. POLITICALLY EXPOSED PER",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about PEP and sanctions concerns because:\n\n1. It contains a dedicated section \"6. POLITICALLY EXPOSED PERSON (PEP) & SANCTIONS SCREENING\" that directly addresses both PEP status and sanctions\n2. It provides clear answers:\n   - The individual declared they are NOT a PEP (box checked \"No\")\n   - The individual declared they are NOT subject to economic sanctions or embargoes (box checked \"No\")\n3. The document includes the definition of PEP and explicitly asks about family members' PEP status\n4. The form includes declarations and consent for sanctions screening\n\nThis information directly answers whether there are any PEP or sanctions concerns for this individual."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T16:02:23.628Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f65d6289ee8663e99bb43f"
+  },
+  "question": "What is the customer's residential address?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 1/3] [Score: 0.636]\n# GLOBAL FINANCIAL SERVICES LTD\n\n## CLIENT ONBOARDING APPLICATION FORM\nKnow Your Customer (KYC) Documentation\n\n**INSTRUCTIONS:** Please complete all sections in BLOCK CAPITALS. All fields marked with (*) are mandatory. Incomplete forms will delay the onboarding process. Please attach required supporting documents as listed in Section 8.\n\n### 1. PERSONAL INFORMATION\n\n| Field | Value |\n|-------|-------|\n| TITLE* | Mr. |\n| FIRST NAME*",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they contain multiple consistent mentions of the customer's residential address across different official documents:\n\n1. In the onboarding form under \"RESIDENTIAL ADDRESS\" and \"Location Information\": 4582 Maple Grove Avenue, Boston, MA 02108\n2. In the electric bill under \"SERVICE ADDRESS\": 4582 MAPLE GROVE AVENUE, BOSTON, MA 02108\n3. In the driver's license under \"Address\": 4582 MAPLE GROVE AVE, BOSTON, MA 02108\n\nThe address appears consistently across multiple official documents, making these documents directly relevant to determining the customer's residential address."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T16:03:46.156Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f65d8889ee8663e99bb453"
+  },
+  "question": "What is the customer risk rating?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 3/3] [Score: 0.696]\n## 10. APPLICANT SIGNATURE\n\n**APPLICANT NAME (PRINT)**: JONATHAN MICHAEL RICHARDSON  \n**DATE**: 05/10/2025\n\n![Signature box containing a cursive signature reading 'J. Richardson' in black ink against white background](signature.png)\n\n## FOR OFFICE USE ONLY\n\n**APPLICATION REFERENCE NUMBER**: KYC-2025-10-00847  \n**DATE RECEIVED**: 05/10/2025\n\n**REVIEWED BY**: Sarah Chen - Compliance Officer\n\n**RISK RATING**:\n- [ ] Low\n- [x] Medium\n- ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is directly relevant to the question about customer risk rating. In Chunk 3/3, under \"FOR OFFICE USE ONLY\" section, there is an explicit \"RISK RATING\" field where \"Medium\" is checked among three options (Low, Medium, High). This provides the exact information requested in the user's question."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T16:04:24.194Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f65db089ee8663e99bb467"
+  },
+  "question": "Are there any PEP or sanctions concerns?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 2/3] [Score: 0.682]\nfile:///Users/andrea.alaman/Downloads/kyc_onboarding_form.html\n\n---\n\n# 5. ACCOUNT INFORMATION\n\n**ACCOUNT TYPE** *\n- [x] Individual\n- [ ] Joint\n- [ ] Corporate\n- [ ] Trust\n\n**SERVICES REQUIRED** *\n- [x] Investment Management\n- [x] Wealth Advisory\n- [ ] Private Banking\n- [ ] Custody Services\n\n**EXPECTED INITIAL DEPOSIT (USD)**  \n$150,000\n\n**EXPECTED ANNUAL TRANSACTIONS**\n- [ ] 1-10\n- [x] 11-50\n- [ ] > 50\n\n# 6. POLITICALLY EXPOSED PER",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to the question about PEP and sanctions concerns because it contains a dedicated section (Section 6) titled \"POLITICALLY EXPOSED PERSON (PEP) & SANCTIONS SCREENING\" that directly addresses these matters. Specifically, it shows that:\n1. The individual (Jonathan Richardson) declared they are not a PEP (box checked \"No\")\n2. They are not subject to any economic sanctions or embargoes (box checked \"No\")\n3. The document even provides the definition of PEP for clarity\nThis information directly answers whether there are any PEP or sanctions concerns."
+  },
+  "graded_at": {
+    "$date": "2025-10-20T16:05:04.135Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f742978ad08dc3c6690ca0"
+  },
+  "question": "What is the customer's residential address?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 1/3] [Score: 0.636]\n# GLOBAL FINANCIAL SERVICES LTD\n\n## CLIENT ONBOARDING APPLICATION FORM\nKnow Your Customer (KYC) Documentation\n\n**INSTRUCTIONS:** Please complete all sections in BLOCK CAPITALS. All fields marked with (*) are mandatory. Incomplete forms will delay the onboarding process. Please attach required supporting documents as listed in Section 8.\n\n### 1. PERSONAL INFORMATION\n\n| Field | Value |\n|-------|-------|\n| TITLE* | Mr. |\n| FIRST NAME*",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they contain multiple consistent mentions of Jonathan Richardson's residential address across different official documents:\n\n1. In the onboarding form under \"CONTACT INFORMATION\" section: 4582 Maple Grove Avenue, Boston, MA 02108\n2. In the electric bill under \"SERVICE ADDRESS\": 4582 MAPLE GROVE AVENUE, BOSTON, MA 02108\n3. In the driver's license: 4582 MAPLE GROVE AVE, BOSTON, MA 02108\n\nThe address appears consistently across multiple official documents (KYC form, utility bill, and government ID), making this information highly reliable and directly relevant to the question about customer's residential address."
+  },
+  "graded_at": {
+    "$date": "2025-10-21T08:21:43.839Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f74cb5dbbd375e75f9e427"
+  },
+  "question": "What is the customer's residential address?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 1/3] [Score: 0.636]\n# GLOBAL FINANCIAL SERVICES LTD\n\n## CLIENT ONBOARDING APPLICATION FORM\nKnow Your Customer (KYC) Documentation\n\n**INSTRUCTIONS:** Please complete all sections in BLOCK CAPITALS. All fields marked with (*) are mandatory. Incomplete forms will delay the onboarding process. Please attach required supporting documents as listed in Section 8.\n\n### 1. PERSONAL INFORMATION\n\n| Field | Value |\n|-------|-------|\n| TITLE* | Mr. |\n| FIRST NAME*",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they contain multiple consistent mentions of the customer's residential address across different official documents:\n\n1. In the onboarding form under \"CONTACT INFORMATION\": 4582 Maple Grove Avenue, Boston, MA 02108\n2. In the electric bill under \"SERVICE ADDRESS\": 4582 MAPLE GROVE AVENUE, BOSTON, MA 02108\n3. In the driver's license under \"Personal Information\": 4582 MAPLE GROVE AVE, BOSTON, MA 02108\n\nThe address appears consistently across multiple official documents (onboarding form, utility bill, and government ID), making this information highly reliable and directly relevant to the question about residential address."
+  },
+  "graded_at": {
+    "$date": "2025-10-21T09:04:53.781Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f7500bdbbd375e75f9e43b"
+  },
+  "question": "What is the customer's residential address?",
+  "context_preview": "[Source: OnboardingForm_Jonathan.pdf] [Chunk 1/3] [Score: 0.636]\n# GLOBAL FINANCIAL SERVICES LTD\n\n## CLIENT ONBOARDING APPLICATION FORM\nKnow Your Customer (KYC) Documentation\n\n**INSTRUCTIONS:** Please complete all sections in BLOCK CAPITALS. All fields marked with (*) are mandatory. Incomplete forms will delay the onboarding process. Please attach required supporting documents as listed in Section 8.\n\n### 1. PERSONAL INFORMATION\n\n| Field | Value |\n|-------|-------|\n| TITLE* | Mr. |\n| FIRST NAME*",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they contain multiple consistent mentions of the customer's residential address across different official documents:\n\n1. In the onboarding form under \"CONTACT INFORMATION\": 4582 Maple Grove Avenue, Boston, MA 02108\n2. In the electric bill under \"SERVICE ADDRESS\": 4582 MAPLE GROVE AVENUE, BOSTON, MA 02108\n3. In the driver's license under \"Personal Information\": 4582 MAPLE GROVE AVE, BOSTON, MA 02108\n\nThe address appears consistently across multiple official documents, making these documents directly relevant to determining the customer's residential address."
+  },
+  "graded_at": {
+    "$date": "2025-10-21T09:19:07.245Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f75190dbbd375e75f9e49c"
+  },
+  "question": "What is the disputed amount?",
+  "context_preview": "[Source: Credit_Card_Reconciliation_Report.pdf] [Chunk 1/2] [Score: 0.713]\n# FIRST NATIONAL BANK\n## Credit Card Services Division\n\n# ACCOUNT RECONCILIATION REPORT\n\n**Account Holder:** Sarah Mitchell  \n**Account Number:** 4532-XXXX-XXXX-8891  \n**Statement Period:** February 1, 2024 - February 29, 2024  \n**Report Date:** March 20, 2024  \n**Reconciliation Status:** DISPUTE UNDER REVIEW\n\n### TRANSACTION DETAILS\n\n| Date | Merchant | Transaction Type | Amount | Status |\n|------|----------|------------",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The documents are highly relevant as they clearly show the disputed amount multiple times across different documents:\n\n1. In the Credit Card Reconciliation Report - Shows disputed charge of $347.99 from CleanAir Electronics\n2. In the Dispute Settlement Statement - Confirms disputed amount of $347.99\n3. In the Payment Investigation Ticket - Lists transaction amount under investigation as $347.99\n4. In the Dispute Letter - Sarah Mitchell explicitly disputes a charge of $347.99\n\nThe amount is consistently mentioned as $347.99 across multiple official documents, making this information highly reliable and directly relevant to the question about the disputed amount."
+  },
+  "graded_at": {
+    "$date": "2025-10-21T09:25:36.739Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f7525cdbbd375e75f9e527"
+  },
+  "question": "What is the next big bet?",
+  "context_preview": "[Source: ResearchReport_TechnologySector_McKinsey2025Summary.docx] [Chunk 3/3] [Score: 0.651]\n\n---\n\n# Strategic Positioning & Conclusion\n\n## Strategic Positioning:\n\n1. **AI Core Stack Investments**\n   - Models, agents, and hardware integration\n\n2. **Infrastructure Enablers**\n   - Semiconductors\n   - Cloud/edge\n   - Sustainable grids\n\n3. **Applied AI Industrials**\n   - Robotics\n   - Mobility\n   - Bioengineering\n\n4. **Governance & Trust**\n   - Cybersecurity\n   - AI ethics\n   - Data provenance\n\n## ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant to identifying \"the next big bet\" as it contains detailed analysis of future technology trends and investment opportunities. Specifically:\n\n1. It outlines strategic positioning and investment priorities for 2025 and beyond\n2. Identifies key emerging areas like:\n   - Agentic AI (showing 985% job growth)\n   - AI Core Stack investments\n   - Quantum technologies (long-term potential)\n   - Sustainability and energy tech\n3. Provides a clear \"Investment Takeaways (2025-2030 Horizon)\" section with sector outlooks\n4. Explicitly discusses growth outlooks and maturity stages for different sectors\n\nThe document directly addresses future strategic bets and investment opportunities, making it very relevant for understanding what the next big technological and market opportunities are."
+  },
+  "graded_at": {
+    "$date": "2025-10-21T09:29:00.009Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f8a3b01f565bc0eb0de5a9"
+  },
+  "question": "What is the loan amount and purpose?",
+  "context_preview": "[Source: LoanApplication_FridaKlo.pdf] [Chunk 1/4] [Score: 0.703]\n# MOUNTAIN CREST FINANCIAL SERVICES\n## Personal Loan Application\n\n**Form No.:** MCF-PL-2024-10  \n**Application Date:** October 21, 2025  \n**Branch Code:** 4782-NYC-Manhattan\n\n### SECTION 1: APPLICANT INFORMATION\n\n**Full Legal Name:**  \nFrida Mariana Klo\n\n**Social Security Number:**  \nXXX-XX-6847\n\n**Date of Birth:**  \nMarch 15, 1988\n\n**Place of Birth:**  \nBrooklyn, New York\n\n**Contact Information:**  \nPrimary Phone: (212) 555-8392 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it explicitly states both the loan amount and purpose in Section 3: Loan Request Details of the loan application:\n\n1. Loan Amount: $45,000\n2. Loan Purpose: Debt Consolidation (marked with checkbox)\n\nThis information is clearly presented and directly answers both parts of the user's question. The document also provides additional context about the loan request, such as the preferred monthly payment ($1,050) and desired loan term (48 months)."
+  },
+  "graded_at": {
+    "$date": "2025-10-22T09:28:16.611Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f8a4001f565bc0eb0de5bd"
+  },
+  "question": "What is the borrower's credit score and credit history?",
+  "context_preview": "[Source: CreditReport_FridaKlo.pdf] [Chunk 1/3] [Score: 0.767]\n# CREDIT REPORT\nConsumer Credit Profile Summary\n\n⚠️ FOR DEMONSTRATION PURPOSES ONLY - SYNTHETIC DATA ⚠️\n\n**Report Date:** October 21, 2025  \n**Report Number:** CR-2025-10-847293  \n**Bureau:** Equifax Credit Services  \n**Report Type:** Standard Consumer Report\n\n![Credit score display showing 728 FICO Score 8 on a purple gradient background. A horizontal green progress bar indicates the score falls in the 'GOOD CREDIT' range. Score ran",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant to the question about credit score and credit history because it contains:\n\n1. Explicit credit score: 728 FICO Score 8 in the \"GOOD CREDIT\" range\n2. Detailed credit history information including:\n- Key factors affecting the score\n- Payment history (no late payments in 24 months)\n- Length of credit history (average account age 6.2 years)\n- Credit mix details\n- Credit utilization rate (58%)\n- Total accounts (7)\n- Detailed payment history for multiple credit accounts\n- Current balances and payment status for credit cards and loans\n\nThe document provides comprehensive information directly answering both aspects of the question regarding credit score and credit history."
+  },
+  "graded_at": {
+    "$date": "2025-10-22T09:29:36.771Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f8a42a1f565bc0eb0de5d1"
+  },
+  "question": "What is the borrower's annual income and debt-to-income ratio?",
+  "context_preview": "[Source: LoanApplication_FridaKlo.pdf] [Chunk 2/4] [Score: 0.751]\n\n### Savings Accounts:\n| Bank Name | Account Type | Account Number | Current Balance |\n|-----------|--------------|----------------|-----------------|\n| Coastal Union Bank | High-Yield Savings | XXXX-XXXX-4738 | $28,900 |\n\n### Investment/Retirement Accounts:\n| Institution | Account Type | Account Number | Current Value |\n|------------|--------------|----------------|---------------|\n| Vanguard Financial | 401(k) | XXXX-XXXX-2847 |",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 0.95,
+    "reasoning": "The document is highly relevant as it contains explicit information about the borrower's annual income and financial obligations needed to calculate debt-to-income ratio:\n\n1. Annual Income:\n- Gross Annual Income from Employment: $127,500\n- Other Annual Income (Freelance): $8,400\n- Total Annual Income: $135,900\n\n2. Monthly Debt Obligations:\n- Total Monthly Debt: $1,085\n- Monthly Housing Payment (Rent): $2,850\n\nThis information allows for calculating the debt-to-income ratio and directly answers the user's question about annual income."
+  },
+  "graded_at": {
+    "$date": "2025-10-22T09:30:18.222Z"
+  },
+  "node": "document_grader"
+},
+{
+  "_id": {
+    "$oid": "68f8a4641f565bc0eb0de5e5"
+  },
+  "question": "What's borrower name? What personal data do we have?",
+  "context_preview": "[Source: LoanApplication_FridaKlo.pdf] [Chunk 1/4] [Score: 0.775]\n# MOUNTAIN CREST FINANCIAL SERVICES\n## Personal Loan Application\n\n**Form No.:** MCF-PL-2024-10  \n**Application Date:** October 21, 2025  \n**Branch Code:** 4782-NYC-Manhattan\n\n### SECTION 1: APPLICANT INFORMATION\n\n**Full Legal Name:**  \nFrida Mariana Klo\n\n**Social Security Number:**  \nXXX-XX-6847\n\n**Date of Birth:**  \nMarch 15, 1988\n\n**Place of Birth:**  \nBrooklyn, New York\n\n**Contact Information:**  \nPrimary Phone: (212) 555-8392 ",
+  "grading_result": {
+    "binary_score": "yes",
+    "confidence": 1,
+    "reasoning": "The document is highly relevant as it contains comprehensive personal information about the borrower. Specifically:\n\n1. Borrower's name: Frida Mariana Klo\n2. Extensive personal data including:\n- SSN: XXX-XX-6847\n- DOB: March 15, 1988\n- Place of birth: Brooklyn, New York\n- Contact info: Phone numbers and email\n- Address: 428 West 23rd Street, Apt 5B, New York, NY 10011\n- Employment details at Meridian Creative Studios LLC\n- Income information ($135,900 total annual)\n- Financial accounts and assets\n- Credit report information with FICO score of 728\n\nThe document directly answers both parts of the question with detailed personal information about the borrower."
+  },
+  "graded_at": {
+    "$date": "2025-10-22T09:31:16.761Z"
+  },
+  "node": "document_grader"
+}]

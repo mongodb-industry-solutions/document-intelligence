@@ -1,0 +1,399 @@
+[{
+  "_id": {
+    "$oid": "68f06e24145da44f7eb90b7d"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-16T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251016T040140Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.06,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-16T04:01:40.758Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f06e53145da44f7eb90b7e"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-16T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251016T040227Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 7.44,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-16T04:02:27.974Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f1bfb1145da44f7eb90b7f"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-17T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251017T040153Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.09,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-17T04:01:53.203Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f1bfeb145da44f7eb90b80"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-17T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251017T040251Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 7.96,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-17T04:02:51.042Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f3114d145da44f7eb90b81"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-18T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251018T040221Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.2,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-18T04:02:21.631Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f3118e145da44f7eb90b82"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-18T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251018T040326Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 7.97,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-18T04:03:26.805Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f4628a88a5092e1992c0b2"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-19T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251019T040114Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.08,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-19T04:01:14.525Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f462b888a5092e1992c0b3"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-19T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251019T040200Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 8.24,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-19T04:02:00.901Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f5b40988a5092e1992c0b4"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251020T040113Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.46,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-20T04:01:13.174Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f5b43788a5092e1992c0b5"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251020T040159Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 8.03,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-20T04:01:59.875Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f6512c95015379250a3739"
+  },
+  "industry": "fsi",
+  "use_case": "investment_research",
+  "report_date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251020T151140Z_fsi_investment_research.pdf",
+  "file_size_kb": 10.35,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-20T15:11:40.459Z"
+  },
+  "chunk_count": 10,
+  "document_count": 3
+},
+{
+  "_id": {
+    "$oid": "68f65e3189ee8663e99bb471"
+  },
+  "industry": "fsi",
+  "use_case": "kyc_onboarding",
+  "report_date": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251020T160713Z_fsi_kyc_onboarding.pdf",
+  "file_size_kb": 9.21,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-20T16:07:13.208Z"
+  },
+  "chunk_count": 4,
+  "document_count": 2
+},
+{
+  "_id": {
+    "$oid": "68f7059188a5092e1992c0e2"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251021T040121Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.23,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-21T04:01:21.326Z"
+  },
+  "chunk_count": 19,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f705c588a5092e1992c0e3"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251021T040213Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 7.61,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-21T04:02:13.434Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f7060788a5092e1992c0e4"
+  },
+  "industry": "fsi",
+  "use_case": "kyc_onboarding",
+  "report_date": {
+    "$date": "2025-10-21T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251021T040319Z_fsi_kyc_onboarding.pdf",
+  "file_size_kb": 8.8,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-21T04:03:19.163Z"
+  },
+  "chunk_count": 4,
+  "document_count": 2
+},
+{
+  "_id": {
+    "$oid": "68f8572a88a5092e1992c0e5"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T040146Z_fsi_credit_rating.pdf",
+  "file_size_kb": 11.2,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T04:01:46.621Z"
+  },
+  "chunk_count": 15,
+  "document_count": 4
+},
+{
+  "_id": {
+    "$oid": "68f8576388a5092e1992c0e6"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T040243Z_fsi_payment_processing_exception.pdf",
+  "file_size_kb": 7.57,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T04:02:43.942Z"
+  },
+  "chunk_count": 14,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f857a088a5092e1992c0e7"
+  },
+  "industry": "fsi",
+  "use_case": "kyc_onboarding",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T040344Z_fsi_kyc_onboarding.pdf",
+  "file_size_kb": 9.27,
+  "total_pages": 4,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T04:03:44.636Z"
+  },
+  "chunk_count": 4,
+  "document_count": 2
+},
+{
+  "_id": {
+    "$oid": "68f898610b5eb37fd4695e83"
+  },
+  "industry": "fsi",
+  "use_case": "loan_origination",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T084001Z_fsi_loan_origination.pdf",
+  "file_size_kb": 7.46,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T08:40:01.539Z"
+  },
+  "chunk_count": 11,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f89d71da1e75ff3814917b"
+  },
+  "industry": "fsi",
+  "use_case": "loan_origination",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T090137Z_fsi_loan_origination.pdf",
+  "file_size_kb": 7.68,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T09:01:37.172Z"
+  },
+  "chunk_count": 11,
+  "document_count": 5
+},
+{
+  "_id": {
+    "$oid": "68f8a2bc1f565bc0eb0de59c"
+  },
+  "industry": "fsi",
+  "use_case": "loan_origination",
+  "report_date": {
+    "$date": "2025-10-22T00:00:00.000Z"
+  },
+  "file_path": "/reports/fsi/20251022T092412Z_fsi_loan_origination.pdf",
+  "file_size_kb": 7.61,
+  "total_pages": 3,
+  "status": "generated",
+  "generated_at": {
+    "$date": "2025-10-22T09:24:12.306Z"
+  },
+  "chunk_count": 11,
+  "document_count": 5
+}]

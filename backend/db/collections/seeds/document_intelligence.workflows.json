@@ -1,0 +1,1415 @@
+[{
+  "_id": {
+    "$oid": "68f8a7d34d3a5da46373e33e"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T09:45:55.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d3a5da46373e33c"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T09:44:30.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6d24d3a5da46373e33b"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T09:41:38.546Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a24f4d3a5da46373e30a"
+  },
+  "workflow_id": "fsi_loan_origination_1761124933589",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T09:22:23.145Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f89ab84d3a5da46373e2eb"
+  },
+  "workflow_id": "fsi_loan_origination_1761122990618",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@s3@fsi/loan_origination",
+    "@local@/docs/fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:50:00.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f897e44d3a5da46373e2ea"
+  },
+  "workflow_id": "fsi_loan_origination_1761122275319",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:37:55.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8974c4d3a5da46373e2e7"
+  },
+  "workflow_id": "fsi_loan_origination_1761122124500",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:35:24.731Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f896364d3a5da46373e2e5"
+  },
+  "workflow_id": "fsi_loan_origination_1761121845834",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:30:46.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f894674d3a5da46373e2df"
+  },
+  "workflow_id": "fsi_loan_origination_1761121373030",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:23:02.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f891ef4d3a5da46373e2d6"
+  },
+  "workflow_id": "fsi_loan_origination_1761120741093",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/loan_origination",
+    "@s3@fsi/loan_origination",
+    "@gdrive@fsi/loan_origination"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-22T08:12:31.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f790064d3a5da46373df4b"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1761054717349",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/kyc_onboarding",
+    "@s3@fsi/kyc_onboarding",
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-21T13:52:06.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f7520e4d3a5da46373dee2"
+  },
+  "workflow_id": "fsi_investment_research_1761038861946",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/investment_research",
+    "@s3@fsi/investment_research",
+    "@gdrive@fsi/investment_research"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-21T09:27:42.462Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f751dd4d3a5da46373dee1"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1761038813181",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/kyc_onboarding",
+    "@s3@fsi/kyc_onboarding",
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-21T09:26:53.699Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f750ff4d3a5da46373ded4"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1761038590351",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-21T09:23:11.151Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f736a44d3a5da46373ddf4"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1761031834871",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/kyc_onboarding",
+    "@s3@fsi/kyc_onboarding",
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-21T07:30:44.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f68a514d3a5da46373db1f"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760987733960",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T19:15:29.103Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f65c0d4d3a5da46373dade"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760975884544",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/kyc_onboarding",
+    "@s3@fsi/kyc_onboarding",
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T15:58:05.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f659b94d3a5da46373dad7"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760975281360",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/kyc_onboarding",
+    "@s3@fsi/kyc_onboarding",
+    "@gdrive@fsi/kyc_onboarding"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T15:48:09.580Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f64c524d3a5da46373da59"
+  },
+  "workflow_id": "fsi_investment_research_1760971849475",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/investment_research",
+    "@s3@fsi/investment_research",
+    "@gdrive@fsi/investment_research"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T14:50:58.496Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f633024d3a5da46373d979"
+  },
+  "workflow_id": "fsi_credit_rating_1760965377726",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T13:02:58.285Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f6309e4d3a5da46373d978"
+  },
+  "workflow_id": "fsi_credit_rating_1760964765139",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T12:52:46.165Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f622ef4d3a5da46373d75b"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760961254813",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T11:54:23.505Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f6077d4d3a5da46373d71d"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760954237009",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T09:57:17.521Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f604a64d3a5da46373d71c"
+  },
+  "workflow_id": "fsi_credit_rating_1760953502825",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T09:45:10.816Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f5ff6c4d3a5da46373d709"
+  },
+  "workflow_id": "fsi_credit_rating_1760952165220",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-20T09:22:52.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ef98dd5fc2bb6e17eb0a56"
+  },
+  "workflow_id": "fsi_credit_rating_1760532700762",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-15T12:51:40.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ef96415fc2bb6e17eb0a4b"
+  },
+  "workflow_id": "fsi_credit_rating_1760532031594",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-15T12:40:32.927Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee6e865fc2bb6e17eb05f1"
+  },
+  "workflow_id": "fsi_credit_rating_1760456326050",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T15:38:46.288Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee693c5fc2bb6e17eb0595"
+  },
+  "workflow_id": "fsi_credit_rating_1760454971930",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T15:16:12.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee67f65fc2bb6e17eb0594"
+  },
+  "workflow_id": "fsi_credit_rating_1760454638622",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T15:10:46.504Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee66805fc2bb6e17eb0593"
+  },
+  "workflow_id": "fsi_credit_rating_1760454263146",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T15:04:32.003Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee64a05fc2bb6e17eb0562"
+  },
+  "workflow_id": "fsi_credit_rating_1760453785565",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T14:56:32.432Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee62905fc2bb6e17eb0561"
+  },
+  "workflow_id": "fsi_credit_rating_1760453257381",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T14:47:43.943Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee60b15fc2bb6e17eb053c"
+  },
+  "workflow_id": "fsi_credit_rating_1760452778863",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T14:39:45.608Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee29ea5fc2bb6e17eb045d"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760438761691",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:46:02.205Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee290f5fc2bb6e17eb045c"
+  },
+  "workflow_id": "fsi_credit_rating_1760438534200",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@gdrive@fsi/credit_rating",
+    "@s3@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:42:23.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee26925fc2bb6e17eb03bd"
+  },
+  "workflow_id": "fsi_credit_rating_1760437898212",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:31:46.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee25b05fc2bb6e17eb03bc"
+  },
+  "workflow_id": "fsi_credit_rating_1760437680104",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:28:00.637Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee22495fc2bb6e17eb03a3"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760436808392",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:13:28.891Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee20715fc2bb6e17eb038a"
+  },
+  "workflow_id": "fsi_credit_rating_1760436336774",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@s3@fsi/credit_rating",
+    "@local@/docs/fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T10:05:37.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee1eb25fc2bb6e17eb037d"
+  },
+  "workflow_id": "fsi_credit_rating_1760435889871",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T09:58:10.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee1bbd5fc2bb6e17eb036a"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760435132754",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T09:45:33.156Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee0f865fc2bb6e17eb035d"
+  },
+  "workflow_id": "fsi_credit_rating_1760431998284",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-14T08:53:26.872Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ed26575fc2bb6e17eb010d"
+  },
+  "workflow_id": "fsi_credit_rating_1760372302337",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T16:18:31.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ed1fac5fc2bb6e17eb010c"
+  },
+  "workflow_id": "fsi_credit_rating_1760370604236",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T15:50:04.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ed1e885fc2bb6e17eb010b"
+  },
+  "workflow_id": "fsi_credit_rating_1760370312201",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T15:45:12.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ed11e15fc2bb6e17eb010a"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760367065141",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T14:51:13.413Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68eccde55fc2bb6e17eaffd0"
+  },
+  "workflow_id": "fsi_credit_rating_1760349668756",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T10:01:09.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68eccd065fc2bb6e17eaffcf"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760349446234",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:57:26.549Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68eccb085fc2bb6e17eaffce"
+  },
+  "workflow_id": "fsi_credit_rating_1760348927945",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:48:56.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecc7845fc2bb6e17eaffcd"
+  },
+  "workflow_id": "fsi_credit_rating_1760348035802",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:33:56.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecc0a25fc2bb6e17eaff02"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760346274385",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:04:34.672Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecc07e5fc2bb6e17eaff01"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760346237902",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:03:58.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecc0605fc2bb6e17eaff00"
+  },
+  "workflow_id": "fsi_credit_rating_1760346207633",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:03:27.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecc0155fc2bb6e17eafedb"
+  },
+  "workflow_id": "fsi_credit_rating_1760346132974",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T09:02:13.229Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecbf335fc2bb6e17eafeb1"
+  },
+  "workflow_id": "fsi_credit_rating_1760345907530",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:58:27.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecbf0f5fc2bb6e17eafeb0"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760345871049",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:57:51.303Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecbe895fc2bb6e17eafe9d"
+  },
+  "workflow_id": "fsi_credit_rating_1760345737245",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:55:37.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecba295fc2bb6e17eafc80"
+  },
+  "workflow_id": "fsi_credit_rating_1760344616750",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:36:57.012Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecb9fa5fc2bb6e17eafc7f"
+  },
+  "workflow_id": "fsi_credit_rating_1760344570143",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:36:10.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecb26a5fc2bb6e17eafb38"
+  },
+  "workflow_id": "fsi_credit_rating_1760342634519",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:03:54.762Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68ecb23a5fc2bb6e17eafb37"
+  },
+  "workflow_id": "fsi_credit_rating_1760342578149",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-13T08:03:06.518Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e958785fc2bb6e17eaf1d1"
+  },
+  "workflow_id": "fsi_credit_rating_1760123002693",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T19:03:20.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e9284b5fc2bb6e17eaf154"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760110658026",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T15:37:47.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e9223f5fc2bb6e17eaf129"
+  },
+  "workflow_id": "fsi_credit_rating_1760109110248",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T15:11:58.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e91de95fc2bb6e17eaf110"
+  },
+  "workflow_id": "fsi_credit_rating_1760108001752",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T14:53:29.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e914eb5fc2bb6e17eaf109"
+  },
+  "workflow_id": "fsi_credit_rating_1760105706827",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T14:15:07.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e8ff0a5fc2bb6e17eaf0ea"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760100105213",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T12:41:46.008Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e8f66f5fc2bb6e17eaf0cb"
+  },
+  "workflow_id": "fsi_credit_rating_1760097895195",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T12:05:03.006Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e8cec95fc2bb6e17eaf0a8"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760087744255",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T09:15:53.392Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e8c9305fc2bb6e17eaf0a7"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760086310577",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@s3@fsi/payment_processing_exception",
+    "@local@/docs/fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-10T08:52:00.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7ee275fc2bb6e17eaede2"
+  },
+  "workflow_id": "fsi_credit_rating_1760030249129",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T17:17:27.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d87e5fc2bb6e17eaeddb"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760024701543",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T15:45:02.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d70b5fc2bb6e17eaedd9"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760024330731",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T15:38:51.228Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d25d5fc2bb6e17eaedad"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_processing_exception",
+    "@s3@fsi/payment_processing_exception",
+    "@gdrive@fsi/payment_processing_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T15:18:53.563Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d1175fc2bb6e17eaedac"
+  },
+  "workflow_id": "fsi_payment_exception_1760022799443",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/payment_exception",
+    "@s3@fsi/payment_exception",
+    "@gdrive@fsi/payment_exception"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T15:13:27.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7b2fc5fc2bb6e17eadb03"
+  },
+  "workflow_id": "fsi_credit_rating_1760015099677",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T13:05:00.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7af945fc2bb6e17ead5b8"
+  },
+  "workflow_id": "fsi_credit_rating_1760014227518",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T12:50:28.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e790225fc2bb6e17ead132"
+  },
+  "workflow_id": "fsi_credit_rating_1760006170735",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T10:36:17.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e775d45fc2bb6e17eacc98"
+  },
+  "workflow_id": "fsi_credit_rating_1759999443212",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T08:44:04.239Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e767695fc2bb6e17eacbb0"
+  },
+  "workflow_id": "fsi_credit_rating_1759995753023",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@gdrive@fsi/credit_rating",
+    "@s3@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T07:42:33.904Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e760ab5fc2bb6e17eacbad"
+  },
+  "workflow_id": "fsi_credit_rating_1759994025861",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-09T07:13:47.267Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e01e0900458dc4bd86257e"
+  },
+  "workflow_id": "fsi_credit_rating_1759518217011",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T19:03:37.523Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dff71d00458dc4bd86252a"
+  },
+  "workflow_id": "fsi_credit_rating_1759508252239",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T16:17:33.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dff24000458dc4bd862522"
+  },
+  "workflow_id": "fsi_credit_rating_1759507007409",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T15:56:48.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfec6300458dc4bd862521"
+  },
+  "workflow_id": "fsi_credit_rating_1759505506419",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T15:31:47.505Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfe92a00458dc4bd86250e"
+  },
+  "workflow_id": "fsi_credit_rating_1759504681359",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T15:18:02.634Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfe1db00458dc4bd8624f4"
+  },
+  "workflow_id": "fsi_credit_rating_1759502810372",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T14:46:51.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfdbe800458dc4bd8624f3"
+  },
+  "workflow_id": "fsi_credit_rating_1759501287749",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@s3@fsi/credit_rating",
+    "@local@/docs/fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T14:21:28.771Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfd07f00458dc4bd8624f2"
+  },
+  "workflow_id": "fsi_credit_rating_1759498365269",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T13:32:47.195Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfbbe000458dc4bd8624e3"
+  },
+  "workflow_id": "fsi_credit_rating_1759493087859",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T12:04:48.223Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68dfba2500458dc4bd8624ca"
+  },
+  "workflow_id": "fsi_credit_rating_1759492636881",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T11:57:25.256Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68df893000458dc4bd86248d"
+  },
+  "workflow_id": "fsi_credit_rating_1759480105289",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T08:28:32.507Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68df880800458dc4bd86248a"
+  },
+  "workflow_id": "fsi_credit_rating_1759479815437",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T08:23:35.953Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68df85e600458dc4bd862435"
+  },
+  "workflow_id": "fsi_credit_rating_1759479262406",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating",
+    "@s3@fsi/credit_rating",
+    "@gdrive@fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-03T08:14:30.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de949000458dc4bd861efa"
+  },
+  "workflow_id": "fsi_credit_rating_1759417488508",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-02T15:04:48.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de7d4e00458dc4bd861eba"
+  },
+  "workflow_id": "fsi_credit_rating_1759411526671",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-02T13:25:34.220Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de7b0200458dc4bd861eb9"
+  },
+  "workflow_id": "fsi_credit_rating_1759410946138",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-02T13:15:46.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de7a1300458dc4bd861eb8"
+  },
+  "workflow_id": "fsi_credit_rating_1759410707603",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-02T13:11:47.811Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de497700458dc4bd861eb6"
+  },
+  "workflow_id": "fsi_credit_rating_1759398259864",
+  "endpoint": "/api/ingestion/start",
+  "source_paths": [
+    "@local@/docs/fsi/credit_rating"
+  ],
+  "triggered_at": {
+    "$date": "2025-10-02T09:44:23.103Z"
+  }
+}]

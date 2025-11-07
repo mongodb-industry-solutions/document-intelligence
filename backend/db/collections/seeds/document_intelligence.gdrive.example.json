@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "YOUR_OBJECT_ID_HERE"
+  },
+  "config_name": "gdrive_global_config",
+  "type": "global_config",
+  "source_type": "gdrive",
+  "root_folder_id": "YOUR_ROOT_FOLDER_ID_HERE",
+  "root_folder_name": "Your Demo Folder Name",
+  "access_method": "public_folder",
+  "authentication": "none_required",
+  "base_url": "https://drive.google.com/drive/folders/YOUR_ROOT_FOLDER_ID_HERE",
+  "created_at": {
+    "$date": "2025-09-03T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "YOUR_OBJECT_ID_HERE"
+  },
+  "config_name": "gdrive_industry_fsi",
+  "type": "industry_config",
+  "source_type": "gdrive",
+  "industry": "fsi",
+  "name": "Financial Services",
+  "folder_id": "YOUR_FSI_FOLDER_ID_HERE",
+  "folder_url": "https://drive.google.com/drive/folders/YOUR_FSI_FOLDER_ID_HERE",
+  "use_cases": {
+    "credit_rating": {
+      "folder_id": "YOUR_CREDIT_RATING_FOLDER_ID_HERE",
+      "folder_url": "https://drive.google.com/drive/folders/YOUR_CREDIT_RATING_FOLDER_ID_HERE"
+    }
+  },
+  "enabled": true,
+  "created_at": {
+    "$date": "2025-09-03T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-03T00:00:00.000Z"
+  }
+}]

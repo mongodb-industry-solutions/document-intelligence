@@ -1,0 +1,655 @@
+[{
+  "_id": {
+    "$oid": "68df85fc00458dc4bd862436"
+  },
+  "document_id": "doc_266ca851",
+  "document_name": "3c_Aerospace_Manufacturing_Sector_Study.docx",
+  "document_path": "@local@/docs/fsi/credit_rating/3c_Aerospace_Manufacturing_Sector_Study.docx",
+  "file_size_mb": 0.01371002197265625,
+  "assessment": {
+    "main_entity": "Aerospace Manufacturing Sector Default Study",
+    "document_category": "Credit Risk Analysis Report",
+    "key_topics": [
+      "default rates analysis",
+      "credit ratings",
+      "industry risk assessment"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both financial services and credit rating analysis as it contains detailed credit default analysis, rating categories, and risk assessment for the aerospace manufacturing sector. It includes specific credit rating categories (BBB, BB, B, CCC), default rates, and temporal analysis of credit performance - all core elements of credit rating analysis and financial risk assessment.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-03T08:14:52.020Z"
+  },
+  "workflow_id": "fsi_credit_rating_1759479262406"
+},
+{
+  "_id": {
+    "$oid": "68df861200458dc4bd862437"
+  },
+  "document_id": "doc_e2ba3934",
+  "document_name": "2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+  "file_size_mb": 0.10473346710205078,
+  "assessment": {
+    "main_entity": "AeroTech Manufacturing Corp.",
+    "document_category": "Credit Rating Report",
+    "key_topics": [
+      "credit rating analysis",
+      "outlook revision",
+      "corporate financial assessment"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it is a formal credit rating analysis report from Sovereign Risk Analytics, containing a detailed credit rating outlook update (BB+ rating), specific financial analysis, and future rating prospects. It directly addresses both credit rating analysis and financial services industry requirements.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-03T08:15:14.584Z"
+  },
+  "workflow_id": "fsi_credit_rating_1759479262406"
+},
+{
+  "_id": {
+    "$oid": "68df862600458dc4bd862438"
+  },
+  "document_id": "doc_3885274e",
+  "document_name": "4-rainy-day-pizza.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/4-rainy-day-pizza.pdf",
+  "file_size_mb": 0.23098087310791016,
+  "assessment": {
+    "main_entity": "Pizza recipe document",
+    "document_category": "Cooking/Recipe instructions",
+    "key_topics": [
+      "food preparation",
+      "cooking instructions",
+      "children's activities"
+    ],
+    "relevance_score": 0,
+    "reasoning": "This document is completely irrelevant to both financial services and credit rating analysis. It is a simple recipe instruction sheet for making homemade pizzas with children during rainy days. It contains cooking ingredients, methods, and equipment needed for pizza preparation. There are no financial or credit-related elements whatsoever.",
+    "should_process": false
+  },
+  "assessed_at": {
+    "$date": "2025-10-03T08:15:33.937Z"
+  },
+  "workflow_id": "fsi_credit_rating_1759479262406"
+},
+{
+  "_id": {
+    "$oid": "68df882c00458dc4bd86248b"
+  },
+  "document_id": "doc_1ef31442",
+  "document_name": "4c_Market_Economic_Research_Publication.pdf",
+  "document_path": "@gdrive@fsi/credit_rating/4c_Market_Economic_Research_Publication.pdf",
+  "file_size_mb": 0.10487079620361328,
+  "assessment": {
+    "main_entity": "Aerospace Manufacturing Sector",
+    "document_category": "Market Research Report",
+    "key_topics": [
+      "sector credit analysis",
+      "market fundamentals",
+      "industry growth projections"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both financial services and credit rating analysis as it is explicitly created by 'Sovereign Risk Analytics' for credit rating purposes in the aerospace sector. It contains market analysis, growth projections, and sector recommendations that directly inform credit rating decisions. The document includes specific financial metrics and market fundamentals that are essential for credit risk assessment.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-03T08:24:12.015Z"
+  },
+  "workflow_id": "fsi_credit_rating_1759479815437"
+},
+{
+  "_id": {
+    "$oid": "68e7d2795fc2bb6e17eaedaf"
+  },
+  "document_id": "doc_116ad023",
+  "document_name": "Operational_Memo.pdf",
+  "document_path": "@local@/docs/fsi/payment_processing_exception/Operational_Memo.pdf",
+  "file_size_mb": 0.36187076568603516,
+  "assessment": {
+    "main_entity": "First National Bank Credit Card Operations Division",
+    "document_category": "Operational Memorandum",
+    "key_topics": [
+      "merchant non-response handling",
+      "chargeback disputes",
+      "exception handling procedures"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it directly addresses both financial services and exception handling in payment processing. It is an official bank memo specifically about new procedures for handling merchant non-response cases in chargeback disputes, including reference to exception reports and dispute resolution processes. The document contains specific operational procedures for a bank's credit card division, making it relevant to both the financial services industry and payment processing exception handling.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:19:21.176Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d28b5fc2bb6e17eaedb0"
+  },
+  "document_id": "doc_68bb491d",
+  "document_name": "Credit_Card_Settlement_Statement.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Credit_Card_Settlement_Statement.pdf",
+  "file_size_mb": 0.24028968811035156,
+  "assessment": {
+    "main_entity": "Credit Card Dispute Settlement Statement",
+    "document_category": "Financial Services Documentation",
+    "key_topics": [
+      "chargeback dispute",
+      "refund processing failure",
+      "dispute resolution"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both the financial services industry and exception handling in payment processing. It is an official dispute resolution statement from First National Bank showing a chargeback case where a merchant failed to process a refund. The document contains specific dispute handling details including reference numbers, transaction information, and resolution status - perfectly aligned with both the industry and exception handling requirements.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:19:39.890Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d29f5fc2bb6e17eaedb1"
+  },
+  "document_id": "doc_241bf8dd",
+  "document_name": "Exception_Report.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Exception_Report.pdf",
+  "file_size_mb": 0.3869171142578125,
+  "assessment": {
+    "main_entity": "First National Bank Exception Report",
+    "document_category": "Financial Services Quality Assurance Report",
+    "key_topics": [
+      "merchant non-response exceptions",
+      "payment processing issues",
+      "credit card operations"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it is both a financial services industry document (from First National Bank's Credit Card Operations) AND specifically focuses on exception handling in payment processing. It contains detailed exception reporting, including merchant non-response cases, processing delays, and system errors related to payment processing. The document includes specific metrics, priority levels, and financial amounts related to exception handling.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:19:59.554Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d2b35fc2bb6e17eaedb2"
+  },
+  "document_id": "doc_ef5b1da6",
+  "document_name": "Payment_Investigation_Ticket.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Payment_Investigation_Ticket.pdf",
+  "file_size_mb": 0.3242454528808594,
+  "assessment": {
+    "main_entity": "Payment Investigation Ticket",
+    "document_category": "Banking Investigation Document",
+    "key_topics": [
+      "merchant chargeback investigation",
+      "payment dispute resolution",
+      "cardholder dispute handling"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both the financial services industry and exception handling in payment processing. It is an official payment investigation ticket from First National Bank's Payment Investigation Department, specifically dealing with a cardholder dispute and merchant non-response case. The document contains formal banking investigation details, dispute resolution tracking, and payment processing exception handling elements.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:20:19.060Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d2cd5fc2bb6e17eaedb3"
+  },
+  "document_id": "doc_e6d0edb4",
+  "document_name": "Credit_Card_Reconciliation_Report.pdf",
+  "document_path": "@gdrive@fsi/payment_processing_exception/Credit_Card_Reconciliation_Report.pdf",
+  "file_size_mb": 0.20011043548583984,
+  "assessment": {
+    "main_entity": "Credit Card Account Reconciliation Report",
+    "document_category": "Financial Statement",
+    "key_topics": [
+      "credit card transactions",
+      "payment disputes",
+      "transaction reconciliation"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it contains both financial services content (credit card statement from First National Bank) and exception handling elements (disputed charge with reference number DSP-2024-003847). The document shows transaction details, reconciliation status, and specifically highlights a disputed transaction, which directly relates to payment processing exception handling.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:20:45.549Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d2ea5fc2bb6e17eaedb4"
+  },
+  "document_id": "doc_118eb89b",
+  "document_name": "Dispute_Letter.pdf",
+  "document_path": "@gdrive@fsi/payment_processing_exception/Dispute_Letter.pdf",
+  "file_size_mb": 0.08174610137939453,
+  "assessment": {
+    "main_entity": "Credit Card Dispute Letter",
+    "document_category": "Financial Services Documentation",
+    "key_topics": [
+      "credit card dispute",
+      "refund processing failure",
+      "merchant return handling"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both the financial services industry and exception handling in payment processing. It's a formal credit card dispute letter to a bank regarding a failed refund processing, which directly addresses payment processing exceptions. The document includes specific financial details, merchant interaction, and banking procedures for dispute resolution.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:21:13.944Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760023126468"
+},
+{
+  "_id": {
+    "$oid": "68e7d88e5fc2bb6e17eaeddc"
+  },
+  "document_id": "doc_b82576e8",
+  "document_name": "Email_Correspondence_Case_DSP003847.pdf",
+  "document_path": "@local@/docs/fsi/payment_processing_exception/Email_Correspondence_Case_DSP003847.pdf",
+  "file_size_mb": 0.8597135543823242,
+  "assessment": {
+    "main_entity": "Email correspondence for case DSP-2024-003847",
+    "document_category": "Payment dispute case file",
+    "key_topics": [
+      "payment processing",
+      "order confirmation",
+      "customer transaction"
+    ],
+    "relevance_score": 90,
+    "reasoning": "This document is highly relevant as it's part of a payment processing exception case (DSP-2024-003847) and contains transaction details including payment method, order amount, and customer information. The document appears to be part of a dispute case file, which directly relates to exception handling in payment processing. The presence of payment details (Visa card) and transaction information makes it relevant to financial services.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-09T15:45:17.852Z"
+  },
+  "workflow_id": "fsi_payment_processing_exception_1760024701543"
+},
+{
+  "_id": {
+    "$oid": "68ee60d85fc2bb6e17eb055d"
+  },
+  "document_id": "doc_8972fe76",
+  "document_name": "4c_Market_Economic_Research_Publication.docx",
+  "document_path": "@local@/docs/fsi/credit_rating/4c_Market_Economic_Research_Publication.docx",
+  "file_size_mb": 0.011783599853515625,
+  "assessment": {
+    "main_entity": "Aerospace Manufacturing Sector",
+    "document_category": "Market Research Report",
+    "key_topics": [
+      "sector analysis",
+      "market fundamentals",
+      "risk assessment",
+      "industry growth projections"
+    ],
+    "relevance_score": 70,
+    "reasoning": "This document is relevant to the financial services industry as it's a market research report from 'Sovereign Risk Analytics' that provides financial analysis and risk assessment of the aerospace sector. While it's not specifically about credit ratings, it contains financial market analysis and risk evaluation that would be valuable for financial services professionals making investment or lending decisions. The document includes market size, growth projections, and sector recommendations which are typical components of financial analysis.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-14T14:40:24.234Z"
+  },
+  "workflow_id": "fsi_credit_rating_1760452778863"
+},
+{
+  "_id": {
+    "$oid": "68f64c684d3a5da46373da5a"
+  },
+  "document_id": "doc_0eb462a6",
+  "document_name": "ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+  "document_path": "@local@/docs/fsi/investment_research/ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+  "file_size_mb": 0.03771209716796875,
+  "assessment": {
+    "main_entity": "McKinsey Technology Trends Outlook 2025",
+    "document_category": "Investment Research Report",
+    "key_topics": [
+      "technology investment trends",
+      "frontier technologies",
+      "investment analysis"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both financial services and investment research as it provides detailed analysis of technology investment trends, including specific investment figures ($250B+, $124B), growth rates (+33% YoY), and market analysis. It serves as professional investment research material that would be valuable for financial services firms and investors making technology investment decisions.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T14:51:20.476Z"
+  },
+  "workflow_id": "fsi_investment_research_1760971849475"
+},
+{
+  "_id": {
+    "$oid": "68f64c704d3a5da46373da5b"
+  },
+  "document_id": "doc_40b88406",
+  "document_name": "PressRelease_Amazon.docx",
+  "document_path": "@local@/docs/fsi/investment_research/PressRelease_Amazon.docx",
+  "file_size_mb": 0.01123809814453125,
+  "assessment": {
+    "main_entity": "Nasdaq and AWS Partnership",
+    "document_category": "Strategic Business Report",
+    "key_topics": [
+      "Financial infrastructure modernization",
+      "Cloud services in capital markets",
+      "Financial technology platforms"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both financial services and investment research as it details a strategic partnership between Nasdaq and AWS to deliver capital markets and treasury management platforms. It directly addresses financial infrastructure modernization, regulatory compliance, and trading operations which are core to financial services. The content includes analysis of market opportunities and industry challenges in financial technology.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T14:51:28.268Z"
+  },
+  "workflow_id": "fsi_investment_research_1760971849475"
+},
+{
+  "_id": {
+    "$oid": "68f64c854d3a5da46373da5c"
+  },
+  "document_id": "doc_be99079f",
+  "document_name": "EarningsReport_Amazon.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/investment_research/EarningsReport_Amazon.pdf",
+  "file_size_mb": 0.09678363800048828,
+  "assessment": {
+    "main_entity": "Amazon.com, Inc.",
+    "document_category": "Financial Statement",
+    "key_topics": [
+      "Cash Flow Statement",
+      "Operating Activities",
+      "Investing Activities",
+      "Financing Activities"
+    ],
+    "relevance_score": 85,
+    "reasoning": "This is a consolidated statement of cash flows from Amazon.com, which is highly relevant to financial services and investment research. It contains detailed financial data including operating activities, investing activities, and financing activities that would be essential for financial analysis and investment decisions. While Amazon itself is not a financial services company, this document is a crucial financial statement used in investment research and analysis.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T14:51:48.831Z"
+  },
+  "workflow_id": "fsi_investment_research_1760971849475"
+},
+{
+  "_id": {
+    "$oid": "68f64c9e4d3a5da46373da5d"
+  },
+  "document_id": "doc_24944c02",
+  "document_name": "AnnualReport_Amazon.pdf",
+  "document_path": "@gdrive@fsi/investment_research/AnnualReport_Amazon.pdf",
+  "file_size_mb": 0.03371620178222656,
+  "assessment": {
+    "main_entity": "Amazon",
+    "document_category": "Investment Research Report",
+    "key_topics": [
+      "Financial Performance Analysis",
+      "Business Segment Analysis",
+      "Strategic Outlook",
+      "Investment Risk Assessment"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it is a comprehensive investment research summary of Amazon's annual report, containing detailed financial analysis, performance metrics, strategic insights, and risk assessment - all critical components for investment research in the financial services industry. It includes key financial data, growth metrics, segment analysis, and forward-looking investment considerations.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T14:52:14.276Z"
+  },
+  "workflow_id": "fsi_investment_research_1760971849475"
+},
+{
+  "_id": {
+    "$oid": "68f659cd4d3a5da46373dad8"
+  },
+  "document_id": "doc_499c9442",
+  "document_name": "OnboardingForm_Jonathan.pdf",
+  "document_path": "@local@/docs/fsi/kyc_onboarding/OnboardingForm_Jonathan.pdf",
+  "file_size_mb": 0.3443870544433594,
+  "assessment": {
+    "main_entity": "Client Onboarding KYC Application Form",
+    "document_category": "Financial Services Documentation",
+    "key_topics": [
+      "KYC Documentation",
+      "Client Onboarding",
+      "Personal Identification",
+      "Financial Services"
+    ],
+    "relevance_score": 100,
+    "reasoning": "This document is highly relevant as it is a KYC (Know Your Customer) application form from a financial services company (Global Financial Services Ltd). It directly serves both the financial services industry and KYC onboarding process, containing essential fields for customer identification, personal information, and documentation required for financial services compliance.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T15:48:29.322Z"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760975281360"
+},
+{
+  "_id": {
+    "$oid": "68f659fa4d3a5da46373dada"
+  },
+  "document_id": "doc_a1c11552",
+  "document_name": "DriverLicense_Jonathan.pdf",
+  "document_path": "@gdrive@fsi/kyc_onboarding/DriverLicense_Jonathan.pdf",
+  "file_size_mb": 0.23070049285888672,
+  "assessment": {
+    "main_entity": "Driver's License",
+    "document_category": "Government Identification Document",
+    "key_topics": [
+      "identity verification",
+      "personal identification",
+      "government documentation"
+    ],
+    "relevance_score": 85,
+    "reasoning": "This driver's license is highly relevant to KYC (Know Your Customer) onboarding processes in financial services, as it serves as a primary form of government-issued identification used to verify customer identity during account opening and other financial transactions. Financial institutions are required to collect and verify valid government IDs as part of regulatory compliance and anti-money laundering (AML) procedures.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T15:49:14.753Z"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760975281360"
+},
+{
+  "_id": {
+    "$oid": "68f65c2a4d3a5da46373dadf"
+  },
+  "document_id": "doc_212997ec",
+  "document_name": "ElectricBill_Jonathan.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/kyc_onboarding/ElectricBill_Jonathan.pdf",
+  "file_size_mb": 0.36945056915283203,
+  "assessment": {
+    "main_entity": "Utility Bill",
+    "document_category": "Proof of Address Document",
+    "key_topics": [
+      "residential utility statement",
+      "proof of address",
+      "customer billing information"
+    ],
+    "relevance_score": 75,
+    "reasoning": "This utility bill is relevant as a proof of address document commonly used in KYC customer onboarding processes. It contains key verification elements like full name, service address, account number, and current billing period. Utility bills are standard accepted documents for address verification in financial services customer onboarding.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-20T15:58:34.700Z"
+  },
+  "workflow_id": "fsi_kyc_onboarding_1760975884544"
+},
+{
+  "_id": {
+    "$oid": "68f892104d3a5da46373e2d7"
+  },
+  "document_id": "doc_e67a4374",
+  "document_name": "CreditReport_FridaKlo.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/CreditReport_FridaKlo.pdf",
+  "file_size_mb": 0.2162342071533203,
+  "assessment": {
+    "main_entity": "Credit Report",
+    "document_category": "Consumer Credit Profile",
+    "key_topics": [
+      "credit score",
+      "payment history",
+      "credit utilization",
+      "personal financial data"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant to both financial services and loan origination/underwriting. It's an Equifax credit report containing FICO score, credit history, payment patterns, and detailed financial information that would be essential for loan underwriting decisions. The document includes key metrics like credit utilization, outstanding debt, and payment history that are fundamental to credit assessment.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:13:03.807Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761120741093"
+},
+{
+  "_id": {
+    "$oid": "68f892264d3a5da46373e2d8"
+  },
+  "document_id": "doc_696a1405",
+  "document_name": "PropertyAppraisalReport_FridaKlo.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/PropertyAppraisalReport_FridaKlo.pdf",
+  "file_size_mb": 0.19751834869384766,
+  "assessment": {
+    "main_entity": "Residential Property Appraisal Report",
+    "document_category": "Property Valuation Document",
+    "key_topics": [
+      "property appraisal",
+      "market value assessment",
+      "real estate valuation"
+    ],
+    "relevance_score": 90,
+    "reasoning": "This document is highly relevant to both the financial services industry and loan origination/underwriting process. Property appraisal reports are essential documents used by financial institutions to determine property values for mortgage lending decisions. The document contains a professional market value assessment ($875,000) and detailed property information that would be directly used in loan underwriting processes.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:13:26.285Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761120741093"
+},
+{
+  "_id": {
+    "$oid": "68f892404d3a5da46373e2d9"
+  },
+  "document_id": "doc_31215d11",
+  "document_name": "Payslips_FridaKlo.pdf",
+  "document_path": "@gdrive@fsi/loan_origination/Payslips_FridaKlo.pdf",
+  "file_size_mb": 0.14837169647216797,
+  "assessment": {
+    "main_entity": "Pay Stub",
+    "document_category": "Income Verification Document",
+    "key_topics": [
+      "employment income",
+      "payroll documentation",
+      "income verification"
+    ],
+    "relevance_score": 85,
+    "reasoning": "This pay stub is highly relevant to loan origination and underwriting as it serves as an official income verification document. Pay stubs are essential documents used by lenders to verify an applicant's income, employment status, and ability to repay loans. It contains key information like gross pay, net pay, and tax deductions that are crucial for loan underwriting processes.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:13:52.178Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761120741093"
+},
+{
+  "_id": {
+    "$oid": "68f8925b4d3a5da46373e2da"
+  },
+  "document_id": "doc_9dc6577f",
+  "document_name": "TaxStatement_FridaKlo.pdf",
+  "document_path": "@gdrive@fsi/loan_origination/TaxStatement_FridaKlo.pdf",
+  "file_size_mb": 0.0053119659423828125,
+  "assessment": {
+    "main_entity": "Individual Tax Return",
+    "document_category": "Tax Documentation",
+    "key_topics": [
+      "income verification",
+      "tax filing",
+      "financial records"
+    ],
+    "relevance_score": 75,
+    "reasoning": "This tax return document is relevant to financial services and loan origination/underwriting because: 1) It provides official income verification data which is crucial for loan underwriting processes, 2) Shows detailed financial information including wages, adjusted gross income, and tax obligations that lenders use to assess creditworthiness, 3) Contains SSN and employment information needed for loan applications. While it's a tax document, it's highly relevant as supporting documentation for loan origination processes.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:14:19.377Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761120741093"
+},
+{
+  "_id": {
+    "$oid": "68f8947a4d3a5da46373e2e0"
+  },
+  "document_id": "doc_f5a6126b",
+  "document_name": "LoanApplication_FridaKlo.pdf",
+  "document_path": "@local@/docs/fsi/loan_origination/LoanApplication_FridaKlo.pdf",
+  "file_size_mb": 0.6167316436767578,
+  "assessment": {
+    "main_entity": "Personal Loan Application",
+    "document_category": "Financial Services Application Form",
+    "key_topics": [
+      "loan application",
+      "personal information collection",
+      "employment verification"
+    ],
+    "relevance_score": 95,
+    "reasoning": "This document is highly relevant as it is a personal loan application form from Mountain Crest Financial Services, containing standard loan application components including applicant information, employment details, and residential history. This directly relates to both the financial services industry and loan origination/underwriting processes.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:23:21.842Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761121373030"
+},
+{
+  "_id": {
+    "$oid": "68f8948b4d3a5da46373e2e2"
+  },
+  "document_id": "doc_814f351e",
+  "document_name": "EmploymentVerificationLetter_FridaKlo.docx",
+  "document_path": "@local@/docs/fsi/loan_origination/EmploymentVerificationLetter_FridaKlo.docx",
+  "file_size_mb": 0.007080078125,
+  "assessment": {
+    "main_entity": "Employment Verification Letter",
+    "document_category": "Income/Employment Verification Document",
+    "key_topics": [
+      "employment verification",
+      "income verification",
+      "professional status"
+    ],
+    "relevance_score": 75,
+    "reasoning": "This document is relevant to loan origination and underwriting as it serves as an official employment and income verification letter, which is a standard required document for loan applications. It contains key information lenders need: current employment status, length of employment, position, and monthly income. However, it's marked as fictional/demo data, which slightly reduces its relevance score.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:23:39.173Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761121373030"
+},
+{
+  "_id": {
+    "$oid": "68f8975b4d3a5da46373e2e8"
+  },
+  "document_id": "doc_4060cf5f",
+  "document_name": "ResidentialLeaseAgreement_FridaKlo.pdf",
+  "document_path": "@local@/docs/fsi/loan_origination/ResidentialLeaseAgreement_FridaKlo.pdf",
+  "file_size_mb": 0.2856273651123047,
+  "assessment": {
+    "main_entity": "Residential Lease Agreement",
+    "document_category": "Legal Housing Contract",
+    "key_topics": [
+      "rental agreement",
+      "housing documentation",
+      "residential property lease"
+    ],
+    "relevance_score": 75,
+    "reasoning": "This document is relevant to loan origination and underwriting as residential lease agreements are essential documents used to verify housing expenses and calculate debt-to-income (DTI) ratios during the loan approval process. The lease contains critical information like monthly payment obligations, term length, and housing costs that underwriters need to assess borrower qualification. While not a direct financial services document, it's a supporting document explicitly mentioned as relevant for loan origination purposes.",
+    "should_process": true
+  },
+  "assessed_at": {
+    "$date": "2025-10-22T08:35:38.768Z"
+  },
+  "workflow_id": "fsi_loan_origination_1761122124500"
+}]
