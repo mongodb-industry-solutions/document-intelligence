@@ -1,0 +1,28 @@
+services:
+  document-intelligence-backend:
+    build:
+      context: .
+      no_cache: true
+      dockerfile: Dockerfile.backend
+    image: document-intelligence-image-backend:latest
+    volumes:
+      - ~/.aws/credentials:/root/.aws/credentials:ro
+      - ~/.aws/config:/root/.aws/config:ro
+      - ~/.aws/sso/cache:/root/.aws/sso/cache:rw  # Only make cache writable
+      - document-storage:/docs  # Persistent volume for document storage
+      - report-storage:/reports  # Persistent volume for report storage
+      - cache-storage:/cache  # Persistent volume for cache storage
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8080:8080"
+    restart: always
+    container_name: document-intelligence-backend
+
+volumes:
+  document-storage:
+    driver: local
+  report-storage:
+    driver: local
+  cache-storage:
+    driver: local

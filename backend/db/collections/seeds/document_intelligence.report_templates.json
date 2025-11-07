@@ -1,0 +1,308 @@
+[{
+  "_id": {
+    "$oid": "68d64f737a4a3de6321a80a9"
+  },
+  "industry": "fsi",
+  "use_case": "credit_rating",
+  "template_name": "Standard FSI Credit Rating Report",
+  "structure": {
+    "key_metrics": {
+      "enabled": true,
+      "count": 4,
+      "guidance_prompt": "Extract the 4 most critical metrics from the credit rating analysis: 1) Overall credit rating with outlook (e.g., BBB+, Stable), 2) Key debt leverage ratio such as Debt/EBITDA or Debt/Equity, 3) Liquidity metric such as current ratio or interest coverage, 4) Market position indicator or business strength assessment"
+    },
+    "sections": [
+      {
+        "title": "Credit Rating Summary",
+        "content_type": "text",
+        "max_words": 250,
+        "order": 1,
+        "prompt": "Provide a credit rating summary including the overall rating (e.g., BBB+, A-, etc.), rating date, and brief rationale. Include key company information such as name, sector, and primary business activities"
+      },
+      {
+        "title": "Rating Rationale",
+        "content_type": "text",
+        "max_words": 400,
+        "order": 2,
+        "prompt": "Explain the rationale behind the credit rating, including key strengths that support the rating and main concerns or weaknesses. Focus on factors like market position, financial performance, management quality, and industry dynamics"
+      },
+      {
+        "title": "Financial Profile",
+        "content_type": "text",
+        "max_words": 350,
+        "order": 3,
+        "prompt": "Analyze the financial profile including key metrics such as revenue trends, profitability margins, leverage ratios (Debt/EBITDA, Debt/Equity), liquidity ratios, and cash flow generation. Present key financial data in structured format with clear metrics and analysis"
+      },
+      {
+        "title": "Market Position and Outlook",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 4,
+        "prompt": "Assess the company's market position, competitive advantages, industry outlook, and growth prospects. Include market share, competitive landscape, and sector-specific factors affecting the credit profile"
+      },
+      {
+        "title": "Rating Sensitivities",
+        "content_type": "text",
+        "max_words": 200,
+        "order": 5,
+        "prompt": "Identify factors that could lead to a rating upgrade (positive factors) and factors that could lead to a rating downgrade (negative factors). Be specific about thresholds and conditions"
+      },
+      {
+        "title": "Outlook",
+        "content_type": "text",
+        "max_words": 150,
+        "order": 6,
+        "prompt": "Provide the rating outlook (Stable, Positive, Negative, or Developing) with a brief explanation of what this means for the near-term rating trajectory"
+      },
+      {
+        "title": "Disclaimer",
+        "content_type": "text",
+        "max_words": 50,
+        "order": 7,
+        "prompt": "Generate a disclaimer stating: 'Note: This analysis contains synthetic data for demonstration purposes only. All company names, financial data, and credit ratings mentioned in this report are fictional and should not be used for actual investment or credit decisions.'"
+      }
+    ]
+  },
+  "created_at": {
+    "$date": "2025-09-25T00:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "68f64622e8d6279b377d1aa4"
+  },
+  "industry": "fsi",
+  "use_case": "investment_research",
+  "template_name": "Investment Research Analysis Report",
+  "structure": {
+    "key_metrics": {
+      "enabled": true,
+      "count": 4,
+      "guidance_prompt": "Extract the 4 most critical investment metrics: 1) Current valuation metric (P/E ratio, EV/EBITDA, or Price/Sales), 2) Revenue or revenue growth rate (annual or YoY %), 3) Profitability metric (Operating margin, Net margin, or EBITDA margin as %), 4) Investment recommendation or price target (Buy/Hold/Sell or target price)"
+    },
+    "sections": [
+      {
+        "title": "Executive Summary",
+        "content_type": "text",
+        "max_words": 200,
+        "order": 1,
+        "prompt": "Provide a concise investment summary including: company name, sector/industry classification, current stock price or market position, overall investment thesis, key strengths and competitive advantages, and investment recommendation (Buy/Hold/Sell). State the core investment opportunity or concern clearly"
+      },
+      {
+        "title": "Financial Performance & Key Metrics",
+        "content_type": "mixed",
+        "max_words": 350,
+        "order": 2,
+        "prompt": "Analyze the company's financial performance including: revenue figures and growth rates, profitability metrics (margins, earnings), cash flow generation, balance sheet strength, key financial ratios, valuation multiples (P/E, EV/EBITDA, Price/Sales), and how these compare to industry benchmarks. Present trends and notable changes with specific numbers"
+      },
+      {
+        "title": "Growth Drivers & Investment Thesis",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 3,
+        "prompt": "Describe the key factors that make this an attractive or unattractive investment. Include: market opportunities and addressable market size, competitive positioning and market share, product/service innovation or differentiation, management quality and strategic initiatives, secular trends or tailwinds benefiting the business, and expected catalysts for growth. Explain why investors should or should not invest"
+      },
+      {
+        "title": "Risk Factors & Challenges",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 4,
+        "prompt": "Identify and analyze key risks and challenges including: competitive threats and market risks, operational or execution risks, regulatory or legal concerns, macroeconomic sensitivities, financial risks (debt levels, liquidity), valuation concerns (overvaluation or undervaluation arguments), and potential downside scenarios. Provide balanced perspective on what could impact the investment negatively"
+      },
+      {
+        "title": "Conclusion & Recommendation",
+        "content_type": "text",
+        "max_words": 150,
+        "order": 5,
+        "prompt": "Summarize the investment case with a clear recommendation (Buy/Hold/Sell), target price or valuation range if applicable, expected return potential and timeframe, and key factors to monitor going forward. Provide final investment perspective in a concise, actionable format"
+      },
+      {
+        "title": "Disclaimer",
+        "content_type": "text",
+        "max_words": 50,
+        "order": 6,
+        "prompt": "Generate a disclaimer stating: 'Note: This analysis contains information for demonstration and educational purposes only. This is not financial advice. All investment recommendations, financial data, and analysis are illustrative examples and should not be used for actual investment decisions.'"
+      }
+    ]
+  },
+  "created_at": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "68f657f6e8d6279b377d1ab0"
+  },
+  "industry": "fsi",
+  "use_case": "kyc_onboarding",
+  "template_name": "KYC Customer Onboarding Verification Report",
+  "structure": {
+    "key_metrics": {
+      "enabled": true,
+      "count": 4,
+      "guidance_prompt": "Extract the 4 most critical KYC metrics: 1) Overall verification status (Approved/Pending/Rejected), 2) Customer risk rating or level (Low/Medium/High), 3) Number of documents verified or verification completion percentage, 4) Onboarding completion date or time to complete verification"
+    },
+    "sections": [
+      {
+        "title": "Customer Profile Summary",
+        "content_type": "text",
+        "max_words": 200,
+        "order": 1,
+        "prompt": "Provide a concise summary of the customer profile including: full name, date of birth, nationality/citizenship, residential address, contact information (phone, email), account type or relationship requested, and application date. State the current onboarding status clearly (approved, pending, or rejected)"
+      },
+      {
+        "title": "Identity Verification",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 2,
+        "prompt": "Describe the identity verification process and results. Include: identity documents provided (driver's license, passport, national ID), document numbers and expiry dates, verification method used (manual review, automated checks, biometric validation), identity match status, photo verification results, and any discrepancies or concerns identified. State whether identity verification passed or failed"
+      },
+      {
+        "title": "Address & Document Verification",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 3,
+        "prompt": "Analyze address proof and supporting documentation. Include: proof of address documents submitted (utility bills, bank statements, lease agreements), document dates and validity, address matching across documents, other documents verified (employment proof, financial statements, references), document authenticity validation results, and completeness of documentation. Highlight any missing or expired documents"
+      },
+      {
+        "title": "Compliance & Risk Assessment",
+        "content_type": "text",
+        "max_words": 350,
+        "order": 4,
+        "prompt": "Evaluate compliance checks and risk factors. Include: AML/CFT screening results, sanctions list checks (OFAC, UN, EU), PEP (Politically Exposed Person) status, adverse media screening, source of funds or wealth verification, occupation and business activities, customer risk rating (Low/Medium/High) with justification, any red flags or concerns identified, and required enhanced due diligence measures if applicable"
+      },
+      {
+        "title": "Onboarding Decision & Next Steps",
+        "content_type": "text",
+        "max_words": 250,
+        "order": 5,
+        "prompt": "Summarize the onboarding decision and required actions. Include: final verification status (approved/pending/rejected), approval authority or reviewer name, approval date, account opening permissions or restrictions, outstanding documentation requirements, additional verification steps needed, monitoring requirements, periodic review schedule, and any conditions or limitations on the account. Provide clear next steps"
+      },
+      {
+        "title": "Disclaimer",
+        "content_type": "text",
+        "max_words": 50,
+        "order": 6,
+        "prompt": "Generate a disclaimer stating: 'Note: This report contains synthetic data for demonstration purposes only. All personal information, identity documents, verification results, and compliance checks are fictional and for illustrative purposes only.'"
+      }
+    ]
+  },
+  "created_at": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "68f73f38daca757fc72f3443"
+  },
+  "industry": "fsi",
+  "use_case": "loan_origination",
+  "template_name": "Loan Origination and Underwriting Report",
+  "structure": {
+    "key_metrics": {
+      "enabled": true,
+      "count": 4,
+      "guidance_prompt": "Extract the 4 most critical metrics from the loan application documents: 1) Loan amount requested (from application), 2) Credit score or FICO score (from credit report), 3) Annual or monthly gross income (from payslips or tax statements), 4) Property appraised value or collateral value (from appraisal report). If any metric is not found, state 'Not provided' rather than leaving blank."
+    },
+    "sections": [
+      {
+        "title": "Application Overview",
+        "content_type": "text",
+        "max_words": 200,
+        "order": 1,
+        "prompt": "Provide a concise summary of the loan application including: borrower's full name, loan amount requested, loan purpose (home purchase, refinance, etc.), property address or collateral description, application date or reference number if available, and loan type (mortgage, personal, auto, business). If an application reference number is not explicitly stated, note 'Application under review'."
+      },
+      {
+        "title": "Borrower Credit Profile",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 2,
+        "prompt": "Describe the borrower's creditworthiness including: credit score (from credit report), credit history summary, income verification and amount (from payslips/tax statements), employment status and employer name, debt-to-income ratio (DTI) calculated from documented income and debts, existing debts and monthly obligations, payment history on existing accounts, and any adverse credit events (late payments, defaults, bankruptcies, collections). Present all key financial ratios and indicators found in the documents."
+      },
+      {
+        "title": "Collateral and Risk Assessment",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 3,
+        "prompt": "Analyze collateral and risk factors including: collateral type and description (property address, type, condition), appraised value from appraisal report, loan-to-value ratio (LTV) calculated as requested loan amount divided by appraised value, down payment amount and percentage if stated, current housing costs (monthly rent from lease or current mortgage payment), risk factors identified (low credit score, high DTI, adverse credit, insufficient income, high credit utilization), and compensating factors (strong payment history, stable employment, substantial assets, low LTV). Calculate and state the DTI ratio using documented income and all monthly debt obligations including housing costs."
+      },
+      {
+        "title": "Underwriting Decision and Recommendation",
+        "content_type": "text",
+        "max_words": 350,
+        "order": 4,
+        "prompt": "Based on all documented information from the loan application, credit report, income verification, property appraisal, and supporting documents, provide a comprehensive underwriting recommendation. ALWAYS include an explicit approval status at the beginning formatted as 'Status: APPROVED' or 'Status: DENIED' or 'Status: CONDITIONAL APPROVAL'. Follow this decision-making framework: APPROVED if credit score is 700+, DTI is below 43%, LTV is below 80%, stable employment, and no recent adverse credit events. DENIED if credit score is below 580, DTI exceeds 50%, severe adverse credit events, insufficient income, or LTV exceeds 95%. CONDITIONAL APPROVAL for borderline cases with credit scores 580-699, DTI 43-50%, or minor credit concerns. After stating the status, provide: 1) Key strengths supporting the decision (strong credit, stable income, low DTI, etc.), 2) Key concerns or risk factors, 3) For CONDITIONAL APPROVAL, list 2-4 specific conditions that must be met (e.g., reduce credit utilization below 30%, provide additional income documentation, submit updated bank statements, obtain mortgage insurance, increase down payment, etc.), 4) Estimated interest rate range based on risk profile, 5) Recommended loan terms if approved/conditionally approved. Conclude with a clear summary of the decision rationale."
+      },
+      {
+        "title": "Disclaimer",
+        "content_type": "text",
+        "max_words": 50,
+        "order": 5,
+        "prompt": "Generate a disclaimer stating: 'Note: This report contains synthetic data for demonstration purposes only. All borrower information, credit data, loan terms, and underwriting decisions are fictional and for illustrative purposes only. This automated recommendation is for demonstration purposes and does not constitute an official lending decision.'"
+      }
+    ]
+  },
+  "created_at": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "68e7ce2229ba3f99eb99516f"
+  },
+  "industry": "fsi",
+  "use_case": "payment_processing_exception",
+  "template_name": "Payment Processing Exception Resolution Report",
+  "structure": {
+    "key_metrics": {
+      "enabled": true,
+      "count": 4,
+      "guidance_prompt": "Extract the 4 most critical metrics from the payment exception resolution: 1) Total transaction or disputed amount, 2) Resolution timeframe in days or hours, 3) Resolution outcome or final status (Resolved in favor of cardholder/merchant), 4) Financial impact or final settlement amount"
+    },
+    "sections": [
+      {
+        "title": "Exception Summary",
+        "content_type": "text",
+        "max_words": 200,
+        "order": 1,
+        "prompt": "Provide a concise summary of the payment processing exception including: case reference number, exception type (chargeback dispute, refund failure, merchant non-response, etc.), involved parties (cardholder name, merchant name, account number), transaction amount, transaction date, and current resolution status. State the outcome clearly"
+      },
+      {
+        "title": "Timeline of Events",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 2,
+        "prompt": "Create a chronological timeline of key events from original transaction through resolution. Include: transaction date, issue detection/filing date, merchant notification attempts, investigation milestones, temporary credit issuance (if applicable), merchant response or non-response, and resolution date. Present as a clear sequence with dates and actions"
+      },
+      {
+        "title": "Investigation and Evidence",
+        "content_type": "text",
+        "max_words": 350,
+        "order": 3,
+        "prompt": "Describe what was investigated and what evidence was collected. Include: documentation reviewed (receipts, tracking confirmations, emails, return labels), merchant communications and responses (or lack thereof), validation of claims, and key findings that led to the resolution decision. Highlight critical evidence that determined the outcome"
+      },
+      {
+        "title": "Root Cause and Resolution",
+        "content_type": "text",
+        "max_words": 300,
+        "order": 4,
+        "prompt": "Explain what caused the exception (merchant refund failure, processing error, communication breakdown, etc.) and how it was resolved. Include: resolution decision (in favor of cardholder/merchant), financial adjustments made (credits, reversals, amounts), resolution timeframe vs. SLA requirements, and final case status. State total financial impact clearly"
+      },
+      {
+        "title": "Disclaimer",
+        "content_type": "text",
+        "max_words": 50,
+        "order": 5,
+        "prompt": "Generate a disclaimer stating: 'Note: This report contains synthetic data for demonstration purposes only. All account numbers, merchant names, transaction details, and case information are fictional.'"
+      }
+    ]
+  },
+  "created_at": {
+    "$date": "2025-10-09T00:00:00.000Z"
+  },
+  "is_active": true
+}]

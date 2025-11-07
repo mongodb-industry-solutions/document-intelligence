@@ -1,0 +1,72 @@
+FROM python:3.13-slim
+
+WORKDIR /
+
+# Install minimal system dependencies for document processing
+RUN apt-get update && apt-get install -y \
+    # For PDF processing (poppler-utils for pdf2image)
+    poppler-utils \
+    # LibreOffice for DOC/DOCX -> PDF conversion (headless mode only)
+    libreoffice-writer \
+    --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/* \
+    && apt-get clean
+
+# uv installation
+RUN pip install uv
+
+# Copy project files
+COPY /backend/pyproject.toml ./
+
+# Install dependencies with uv
+RUN uv sync --no-dev
+
+# Copy the rest of the backend code
+COPY ./backend/ .
+
+# Create document storage directories for different industries
+RUN mkdir -p /docs/fsi \
+    && mkdir -p /docs/manufacturing \
+    && mkdir -p /docs/retail \
+    && mkdir -p /docs/healthcare \
+    && mkdir -p /docs/media \
+    && mkdir -p /docs/insurance \
+    && chmod -R 755 /docs
+
+# Create cache storage directories for different industries
+RUN mkdir -p /cache/fsi \
+    && mkdir -p /cache/manufacturing \
+    && mkdir -p /cache/retail \
+    && mkdir -p /cache/healthcare \
+    && mkdir -p /cache/media \
+    && mkdir -p /cache/insurance \
+    && chmod -R 755 /cache
+
+# Create report storage directories for different industries
+RUN mkdir -p /reports/fsi \
+    && mkdir -p /reports/manufacturing \
+    && mkdir -p /reports/retail \
+    && mkdir -p /reports/healthcare \
+    && mkdir -p /reports/media \
+    && mkdir -p /reports/insurance \
+    && chmod -R 755 /reports
+
+# Copy seed data for FSI credit rating documents
+# This maintains the exact folder structure
+COPY ./backend/data/seed/docs/fsi /docs/fsi/
+
+# Copy seed reports for fallback mechanism
+COPY ./backend/data/seed/reports /backend/data/seed/reports
+
+# Copy initial document state file for daily cleanup reset
+# This ensures the nightly cleanup knows which documents to preserve
+COPY ./backend/data/seed/documents_initial_state_dict.json /data/seed/documents_initial_state_dict.json
+
+# Ensure proper permissions for all copied files
+RUN chmod -R 755 /docs/fsi && \
+    chmod -R 755 /backend/data/seed/reports && \
+    chmod 644 /data/seed/documents_initial_state_dict.json
+
+EXPOSE 8080
+
+CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]

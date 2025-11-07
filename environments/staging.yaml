@@ -1,0 +1,38 @@
+env:
+  NODE_ENV: staging
+  
+envSecrets:
+  MONGODB_URI: document-intelligence
+  DATABASE_NAME: document-intelligence
+  APP_NAME: document-intelligence
+  DOCUMENTS_COLLECTION: document-intelligence
+  CHUNKS_COLLECTION: document-intelligence
+  ASSESSMENTS_COLLECTION: document-intelligence
+  GRADINGS_COLLECTION: document-intelligence
+  LOGS_COLLECTION: document-intelligence
+  AGENT_PERSONAS_COLLECTION: document-intelligence
+  CHUNKS_VECTOR_INDEX: document-intelligence
+  DOCUMENT_STORAGE_PATH: document-intelligence
+  ALLOWED_INDUSTRIES: document-intelligence
+  DEFAULT_INDUSTRY: document-intelligence
+  MAX_UPLOAD_SIZE_MB: document-intelligence
+  ALLOWED_FILE_EXTENSIONS: document-intelligence
+  AWS_REGION: document-intelligence
+  S3_BUCKET_NAME: document-intelligence
+  S3_BASE_PREFIX: document-intelligence
+  GDRIVE_ROOT_FOLDER_ID: document-intelligence
+  BEDROCK_MODEL_ID: document-intelligence
+  BEDROCK_MAX_TOKENS: document-intelligence
+  VOYAGE_API_KEY: document-intelligence
+  VOYAGE_MODEL: document-intelligence
+  MAX_FILE_SIZE_MB: document-intelligence
+  MAX_PAGES_PER_DOCUMENT: document-intelligence
+  CHUNK_SIZE: document-intelligence
+  CHUNK_OVERLAP: document-intelligence
+  NODE_ENV: document-intelligence
+
+serviceAccount:
+  enabled: true
+  irsa:
+    accountId: "275662791714"
+    roleName: "kanopy-staging-cicd-irsa"

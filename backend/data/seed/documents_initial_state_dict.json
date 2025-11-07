@@ -1,0 +1,287 @@
+{
+  "documents": [
+    {
+      "document_id": "doc_f9ef96bf",
+      "document_name": "1c_AeroTech_Manufacturing_Press_Release.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/1c_AeroTech_Manufacturing_Press_Release.pdf",
+      "source_type": "s3",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_a2f31044",
+      "document_name": "1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf",
+      "document_path": "@gdrive@fsi/credit_rating/1c_AeroTech_Manufacturing_Credit_Rating_Report.pdf",
+      "source_type": "gdrive",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_e2ba3934",
+      "document_name": "2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+      "source_type": "s3",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_266ca851",
+      "document_name": "3c_Aerospace_Manufacturing_Sector_Study.docx",
+      "document_path": "@local@/docs/fsi/credit_rating/3c_Aerospace_Manufacturing_Sector_Study.docx",
+      "source_type": "local",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_1ef31442",
+      "document_name": "4c_Market_Economic_Research_Publication.pdf",
+      "document_path": "@gdrive@fsi/credit_rating/4c_Market_Economic_Research_Publication.pdf",
+      "source_type": "gdrive",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_8972fe76",
+      "document_name": "4c_Market_Economic_Research_Publication.docx",
+      "document_path": "@local@/docs/fsi/credit_rating/4c_Market_Economic_Research_Publication.docx",
+      "source_type": "local",
+      "use_case": "credit_rating"
+    },
+    {
+      "document_id": "doc_3885274e",
+      "document_name": "4-rainy-day-pizza.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/4-rainy-day-pizza.pdf",
+      "source_type": "s3",
+      "use_case": "credit_rating",
+      "status": "assessed_only"
+    },
+    {
+      "document_id": "doc_68bb491d",
+      "document_name": "Credit_Card_Settlement_Statement.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Credit_Card_Settlement_Statement.pdf",
+      "source_type": "s3",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_241bf8dd",
+      "document_name": "Exception_Report.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Exception_Report.pdf",
+      "source_type": "s3",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_ef5b1da6",
+      "document_name": "Payment_Investigation_Ticket.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Payment_Investigation_Ticket.pdf",
+      "source_type": "s3",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_e6d0edb4",
+      "document_name": "Credit_Card_Reconciliation_Report.pdf",
+      "document_path": "@gdrive@fsi/payment_processing_exception/Credit_Card_Reconciliation_Report.pdf",
+      "source_type": "gdrive",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_118eb89b",
+      "document_name": "Dispute_Letter.pdf",
+      "document_path": "@gdrive@fsi/payment_processing_exception/Dispute_Letter.pdf",
+      "source_type": "gdrive",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_116ad023",
+      "document_name": "Operational_Memo.pdf",
+      "document_path": "@local@/docs/fsi/payment_processing_exception/Operational_Memo.pdf",
+      "source_type": "local",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_b82576e8",
+      "document_name": "Email_Correspondence_Case_DSP003847.pdf",
+      "document_path": "@local@/docs/fsi/payment_processing_exception/Email_Correspondence_Case_DSP003847.pdf",
+      "source_type": "local",
+      "use_case": "payment_processing_exception"
+    },
+    {
+      "document_id": "doc_24944c02",
+      "document_name": "AnnualReport_Amazon.pdf",
+      "document_path": "@gdrive@fsi/investment_research/AnnualReport_Amazon.pdf",
+      "source_type": "gdrive",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_be99079f",
+      "document_name": "EarningsReport_Amazon.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/investment_research/EarningsReport_Amazon.pdf",
+      "source_type": "s3",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_7bd0e1d5",
+      "document_name": "Equity_Research_Report_Amazon.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/investment_research/Equity_Research_Report_Amazon.pdf",
+      "source_type": "s3",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_7bcce7b3",
+      "document_name": "Market_Commentary_Amazon.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/investment_research/Market_Commentary_Amazon.pdf",
+      "source_type": "s3",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_40b88406",
+      "document_name": "PressRelease_Amazon.docx",
+      "document_path": "@local@/docs/fsi/investment_research/PressRelease_Amazon.docx",
+      "source_type": "local",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_0eb462a6",
+      "document_name": "ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+      "document_path": "@local@/docs/fsi/investment_research/ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+      "source_type": "local",
+      "use_case": "investment_research"
+    },
+    {
+      "document_id": "doc_499c9442",
+      "document_name": "OnboardingForm_Jonathan.pdf",
+      "document_path": "@local@/docs/fsi/kyc_onboarding/OnboardingForm_Jonathan.pdf",
+      "source_type": "local",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_a1c11552",
+      "document_name": "DriverLicense_Jonathan.pdf",
+      "document_path": "@gdrive@fsi/kyc_onboarding/DriverLicense_Jonathan.pdf",
+      "source_type": "gdrive",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_212997ec",
+      "document_name": "ElectricBill_Jonathan.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/kyc_onboarding/ElectricBill_Jonathan.pdf",
+      "source_type": "s3",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_b4baad12",
+      "document_name": "IRSForm1040_Jonathan.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/kyc_onboarding/IRSForm1040_Jonathan.pdf",
+      "source_type": "s3",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_98b19244",
+      "document_name": "InvestmentPortfolioStatement_Jonathan.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/kyc_onboarding/InvestmentPortfolioStatement_Jonathan.pdf",
+      "source_type": "s3",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_db133b42",
+      "document_name": "BankReferenceLetter_Jonathan.pdf",
+      "document_path": "@gdrive@fsi/kyc_onboarding/BankReferenceLetter_Jonathan.pdf",
+      "source_type": "gdrive",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_ba0e489b",
+      "document_name": "EmploymentVerificationLetter_Jonathan.pdf",
+      "document_path": "@gdrive@fsi/kyc_onboarding/EmploymentVerificationLetter_Jonathan.pdf",
+      "source_type": "gdrive",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_7dcafbac",
+      "document_name": "Source_of_Wealth_Declaration.docx",
+      "document_path": "@local@/docs/fsi/kyc_onboarding/Source_of_Wealth_Declaration.docx",
+      "source_type": "local",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_e008d6cc",
+      "document_name": "Enhanced_Due_Diligence_Questionnaire.docx",
+      "document_path": "@local@/docs/fsi/kyc_onboarding/Enhanced_Due_Diligence_Questionnaire.docx",
+      "source_type": "local",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_d426a015",
+      "document_name": "AML_CFT_Risk_Assessment.docx",
+      "document_path": "@local@/docs/fsi/kyc_onboarding/AML_CFT_Risk_Assessment.docx",
+      "source_type": "local",
+      "use_case": "kyc_onboarding"
+    },
+    {
+      "document_id": "doc_f5a6126b",
+      "document_name": "LoanApplication_FridaKlo.pdf",
+      "document_path": "@local@/docs/fsi/loan_origination/LoanApplication_FridaKlo.pdf",
+      "source_type": "local",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_814f351e",
+      "document_name": "EmploymentVerificationLetter_FridaKlo.docx",
+      "document_path": "@local@/docs/fsi/loan_origination/EmploymentVerificationLetter_FridaKlo.docx",
+      "source_type": "local",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_4060cf5f",
+      "document_name": "ResidentialLeaseAgreement_FridaKlo.pdf",
+      "document_path": "@local@/docs/fsi/loan_origination/ResidentialLeaseAgreement_FridaKlo.pdf",
+      "source_type": "local",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_9dc6577f",
+      "document_name": "TaxStatement_FridaKlo.pdf",
+      "document_path": "@gdrive@fsi/loan_origination/TaxStatement_FridaKlo.pdf",
+      "source_type": "gdrive",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_31215d11",
+      "document_name": "Payslips_FridaKlo.pdf",
+      "document_path": "@gdrive@fsi/loan_origination/Payslips_FridaKlo.pdf",
+      "source_type": "gdrive",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_e67a4374",
+      "document_name": "CreditReport_FridaKlo.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/CreditReport_FridaKlo.pdf",
+      "source_type": "s3",
+      "use_case": "loan_origination"
+    },
+    {
+      "document_id": "doc_696a1405",
+      "document_name": "PropertyAppraisalReport_FridaKlo.pdf",
+      "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/PropertyAppraisalReport_FridaKlo.pdf",
+      "source_type": "s3",
+      "use_case": "loan_origination"
+    }
+  ],
+  "metadata": {
+    "total_documents": 36,
+    "database": "document_intelligence",
+    "source_collections": ["assessments", "documents", "chunks"],
+    "statistics": {
+      "by_source_type": {
+        "local": 13,
+        "s3": 13,
+        "gdrive": 10
+      },
+      "by_use_case": {
+        "credit_rating": 6,
+        "investment_research": 6,
+        "kyc_onboarding": 10,
+        "loan_origination": 7,
+        "payment_processing_exception": 7
+      }
+    },
+    "notes": {
+      "last_updated": "2025-10-30",
+      "description": "This file defines the blessed documents list - documents that should be preserved during daily cleanup operations at 3:10 AM UTC"
+    }
+  }
+}

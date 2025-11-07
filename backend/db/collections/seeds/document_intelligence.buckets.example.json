@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "YOUR_OBJECT_ID_HERE"
+  },
+  "config_name": "s3_global_config",
+  "type": "global_config",
+  "bucket_name": "YOUR-BUCKET-NAME-HERE",
+  "base_prefix": "your/prefix/here",
+  "region": "us-east-1",
+  "created_at": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "YOUR_OBJECT_ID_HERE"
+  },
+  "config_name": "s3_industry_fsi",
+  "type": "industry_config",
+  "industry": "fsi",
+  "name": "Financial Services",
+  "prefix": "your/prefix/fsi",
+  "s3_uri": "s3://YOUR-BUCKET-NAME/your/path/fsi/",
+  "url": "https://YOUR-BUCKET-NAME.s3.YOUR-REGION.amazonaws.com/your/path/fsi/",
+  "enabled": true,
+  "created_at": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  }
+}]

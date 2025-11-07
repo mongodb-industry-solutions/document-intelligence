@@ -1,0 +1,511 @@
+[{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbed"
+  },
+  "type": "industry",
+  "code": "fsi",
+  "full_name": "financial services",
+  "description": "Financial Services Industry",
+  "examples": [
+    "banking documents",
+    "credit reports and ratings",
+    "financial statements",
+    "risk assessments",
+    "trading data and analytics",
+    "insurance policies",
+    "investment portfolios",
+    "regulatory compliance documents",
+    "loan applications",
+    "audit reports"
+  ],
+  "key_terms": [
+    "credit",
+    "loan",
+    "investment",
+    "portfolio",
+    "risk",
+    "compliance",
+    "trading",
+    "banking",
+    "insurance",
+    "financial",
+    "audit",
+    "regulatory"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbee"
+  },
+  "type": "industry",
+  "code": "manufacturing",
+  "full_name": "manufacturing",
+  "description": "Manufacturing Industry",
+  "examples": [
+    "production reports",
+    "quality control documents",
+    "supply chain data",
+    "inventory reports",
+    "safety protocols",
+    "equipment maintenance logs",
+    "process optimization reports",
+    "supplier agreements",
+    "product specifications",
+    "factory performance metrics"
+  ],
+  "key_terms": [
+    "production",
+    "manufacturing",
+    "quality",
+    "supply chain",
+    "inventory",
+    "safety",
+    "equipment",
+    "process",
+    "factory",
+    "assembly",
+    "logistics"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbef"
+  },
+  "type": "industry",
+  "code": "retail",
+  "full_name": "retail",
+  "description": "Retail Industry",
+  "examples": [
+    "sales reports",
+    "inventory data",
+    "customer analytics",
+    "pricing strategies",
+    "store performance metrics",
+    "product catalogs",
+    "customer feedback reports",
+    "e-commerce analytics",
+    "promotional campaigns",
+    "merchandising plans"
+  ],
+  "key_terms": [
+    "sales",
+    "retail",
+    "customer",
+    "inventory",
+    "pricing",
+    "store",
+    "merchandise",
+    "e-commerce",
+    "promotion",
+    "shopping",
+    "consumer"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf0"
+  },
+  "type": "industry",
+  "code": "healthcare",
+  "full_name": "healthcare",
+  "description": "Healthcare Industry",
+  "examples": [
+    "patient records",
+    "clinical trial results",
+    "medical research papers",
+    "billing and insurance documents",
+    "treatment protocols",
+    "pharmaceutical data",
+    "hospital performance reports",
+    "diagnostic reports",
+    "health insurance claims",
+    "medical device documentation"
+  ],
+  "key_terms": [
+    "patient",
+    "clinical",
+    "medical",
+    "healthcare",
+    "treatment",
+    "diagnosis",
+    "pharmaceutical",
+    "hospital",
+    "doctor",
+    "medicine",
+    "health",
+    "therapy"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf1"
+  },
+  "type": "industry",
+  "code": "media",
+  "full_name": "media and entertainment",
+  "description": "Media and Entertainment Industry",
+  "examples": [
+    "content analytics",
+    "viewership data",
+    "production schedules",
+    "licensing agreements",
+    "audience metrics",
+    "advertising reports",
+    "streaming analytics",
+    "content distribution agreements",
+    "ratings reports",
+    "social media analytics"
+  ],
+  "key_terms": [
+    "media",
+    "entertainment",
+    "content",
+    "viewership",
+    "audience",
+    "streaming",
+    "broadcast",
+    "production",
+    "advertising",
+    "ratings",
+    "digital",
+    "social"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf2"
+  },
+  "type": "industry",
+  "code": "insurance",
+  "full_name": "insurance",
+  "description": "Insurance Industry",
+  "examples": [
+    "policy documents",
+    "claims reports",
+    "actuarial data",
+    "risk assessments",
+    "underwriting guidelines",
+    "premium calculations",
+    "loss reports",
+    "reinsurance agreements",
+    "regulatory filings",
+    "customer claim histories"
+  ],
+  "key_terms": [
+    "insurance",
+    "policy",
+    "claim",
+    "premium",
+    "coverage",
+    "risk",
+    "underwriting",
+    "actuarial",
+    "liability",
+    "reinsurance",
+    "deductible"
+  ],
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf3"
+  },
+  "type": "topic",
+  "code": "credit_rating",
+  "readable_name": "credit rating analysis",
+  "description": "Credit worthiness assessments and ratings",
+  "examples": [
+    "credit scores",
+    "rating reports",
+    "creditworthiness analysis",
+    "debt ratings",
+    "financial stability assessments"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf4"
+  },
+  "type": "topic",
+  "code": "supply_chain",
+  "readable_name": "supply chain management",
+  "description": "Supply chain and logistics operations",
+  "examples": [
+    "supplier networks",
+    "logistics data",
+    "inventory flow",
+    "procurement documents",
+    "distribution analytics"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf5"
+  },
+  "type": "topic",
+  "code": "customer_analytics",
+  "readable_name": "customer analytics",
+  "description": "Customer behavior and analytics",
+  "examples": [
+    "customer segmentation",
+    "behavior analysis",
+    "satisfaction surveys",
+    "loyalty programs",
+    "purchase patterns"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf6"
+  },
+  "type": "topic",
+  "code": "risk_assessment",
+  "readable_name": "risk assessment",
+  "description": "Risk evaluation and management",
+  "examples": [
+    "risk reports",
+    "threat analysis",
+    "compliance assessments",
+    "vulnerability studies",
+    "mitigation strategies"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf7"
+  },
+  "type": "topic",
+  "code": "quality_control",
+  "readable_name": "quality control",
+  "description": "Quality assurance and control processes",
+  "examples": [
+    "QA reports",
+    "defect analysis",
+    "inspection records",
+    "compliance checks",
+    "process improvements"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68b6ccfbaf9a697c2f68bbf8"
+  },
+  "type": "topic",
+  "code": "financial_reporting",
+  "readable_name": "financial reporting",
+  "description": "Financial statements and reporting",
+  "examples": [
+    "income statements",
+    "balance sheets",
+    "cash flow reports",
+    "quarterly earnings",
+    "annual reports"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68e7aa8529ba3f99eb995164"
+  },
+  "type": "topic",
+  "code": "payment_processing_exception",
+  "readable_name": "exception handling in payment processing",
+  "description": "Detection, investigation, resolution, and documentation of payment transaction exceptions, disputes, and processing failures in financial services. Includes dispute case files labeled with case numbers (e.g., Case #DSP-2024-XXXXXX), email correspondence archives showing customer-merchant communication threads, investigation documentation, chargeback case files, refund dispute resolution records, merchant non-response documentation, and exception tracking files. Documents typically contain case references, dispute timelines, email threads between cardholders and merchants, bank investigation records, and resolution outcomes for payment processing issues in banking and credit card operations",
+  "examples": [
+    "dispute case files",
+    "email correspondence archive",
+    "complete email thread",
+    "cardholder vs merchant",
+    "customer vs merchant dispute",
+    "chargeback dispute cases",
+    "dispute resolution case",
+    "payment investigation case documentation",
+    "merchant non-response case",
+    "refund not processed dispute",
+    "credit card dispute letter",
+    "bank dispute case files",
+    "dispute case number",
+    "chargeback case documentation",
+    "refund processing failure case",
+    "customer dispute correspondence",
+    "merchant refund dispute",
+    "cardholder complaint emails",
+    "dispute investigation records",
+    "email thread case archives",
+    "temporary credit case",
+    "chargeback notification emails",
+    "merchant communication failure",
+    "return merchandise dispute",
+    "unprocessed refund claim",
+    "settlement discrepancies",
+    "authorization hold exceptions",
+    "duplicate transaction errors",
+    "ACH return processing",
+    "payment gateway timeouts"
+  ],
+  "cross_industry": false,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68f65bc0e8d6279b377d1ab7"
+  },
+  "type": "topic",
+  "code": "kyc_onboarding",
+  "readable_name": "KYC customer onboarding",
+  "description": "Know Your Customer identity verification and compliance documentation",
+  "examples": [
+    "identity documents (driver's license, passport, national ID)",
+    "proof of address (utility bills, bank statements, lease agreements)",
+    "customer onboarding forms and applications",
+    "KYC verification records",
+    "AML/CFT compliance checks",
+    "PEP screening reports",
+    "sanctions list verification",
+    "customer due diligence documents",
+    "residential address verification",
+    "identity and address validation"
+  ],
+  "key_terms": [
+    "KYC",
+    "identity",
+    "verification",
+    "onboarding",
+    "compliance",
+    "AML",
+    "CFT",
+    "due diligence",
+    "customer",
+    "identity document",
+    "driver license",
+    "passport",
+    "utility bill",
+    "proof of address",
+    "residential",
+    "address verification",
+    "PEP",
+    "sanctions",
+    "screening",
+    "application form"
+  ],
+  "cross_industry": true,
+  "enabled": true
+},
+{
+  "_id": {
+    "$oid": "68f8904516870887012a37dc"
+  },
+  "type": "topic",
+  "code": "loan_origination",
+  "readable_name": "Loan Origination and Underwriting",
+  "description": "Loan application processing, credit assessment, and underwriting documentation. Includes borrower financial verification, credit evaluation, income and employment documentation, housing expense verification (including residential lease agreements for renters), collateral appraisals, and underwriting decisions. Lease agreements are essential underwriting documents used to verify housing costs, calculate debt-to-income ratios, and assess borrower financial obligations.",
+  "examples": [
+    "loan applications and mortgage applications",
+    "residential lease agreements and rental contracts (required for DTI calculation and housing expense verification)",
+    "credit reports and credit scores",
+    "income verification documents (payslips, pay stubs, W-2 forms)",
+    "tax statements and tax returns",
+    "property appraisal reports and valuations",
+    "bank statements and financial statements",
+    "employment verification letters",
+    "debt and liability disclosures",
+    "proof of residence and address verification documents",
+    "rental payment history and housing expense documentation",
+    "underwriting decisions and approval letters",
+    "collateral documentation and title reports",
+    "loan estimates and closing disclosures",
+    "proof of assets and down payment verification"
+  ],
+  "key_terms": [
+    "loan",
+    "mortgage",
+    "credit",
+    "underwriting",
+    "borrower",
+    "applicant",
+    "tenant",
+    "renter",
+    "lease",
+    "lease agreement",
+    "residential lease",
+    "rental",
+    "rent",
+    "monthly rent",
+    "rental payment",
+    "rental obligation",
+    "landlord",
+    "lessor",
+    "lessee",
+    "housing",
+    "housing expenses",
+    "housing cost",
+    "residence",
+    "residential",
+    "residential property",
+    "apartment",
+    "rental property",
+    "proof of residence",
+    "address verification",
+    "DTI",
+    "debt-to-income",
+    "credit score",
+    "FICO",
+    "LTV",
+    "loan-to-value",
+    "income",
+    "salary",
+    "payslip",
+    "pay stub",
+    "tax return",
+    "W-2",
+    "1040",
+    "employment",
+    "appraisal",
+    "property value",
+    "collateral",
+    "down payment",
+    "interest rate",
+    "APR",
+    "loan amount",
+    "principal",
+    "term",
+    "monthly payment",
+    "approval",
+    "denial",
+    "conditional approval",
+    "stipulation",
+    "financial statement",
+    "bank statement",
+    "financial obligation",
+    "assets",
+    "liabilities",
+    "debt",
+    "credit history",
+    "payment history",
+    "delinquency",
+    "bankruptcy",
+    "foreclosure",
+    "lease term",
+    "lease commencement",
+    "SSN",
+    "social security"
+  ],
+  "cross_industry": false,
+  "enabled": true
+}]

@@ -1,0 +1,1297 @@
+[{
+  "_id": {
+    "$oid": "68f8a7e54d690418ab2467f6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "MongoDB connection closed",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:13.413Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7e54d690418ab2467f5"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "message": "Workflow completed successfully",
+  "agent": "system",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:13.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7e44d690418ab2467f4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ MongoDB indexes created/verified for all collections",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:12.920Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7de4d690418ab2467f3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Checkpointer collections: checkpoint_writes_aio, checkpoints_aio",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:06.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7de4d690418ab2467f2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - QA logs collection: logs_qa",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:06.085Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467f1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Agent personas collection: agent_personas",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467f0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Report templates collection: report_templates",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.745Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467ef"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Scheduled reports collection: scheduled_reports",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.573Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467ee"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Industry mappings collection: industry_mappings",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.401Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467ed"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Google Drive collection: gdrive",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.231Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dd4d690418ab2467ec"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Buckets collection: buckets",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:05.058Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dc4d690418ab2467eb"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Workflows collection: workflows",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:04.884Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dc4d690418ab2467ea"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Gradings collection: gradings",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:04.712Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dc4d690418ab2467e9"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Assessments collection: assessments",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:04.461Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dc4d690418ab2467e8"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Documents collection: documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:04.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7dc4d690418ab2467e7"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Chunks collection: chunks",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:04.118Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7db4d690418ab2467e6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ Connected to MongoDB: document_intelligence",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:03.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d94d690418ab2467e4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "api.routes.ingestion",
+  "agent": null,
+  "message": "Workflow fsi_loan_origination_1761126355361 completed successfully",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:01.615Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d94d690418ab2467e3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "✅ All documents already fully processed - completing workflow",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:01.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d94d690418ab2467e2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 2)",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:01.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d94d690418ab2467e1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📊 Evaluation complete: 3/4 documents are relevant for processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:01.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d84d690418ab2467e0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: EmploymentVerificationLetter_FridaKlo.docx (relevance: 75%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:00.841Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d84d690418ab2467df"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document EmploymentVerificationLetter_FridaKlo.docx needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:00.670Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d84d690418ab2467de"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for EmploymentVerificationLetter_FridaKlo.docx",
+  "timestamp": {
+    "$date": "2025-10-22T09:46:00.329Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d74d690418ab2467dd"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "❌ Not relevant: pokemon_wikipedia.pdf (relevance: 0%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:59.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d74d690418ab2467dc"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for pokemon_wikipedia.pdf",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:59.797Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d74d690418ab2467db"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: ResidentialLeaseAgreement_FridaKlo.pdf (relevance: 75%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:59.355Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d74d690418ab2467da"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document ResidentialLeaseAgreement_FridaKlo.pdf needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:59.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d64d690418ab2467d9"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for ResidentialLeaseAgreement_FridaKlo.pdf",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:58.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d64d690418ab2467d8"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: LoanApplication_FridaKlo.pdf (relevance: 95%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:58.434Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d64d690418ab2467d7"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document LoanApplication_FridaKlo.pdf needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:58.261Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d54d690418ab2467d6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for LoanApplication_FridaKlo.pdf",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:57.889Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d54d690418ab2467d5"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📋 Context extracted - Industry: financial services, Topic: loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:57.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d54d690418ab2467d4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🔍 Evaluator Agent: Assessing 4 documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:57.047Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467d3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 1)",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.875Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467d2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "✅ Scanner found 4 total documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467d1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "  Found 4 documents in @local@/docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.537Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467d0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "tools.document_tools",
+  "agent": null,
+  "message": "Found 4 documents in /docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.367Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467cf"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "Scanning: @local@/docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d44d690418ab2467ce"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "📂 Scanner Agent: Scanning 1 sources",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:56.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7d34d690418ab2467cd"
+  },
+  "workflow_id": "fsi_loan_origination_1761126355361",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 0)",
+  "timestamp": {
+    "$date": "2025-10-22T09:45:55.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a79a4d690418ab2467cc"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "MongoDB connection closed",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:58.358Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a79a4d690418ab2467cb"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "message": "Workflow completed successfully",
+  "agent": "system",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:58.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7994d690418ab2467ca"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ MongoDB indexes created/verified for all collections",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:57.844Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7924d690418ab2467c9"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Checkpointer collections: checkpoint_writes_aio, checkpoints_aio",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:50.716Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7924d690418ab2467c8"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - QA logs collection: logs_qa",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:50.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7924d690418ab2467c7"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Agent personas collection: agent_personas",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:50.371Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7924d690418ab2467c6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Report templates collection: report_templates",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:50.200Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7924d690418ab2467c5"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Scheduled reports collection: scheduled_reports",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:50.022Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7914d690418ab2467c4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Industry mappings collection: industry_mappings",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:49.829Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7914d690418ab2467c3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Google Drive collection: gdrive",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:49.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7914d690418ab2467c2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Buckets collection: buckets",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:49.481Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7914d690418ab2467c1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Workflows collection: workflows",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:49.309Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7914d690418ab2467c0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Gradings collection: gradings",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:49.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7904d690418ab2467bf"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Assessments collection: assessments",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:48.967Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7904d690418ab2467be"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Documents collection: documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:48.796Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7904d690418ab2467bd"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Chunks collection: chunks",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:48.622Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7904d690418ab2467bc"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ Connected to MongoDB: document_intelligence",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:48.449Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78d4d690418ab2467ba"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "api.routes.ingestion",
+  "agent": null,
+  "message": "Workflow fsi_loan_origination_1761126270703 completed successfully",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:45.633Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78d4d690418ab2467b9"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "✅ All documents already fully processed - completing workflow",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:45.462Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78d4d690418ab2467b8"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 2)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:45.291Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78d4d690418ab2467b7"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📊 Evaluation complete: 3/4 documents are relevant for processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:45.117Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78c4d690418ab2467b6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: EmploymentVerificationLetter_FridaKlo.docx (relevance: 75%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:44.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78c4d690418ab2467b5"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document EmploymentVerificationLetter_FridaKlo.docx needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:44.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78c4d690418ab2467b4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for EmploymentVerificationLetter_FridaKlo.docx",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:44.432Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78c4d690418ab2467b3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "❌ Not relevant: pokemon_wikipedia.pdf (relevance: 0%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:44.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78b4d690418ab2467b2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ Stored assessment for document doc_bb994b9f",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:43.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a78b4d690418ab2467b1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "cloud.aws.bedrock.claude_vision",
+  "agent": null,
+  "message": "📊 Quick scan: Entertainment/Gaming Wikipedia article - 0% relevant",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:43.527Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7834d690418ab2467b0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "tools.vision_tools",
+  "agent": null,
+  "message": "Converted first page (for quick assessment) to image",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:35.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7834d690418ab2467af"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "  Evaluating relevance of pokemon_wikipedia.pdf...",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:35.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7824d690418ab2467ae"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: ResidentialLeaseAgreement_FridaKlo.pdf (relevance: 75%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:34.769Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7824d690418ab2467ad"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document ResidentialLeaseAgreement_FridaKlo.pdf needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:34.597Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7824d690418ab2467ac"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for ResidentialLeaseAgreement_FridaKlo.pdf",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:34.268Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7814d690418ab2467ab"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "☑️ Document is relevant: LoanApplication_FridaKlo.pdf (relevance: 95%)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:33.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7814d690418ab2467aa"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🆕 Document LoanApplication_FridaKlo.pdf needs processing",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:33.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7814d690418ab2467a9"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📚 Using cached assessment for LoanApplication_FridaKlo.pdf",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:33.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7814d690418ab2467a8"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "📋 Context extracted - Industry: financial services, Topic: loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:33.002Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7804d690418ab2467a7"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.evaluator",
+  "agent": null,
+  "message": "🔍 Evaluator Agent: Assessing 4 documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:32.505Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7804d690418ab2467a6"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 1)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:32.250Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a7804d690418ab2467a5"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "✅ Scanner found 4 total documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:32.006Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d690418ab2467a4"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "  Found 4 documents in @local@/docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:31.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d690418ab2467a3"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "tools.document_tools",
+  "agent": null,
+  "message": "Found 4 documents in /docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:31.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d690418ab2467a2"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "Scanning: @local@/docs/fsi/loan_origination",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:31.484Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d690418ab2467a1"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.scanner",
+  "agent": null,
+  "message": "📂 Scanner Agent: Scanning 1 sources",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:31.313Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a77f4d690418ab2467a0"
+  },
+  "workflow_id": "fsi_loan_origination_1761126270703",
+  "level": "INFO",
+  "logger": "agents.supervisor",
+  "agent": null,
+  "message": "🧠 Supervisor analyzing state (iteration 0)",
+  "timestamp": {
+    "$date": "2025-10-22T09:44:31.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6f54d690418ab24679f"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "MongoDB connection closed",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:13.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6f54d690418ab24679e"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "message": "Workflow completed successfully",
+  "agent": "system",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:13.523Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6f54d690418ab24679d"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "✅ MongoDB indexes created/verified for all collections",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:13.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab24679c"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Checkpointer collections: checkpoint_writes_aio, checkpoints_aio",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab24679b"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - QA logs collection: logs_qa",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.719Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab24679a"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Agent personas collection: agent_personas",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.544Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab246799"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Report templates collection: report_templates",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab246798"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Scheduled reports collection: scheduled_reports",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.198Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ee4d690418ab246797"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Industry mappings collection: industry_mappings",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:06.024Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ed4d690418ab246796"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Google Drive collection: gdrive",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:05.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ed4d690418ab246795"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Buckets collection: buckets",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:05.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ed4d690418ab246794"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Workflows collection: workflows",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:05.510Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ed4d690418ab246793"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Gradings collection: gradings",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:05.338Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ed4d690418ab246792"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Assessments collection: assessments",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:05.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68f8a6ec4d690418ab246791"
+  },
+  "workflow_id": "fsi_loan_origination_1761126089009",
+  "level": "INFO",
+  "logger": "db.mongodb_connector",
+  "agent": null,
+  "message": "  - Documents collection: documents",
+  "timestamp": {
+    "$date": "2025-10-22T09:42:04.997Z"
+  }
+}]

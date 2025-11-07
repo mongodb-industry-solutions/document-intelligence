@@ -1,0 +1,700 @@
+[{
+  "_id": {
+    "$oid": "68df86e200458dc4bd862476"
+  },
+  "document_id": "doc_266ca851",
+  "document_name": "3c_Aerospace_Manufacturing_Sector_Study.docx",
+  "document_path": "@local@/docs/fsi/credit_rating/3c_Aerospace_Manufacturing_Sector_Study.docx",
+  "file_extension": "docx",
+  "file_size_mb": 0.01371002197265625,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/credit_rating",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-03T08:18:42.295Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-03T08:18:46.189Z"
+  },
+  "status": "completed",
+  "chunk_count": 4,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6417,
+    "processing_timestamp": {
+      "$date": "2025-10-03T08:18:42.295Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68df86e700458dc4bd862477"
+  },
+  "document_id": "doc_e2ba3934",
+  "document_name": "2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/credit_rating/2c_AeroTech_Manufacturing_Outlook_Update.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.10473346710205078,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/credit_rating",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-03T08:18:46.950Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-03T08:19:28.220Z"
+  },
+  "status": "completed",
+  "chunk_count": 4,
+  "has_visual_references": false,
+  "metadata": {
+    "markdown_length": 6418,
+    "processing_timestamp": {
+      "$date": "2025-10-03T08:18:46.950Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68df887500458dc4bd86248c"
+  },
+  "document_id": "doc_1ef31442",
+  "document_name": "4c_Market_Economic_Research_Publication.pdf",
+  "document_path": "@gdrive@fsi/credit_rating/4c_Market_Economic_Research_Publication.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.10487079620361328,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/credit_rating",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-03T08:25:25.363Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-03T08:25:38.534Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": false,
+  "metadata": {
+    "markdown_length": 4968,
+    "processing_timestamp": {
+      "$date": "2025-10-03T08:25:25.363Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4bf5fc2bb6e17eaedb5"
+  },
+  "document_id": "doc_116ad023",
+  "document_name": "Operational_Memo.pdf",
+  "document_path": "@local@/docs/fsi/payment_processing_exception/Operational_Memo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.36187076568603516,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/payment_processing_exception",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-09T15:29:03.089Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:06.514Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6033,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:03.089Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4c35fc2bb6e17eaedb6"
+  },
+  "document_id": "doc_68bb491d",
+  "document_name": "Credit_Card_Settlement_Statement.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Credit_Card_Settlement_Statement.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.24028968811035156,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/payment_processing_exception",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-09T15:29:07.205Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:10.320Z"
+  },
+  "status": "completed",
+  "chunk_count": 2,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 4051,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:07.205Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4c75fc2bb6e17eaedb7"
+  },
+  "document_id": "doc_241bf8dd",
+  "document_name": "Exception_Report.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Exception_Report.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.3869171142578125,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/payment_processing_exception",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-09T15:29:11.016Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:14.338Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6560,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:11.016Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4cb5fc2bb6e17eaedb8"
+  },
+  "document_id": "doc_ef5b1da6",
+  "document_name": "Payment_Investigation_Ticket.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/payment_processing_exception/Payment_Investigation_Ticket.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.3242454528808594,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/payment_processing_exception",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-09T15:29:15.041Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:18.267Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 5592,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:15.041Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4cf5fc2bb6e17eaedb9"
+  },
+  "document_id": "doc_e6d0edb4",
+  "document_name": "Credit_Card_Reconciliation_Report.pdf",
+  "document_path": "@gdrive@fsi/payment_processing_exception/Credit_Card_Reconciliation_Report.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.20011043548583984,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/payment_processing_exception",
+  "page_count": 3,
+  "created_at": {
+    "$date": "2025-10-09T15:29:18.961Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:22.059Z"
+  },
+  "status": "completed",
+  "chunk_count": 2,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 2883,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:18.961Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d4d25fc2bb6e17eaedba"
+  },
+  "document_id": "doc_118eb89b",
+  "document_name": "Dispute_Letter.pdf",
+  "document_path": "@gdrive@fsi/payment_processing_exception/Dispute_Letter.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.08174610137939453,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/payment_processing_exception",
+  "page_count": 2,
+  "created_at": {
+    "$date": "2025-10-09T15:29:22.748Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:29:25.749Z"
+  },
+  "status": "completed",
+  "chunk_count": 1,
+  "has_visual_references": false,
+  "metadata": {
+    "markdown_length": 2038,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:29:22.748Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68e7d8ef5fc2bb6e17eaeddd"
+  },
+  "document_id": "doc_b82576e8",
+  "document_name": "Email_Correspondence_Case_DSP003847.pdf",
+  "document_path": "@local@/docs/fsi/payment_processing_exception/Email_Correspondence_Case_DSP003847.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.8597135543823242,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/payment_processing_exception",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-09T15:46:55.017Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-09T15:47:16.084Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 5222,
+    "processing_timestamp": {
+      "$date": "2025-10-09T15:46:55.017Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68ee61965fc2bb6e17eb0560"
+  },
+  "document_id": "doc_8972fe76",
+  "document_name": "4c_Market_Economic_Research_Publication.docx",
+  "document_path": "@local@/docs/fsi/credit_rating/4c_Market_Economic_Research_Publication.docx",
+  "file_extension": "docx",
+  "file_size_mb": 0.011783599853515625,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/credit_rating",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-14T15:00:34.808Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-14T15:00:38.201Z"
+  },
+  "status": "completed",
+  "chunk_count": 4,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6051,
+    "processing_timestamp": {
+      "$date": "2025-10-14T15:00:34.808Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f64dbd4d3a5da46373da5e"
+  },
+  "document_id": "doc_0eb462a6",
+  "document_name": "ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+  "document_path": "@local@/docs/fsi/investment_research/ResearchReport_TechnologySector_McKinsey2025Summary.docx",
+  "file_extension": "docx",
+  "file_size_mb": 0.03771209716796875,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/investment_research",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-20T14:57:00.989Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T14:57:04.816Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 5578,
+    "processing_timestamp": {
+      "$date": "2025-10-20T14:57:00.989Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f64dc24d3a5da46373da5f"
+  },
+  "document_id": "doc_40b88406",
+  "document_name": "PressRelease_Amazon.docx",
+  "document_path": "@local@/docs/fsi/investment_research/PressRelease_Amazon.docx",
+  "file_extension": "docx",
+  "file_size_mb": 0.01123809814453125,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/investment_research",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-20T14:57:06.087Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T14:57:09.382Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6108,
+    "processing_timestamp": {
+      "$date": "2025-10-20T14:57:06.087Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f64dc64d3a5da46373da60"
+  },
+  "document_id": "doc_be99079f",
+  "document_name": "EarningsReport_Amazon.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/investment_research/EarningsReport_Amazon.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.09678363800048828,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/investment_research",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-20T14:57:10.648Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T14:57:14.977Z"
+  },
+  "status": "completed",
+  "chunk_count": 4,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 9334,
+    "processing_timestamp": {
+      "$date": "2025-10-20T14:57:10.648Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f64dce4d3a5da46373da61"
+  },
+  "document_id": "doc_24944c02",
+  "document_name": "AnnualReport_Amazon.pdf",
+  "document_path": "@gdrive@fsi/investment_research/AnnualReport_Amazon.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.03371620178222656,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/investment_research",
+  "page_count": 1,
+  "created_at": {
+    "$date": "2025-10-20T14:57:18.530Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T14:57:23.807Z"
+  },
+  "status": "completed",
+  "chunk_count": 2,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 2403,
+    "processing_timestamp": {
+      "$date": "2025-10-20T14:57:18.530Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f65a674d3a5da46373dadb"
+  },
+  "document_id": "doc_499c9442",
+  "document_name": "OnboardingForm_Jonathan.pdf",
+  "document_path": "@local@/docs/fsi/kyc_onboarding/OnboardingForm_Jonathan.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.3443870544433594,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/kyc_onboarding",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-20T15:51:03.105Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T15:51:06.967Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 5292,
+    "processing_timestamp": {
+      "$date": "2025-10-20T15:51:03.105Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f65a6c4d3a5da46373dadc"
+  },
+  "document_id": "doc_a1c11552",
+  "document_name": "DriverLicense_Jonathan.pdf",
+  "document_path": "@gdrive@fsi/kyc_onboarding/DriverLicense_Jonathan.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.23070049285888672,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/kyc_onboarding",
+  "page_count": 1,
+  "created_at": {
+    "$date": "2025-10-20T15:51:07.985Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T15:51:11.191Z"
+  },
+  "status": "completed",
+  "chunk_count": 1,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 812,
+    "processing_timestamp": {
+      "$date": "2025-10-20T15:51:07.985Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f65c544d3a5da46373dae0"
+  },
+  "document_id": "doc_212997ec",
+  "document_name": "ElectricBill_Jonathan.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/kyc_onboarding/ElectricBill_Jonathan.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.36945056915283203,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/kyc_onboarding",
+  "page_count": 2,
+  "created_at": {
+    "$date": "2025-10-20T15:59:16.459Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-20T15:59:20.208Z"
+  },
+  "status": "completed",
+  "chunk_count": 1,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 1908,
+    "processing_timestamp": {
+      "$date": "2025-10-20T15:59:16.459Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f893294d3a5da46373e2db"
+  },
+  "document_id": "doc_e67a4374",
+  "document_name": "CreditReport_FridaKlo.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/CreditReport_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.2162342071533203,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/loan_origination",
+  "page_count": 2,
+  "created_at": {
+    "$date": "2025-10-22T08:17:45.007Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:17:49.069Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 4090,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:17:45.007Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f893314d3a5da46373e2dc"
+  },
+  "document_id": "doc_696a1405",
+  "document_name": "PropertyAppraisalReport_FridaKlo.pdf",
+  "document_path": "@s3@industry-solutions-demos/industry/cross/document-intelligence/fsi/loan_origination/PropertyAppraisalReport_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.19751834869384766,
+  "source_type": "s3",
+  "source_path": "@s3@fsi/loan_origination",
+  "page_count": 2,
+  "created_at": {
+    "$date": "2025-10-22T08:17:53.069Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:17:56.883Z"
+  },
+  "status": "completed",
+  "chunk_count": 2,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 3525,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:17:53.069Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f893394d3a5da46373e2dd"
+  },
+  "document_id": "doc_31215d11",
+  "document_name": "Payslips_FridaKlo.pdf",
+  "document_path": "@gdrive@fsi/loan_origination/Payslips_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.14837169647216797,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/loan_origination",
+  "page_count": 3,
+  "created_at": {
+    "$date": "2025-10-22T08:18:00.893Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:18:04.566Z"
+  },
+  "status": "completed",
+  "chunk_count": 1,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 2057,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:18:00.893Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f893404d3a5da46373e2de"
+  },
+  "document_id": "doc_9dc6577f",
+  "document_name": "TaxStatement_FridaKlo.pdf",
+  "document_path": "@gdrive@fsi/loan_origination/TaxStatement_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.0053119659423828125,
+  "source_type": "gdrive",
+  "source_path": "@gdrive@fsi/loan_origination",
+  "page_count": 3,
+  "created_at": {
+    "$date": "2025-10-22T08:18:08.593Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:18:12.355Z"
+  },
+  "status": "completed",
+  "chunk_count": 2,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 2348,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:18:08.593Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f895014d3a5da46373e2e3"
+  },
+  "document_id": "doc_f5a6126b",
+  "document_name": "LoanApplication_FridaKlo.pdf",
+  "document_path": "@local@/docs/fsi/loan_origination/LoanApplication_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.6167316436767578,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/loan_origination",
+  "page_count": 4,
+  "created_at": {
+    "$date": "2025-10-22T08:25:37.214Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:25:41.428Z"
+  },
+  "status": "completed",
+  "chunk_count": 4,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 6739,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:25:37.214Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f895064d3a5da46373e2e4"
+  },
+  "document_id": "doc_814f351e",
+  "document_name": "EmploymentVerificationLetter_FridaKlo.docx",
+  "document_path": "@local@/docs/fsi/loan_origination/EmploymentVerificationLetter_FridaKlo.docx",
+  "file_extension": "docx",
+  "file_size_mb": 0.007080078125,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/loan_origination",
+  "page_count": 1,
+  "created_at": {
+    "$date": "2025-10-22T08:25:42.582Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:25:46.142Z"
+  },
+  "status": "completed",
+  "chunk_count": 1,
+  "has_visual_references": false,
+  "metadata": {
+    "markdown_length": 1150,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:25:42.582Z"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68f897944d3a5da46373e2e9"
+  },
+  "document_id": "doc_4060cf5f",
+  "document_name": "ResidentialLeaseAgreement_FridaKlo.pdf",
+  "document_path": "@local@/docs/fsi/loan_origination/ResidentialLeaseAgreement_FridaKlo.pdf",
+  "file_extension": "pdf",
+  "file_size_mb": 0.2856273651123047,
+  "source_type": "local",
+  "source_path": "@local@/docs/fsi/loan_origination",
+  "page_count": 3,
+  "created_at": {
+    "$date": "2025-10-22T08:36:36.210Z"
+  },
+  "updated_at": {
+    "$date": "2025-10-22T08:36:40.622Z"
+  },
+  "status": "completed",
+  "chunk_count": 3,
+  "has_visual_references": true,
+  "metadata": {
+    "markdown_length": 4355,
+    "processing_timestamp": {
+      "$date": "2025-10-22T08:36:36.210Z"
+    }
+  }
+}]
