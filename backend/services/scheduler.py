@@ -121,7 +121,7 @@ class ReportScheduler:
         
         logger.info(f"Scheduling jobs for production environment (NODE_ENV={node_env})")
         
-        # Clear any existing jobs
+        # Clear existing jobs
         schedule.clear()
         
         # Schedule report generation for each industry
