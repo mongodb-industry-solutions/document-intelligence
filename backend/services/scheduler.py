@@ -77,11 +77,6 @@ class ReportScheduler:
         # Industry schedule (UTC times) - Weekly on Mondays
         self.industry_schedule = {
             "fsi": "04:00",           # 4:00 AM UTC every Monday
-            # "healthcare": "04:20",     # Commented out - not needed yet
-            # "manufacturing": "04:40",  # Commented out - not needed yet
-            # "media": "05:00",         # Commented out - not needed yet
-            # "retail": "05:20",        # Commented out - not needed yet
-            # "insurance": "05:40"      # Commented out - not needed yet
         }
     
     def start(self):
