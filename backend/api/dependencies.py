@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from db.mongodb_connector import MongoDBConnector
 from vogayeai.context_embeddings import VoyageContext3Embeddings
 from cloud.aws.bedrock.client import BedrockClient
-from langgraph.checkpoint.mongodb.aio import AsyncMongoDBSaver
+from langgraph.checkpoint.mongodb import MongoDBSaver
 
 # Load environment variables
 load_dotenv()
@@ -21,7 +21,7 @@ _async_mongodb_client: Optional[AsyncMongoClient] = None
 _mongodb_connector: Optional[MongoDBConnector] = None
 _embeddings_client: Optional[VoyageContext3Embeddings] = None
 _bedrock_client: Optional[any] = None
-_checkpointer: Optional[AsyncMongoDBSaver] = None
+_checkpointer: Optional[MongoDBSaver] = None
 
 
 def get_mongodb_client() -> MongoClient:
@@ -73,12 +73,12 @@ def get_bedrock_client():
     return _bedrock_client
 
 
-async def get_checkpointer() -> AsyncMongoDBSaver:
-    """Singleton AsyncMongoDBSaver for conversation checkpoints (short-term memory)."""
+async def get_checkpointer() -> MongoDBSaver:
+    """Singleton MongoDBSaver for conversation checkpoints (short-term memory)."""
     global _checkpointer
     if not _checkpointer:
         client = await get_async_mongodb_client()
-        _checkpointer = AsyncMongoDBSaver(
+        _checkpointer = MongoDBSaver(
             client,
             db_name=os.getenv("DATABASE_NAME")
         )
