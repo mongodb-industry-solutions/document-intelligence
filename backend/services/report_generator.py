@@ -107,6 +107,7 @@ class ReportGenerator:
             self.llm = ChatBedrock(
                 model=os.getenv("BEDROCK_MODEL_ID"),
                 client=bedrock_client,
+                provider="anthropic",
                 temperature=0.3,  # Lower temperature for consistent reports
                 max_tokens=4096
             )
