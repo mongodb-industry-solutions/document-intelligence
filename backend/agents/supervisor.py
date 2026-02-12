@@ -45,6 +45,7 @@ class SupervisorAgent:
             self.llm = ChatBedrock(
                 model=os.getenv("BEDROCK_MODEL_ID"),
                 client=bedrock_client,
+                provider="anthropic",
                 temperature=0.0001
             )
         else:
