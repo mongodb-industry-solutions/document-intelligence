@@ -439,6 +439,7 @@ class AgenticRAGQandA:
             self.llm = ChatBedrock(
                 model=os.getenv("BEDROCK_MODEL_ID"),
                 client=bedrock_client,
+                provider="anthropic",
                 temperature=0.0001,
                 max_tokens=2048,  # Limit response length for faster generation
                 model_kwargs={
