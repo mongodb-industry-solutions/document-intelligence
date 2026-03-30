@@ -193,6 +193,8 @@ class DocumentGraderNode:
     Implements quality control in the agentic RAG pipeline.
     """
     
+    MAX_REWRITES = 2
+    
     def __init__(self, llm: ChatBedrock, mongodb_connector=None):
         """
         Initialize Document Grader Node.
@@ -227,9 +229,8 @@ class DocumentGraderNode:
         """
         logger.info("🔍 Grade Documents: Assessing relevance of retrieved content")
         
-        MAX_REWRITES = 2
-        if state.get("rewrite_count", 0) >= MAX_REWRITES:
-            logger.warning(f"Max rewrites ({MAX_REWRITES}) reached. Proceeding to answer generation.")
+        if state.get("rewrite_count", 0) >= self.MAX_REWRITES:
+            logger.warning(f"Max rewrites ({self.MAX_REWRITES}) reached. Proceeding to answer generation.")
             return "generate_answer"
         
         # Extract the most recent user question and context from state
@@ -446,7 +447,10 @@ class AgenticRAGQandA:
 
         from cloud.aws.bedrock.client import BedrockClient
         if not bedrock_client:
-            bedrock_client = BedrockClient()._get_bedrock_client()
+            if llm and hasattr(llm, 'client') and llm.client:
+                bedrock_client = llm.client
+            else:
+                bedrock_client = BedrockClient()._get_bedrock_client()
 
         if not llm:
             self.llm = ChatBedrock(
@@ -716,7 +720,6 @@ class AgenticRAGQandA:
         workflow.add_edge("generate_answer", END)
         workflow.add_edge("rewrite_question", "generate_query_or_respond")
         
-        # Compile workflow with checkpointer for memory
         if self.checkpointer:
             compiled_workflow = workflow.compile(checkpointer=self.checkpointer)
             logger.info("✅ Agentic RAG workflow compiled with memory checkpointer")
@@ -775,10 +778,11 @@ class AgenticRAGQandA:
         query_rewrites = []
         
         try:
-            # Execute workflow with memory using thread_id
-            config = {"configurable": {"thread_id": thread_id}} if thread_id else {}
-            
+            # recursion_limit is a hard safety net on node invocations
+            # (rewrite_count handles the graceful path; this is the backstop)
+            config = {"recursion_limit": 12}
             if thread_id:
+                config["configurable"] = {"thread_id": thread_id}
                 logger.info(f"🧠 Using memory with thread_id: {thread_id}")
             else:
                 logger.info("🧠 No thread_id provided - conversation will not be persisted")
