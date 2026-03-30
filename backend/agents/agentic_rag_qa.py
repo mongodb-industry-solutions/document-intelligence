@@ -26,6 +26,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+class RAGState(MessagesState):
+    """Extended state that tracks rewrite iterations to cap Bedrock API costs."""
+    rewrite_count: int
+
+
 class DocumentGradingResult(BaseModel):
     """Result of document relevance grading"""
     binary_score: str = Field(description="Relevance score: 'yes' if relevant, or 'no' if not relevant")
@@ -222,6 +227,11 @@ class DocumentGraderNode:
         """
         logger.info("🔍 Grade Documents: Assessing relevance of retrieved content")
         
+        MAX_REWRITES = 2
+        if state.get("rewrite_count", 0) >= MAX_REWRITES:
+            logger.warning(f"Max rewrites ({MAX_REWRITES}) reached. Proceeding to answer generation.")
+            return "generate_answer"
+        
         # Extract the most recent user question and context from state
         user_messages = [msg for msg in state["messages"] if hasattr(msg, 'content') and isinstance(msg, HumanMessage)]
         if user_messages:
@@ -333,8 +343,10 @@ class QueryRewriterNode:
         logger.info(f"Original: {question}")
         logger.info(f"Rewritten: {improved_question}")
         
-        # Return new user message with improved question
-        return {"messages": [HumanMessage(content=improved_question)]}
+        return {
+            "messages": [HumanMessage(content=improved_question)],
+            "rewrite_count": state.get("rewrite_count", 0) + 1
+        }
 
 
 class AnswerGeneratorNode:
@@ -431,17 +443,18 @@ class AgenticRAGQandA:
             checkpointer: MongoDB checkpointer for conversation persistence
         """
         logger.info("🔧 Building Agentic RAG workflow")
-        # Initialize LLM if not provided
+
+        from cloud.aws.bedrock.client import BedrockClient
+        if not bedrock_client:
+            bedrock_client = BedrockClient()._get_bedrock_client()
+
         if not llm:
-            from cloud.aws.bedrock.client import BedrockClient
-            if not bedrock_client:
-                bedrock_client = BedrockClient()._get_bedrock_client()
             self.llm = ChatBedrock(
                 model=os.getenv("BEDROCK_MODEL_ID"),
                 client=bedrock_client,
                 provider="anthropic",
                 temperature=0.0001,
-                max_tokens=2048,  # Limit response length for faster generation
+                max_tokens=2048,
                 model_kwargs={
                     "max_tokens": 2048,
                     "temperature": 0.0001
@@ -449,7 +462,20 @@ class AgenticRAGQandA:
             )
         else:
             self.llm = llm
-            
+
+        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "anthropic.claude-3-5-haiku-20241022-v1:0")
+        self.fast_llm = ChatBedrock(
+            model=fast_model_id,
+            client=bedrock_client,
+            provider="anthropic",
+            temperature=0.0001,
+            max_tokens=1024,
+            model_kwargs={
+                "max_tokens": 1024,
+                "temperature": 0.0001
+            }
+        )
+
         self.embeddings_client = embeddings_client
         self.mongodb_connector = mongodb_connector
         self.checkpointer = checkpointer
@@ -460,10 +486,10 @@ class AgenticRAGQandA:
         self.report_dates_tool = self._create_report_dates_tool()
         self.tools = [self.retriever_tool, self.report_dates_tool]
         
-        # Initialize nodes with both tools
+        # Sonnet for query generation and answer synthesis; Haiku for grading and rewriting
         self.query_generator = QueryGeneratorNode(self.llm, self.tools, self.mongodb_connector)
-        self.document_grader = DocumentGraderNode(self.llm, self.mongodb_connector)
-        self.query_rewriter = QueryRewriterNode(self.llm)
+        self.document_grader = DocumentGraderNode(self.fast_llm, self.mongodb_connector)
+        self.query_rewriter = QueryRewriterNode(self.fast_llm)
         self.answer_generator = AnswerGeneratorNode(self.llm)
         
         # Build workflow
@@ -655,7 +681,7 @@ class AgenticRAGQandA:
         logger.info("🔧 Building Agentic RAG workflow")
         
         # Create workflow graph
-        workflow = StateGraph(MessagesState)
+        workflow = StateGraph(RAGState)
         
         # Add nodes (using exact tutorial names)
         workflow.add_node("generate_query_or_respond", self.query_generator)
@@ -738,9 +764,9 @@ class AgenticRAGQandA:
         else:
             logger.info("📋 No document filtering - searching all documents")
         
-        # Create initial state
         initial_state = {
-            "messages": [HumanMessage(content=query)]
+            "messages": [HumanMessage(content=query)],
+            "rewrite_count": 0
         }
         
         # Track workflow steps

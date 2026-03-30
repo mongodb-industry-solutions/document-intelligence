@@ -264,14 +264,12 @@ Respond in JSON format:
         for page_num, image_bytes in enumerate(images, 1):
             logger.info(f"📄 Extracting page {page_num}")
             
-            # Extract page content as markdown
-            # Reduce total attempts to 2 (initial + 1 retry)
             page_result = self._extract_page_as_markdown(
                 image_bytes=image_bytes,
                 page_num=page_num,
                 total_pages=len(images),
                 extraction_hints=extraction_hints,
-                max_retries=1
+                max_retries=0
             )
             
             # Process extraction result
@@ -608,11 +606,9 @@ Focus on creating accessible, self-explanatory markdown content."""
         # Minimum expected content length per page (very tolerant)
         MIN_CONTENT_LENGTH = 200  # Very low threshold to avoid false positives
         
-        # Check for obvious truncation patterns
+        # Check for obvious truncation patterns (only clear-cut indicators)
         truncation_patterns = [
             r'\.\.\.$',  # Ends with ellipsis
-            r'[^.!?]\s*$',  # Doesn't end with sentence punctuation
-            r'\w+\n*$',  # Ends with a single word
             r'^\s*$',  # Empty or whitespace only
             r'-\s*$',  # Ends with a dash
             r',\s*$',  # Ends with a comma

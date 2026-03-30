@@ -1,5 +1,12 @@
 env:
   NODE_ENV: staging
+
+security:
+  dataClassification: "Internal"
+  dataDesignation: ["MI"]
+
+ownership:
+  driEmail: mehar.grewal@mongodb.com
   
 envSecrets:
   MONGODB_URI: document-intelligence
