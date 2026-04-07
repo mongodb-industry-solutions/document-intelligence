@@ -235,3 +235,4 @@ frontend/next-env.d.ts
 *.pem
 backend/uv.lock
 agentic_rag.png
+*.sh
