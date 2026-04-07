@@ -467,7 +467,7 @@ class AgenticRAGQandA:
         else:
             self.llm = llm
 
-        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "arn:aws:bedrock:us-east-1:275662791714:inference-profile/global.anthropic.claude-haiku-4-5-20251001-v1:0")
+        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "anthropic.claude-3-haiku-20240307-v1:0")
         self.fast_llm = ChatBedrock(
             model=fast_model_id,
             client=bedrock_client,
