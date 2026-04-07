@@ -91,7 +91,7 @@ def extract_document_as_markdown(
 def document_to_images(
     document_path: str,
     max_pages: int = 4,
-    dpi: int = 200
+    dpi: int = 150
 ) -> List[bytes]:
     """
     Convert document to images for visual processing.

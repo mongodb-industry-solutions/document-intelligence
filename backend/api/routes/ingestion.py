@@ -182,7 +182,7 @@ async def start_ingestion(
         
         # Initialize components
         vision_extractor = ClaudeVisionExtractor(
-            model_id=os.getenv("BEDROCK_MODEL_ID")
+            model_id=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0")
         )
         voyage_embeddings = VoyageContext3Embeddings()
         

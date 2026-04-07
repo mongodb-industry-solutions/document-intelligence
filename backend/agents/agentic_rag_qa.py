@@ -26,6 +26,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+class RAGState(MessagesState):
+    """Extended state that tracks rewrite iterations to cap Bedrock API costs."""
+    rewrite_count: int
+
+
 class DocumentGradingResult(BaseModel):
     """Result of document relevance grading"""
     binary_score: str = Field(description="Relevance score: 'yes' if relevant, or 'no' if not relevant")
@@ -188,6 +193,8 @@ class DocumentGraderNode:
     Implements quality control in the agentic RAG pipeline.
     """
     
+    MAX_REWRITES = 2
+    
     def __init__(self, llm: ChatBedrock, mongodb_connector=None):
         """
         Initialize Document Grader Node.
@@ -221,6 +228,10 @@ class DocumentGraderNode:
             Next node to execute based on grading result
         """
         logger.info("🔍 Grade Documents: Assessing relevance of retrieved content")
+        
+        if state.get("rewrite_count", 0) >= self.MAX_REWRITES:
+            logger.warning(f"Max rewrites ({self.MAX_REWRITES}) reached. Proceeding to answer generation.")
+            return "generate_answer"
         
         # Extract the most recent user question and context from state
         user_messages = [msg for msg in state["messages"] if hasattr(msg, 'content') and isinstance(msg, HumanMessage)]
@@ -333,8 +344,10 @@ class QueryRewriterNode:
         logger.info(f"Original: {question}")
         logger.info(f"Rewritten: {improved_question}")
         
-        # Return new user message with improved question
-        return {"messages": [HumanMessage(content=improved_question)]}
+        return {
+            "messages": [HumanMessage(content=improved_question)],
+            "rewrite_count": state.get("rewrite_count", 0) + 1
+        }
 
 
 class AnswerGeneratorNode:
@@ -431,17 +444,21 @@ class AgenticRAGQandA:
             checkpointer: MongoDB checkpointer for conversation persistence
         """
         logger.info("🔧 Building Agentic RAG workflow")
-        # Initialize LLM if not provided
-        if not llm:
-            from cloud.aws.bedrock.client import BedrockClient
-            if not bedrock_client:
+
+        from cloud.aws.bedrock.client import BedrockClient
+        if not bedrock_client:
+            if llm and hasattr(llm, 'client') and llm.client:
+                bedrock_client = llm.client
+            else:
                 bedrock_client = BedrockClient()._get_bedrock_client()
+
+        if not llm:
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
                 client=bedrock_client,
                 provider="anthropic",
                 temperature=0.0001,
-                max_tokens=2048,  # Limit response length for faster generation
+                max_tokens=2048,
                 model_kwargs={
                     "max_tokens": 2048,
                     "temperature": 0.0001
@@ -449,7 +466,20 @@ class AgenticRAGQandA:
             )
         else:
             self.llm = llm
-            
+
+        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
+        self.fast_llm = ChatBedrock(
+            model=fast_model_id,
+            client=bedrock_client,
+            provider="anthropic",
+            temperature=0.0001,
+            max_tokens=1024,
+            model_kwargs={
+                "max_tokens": 1024,
+                "temperature": 0.0001
+            }
+        )
+
         self.embeddings_client = embeddings_client
         self.mongodb_connector = mongodb_connector
         self.checkpointer = checkpointer
@@ -460,10 +490,10 @@ class AgenticRAGQandA:
         self.report_dates_tool = self._create_report_dates_tool()
         self.tools = [self.retriever_tool, self.report_dates_tool]
         
-        # Initialize nodes with both tools
+        # Sonnet for query generation and answer synthesis; Haiku for grading and rewriting
         self.query_generator = QueryGeneratorNode(self.llm, self.tools, self.mongodb_connector)
-        self.document_grader = DocumentGraderNode(self.llm, self.mongodb_connector)
-        self.query_rewriter = QueryRewriterNode(self.llm)
+        self.document_grader = DocumentGraderNode(self.fast_llm, self.mongodb_connector)
+        self.query_rewriter = QueryRewriterNode(self.fast_llm)
         self.answer_generator = AnswerGeneratorNode(self.llm)
         
         # Build workflow
@@ -655,7 +685,7 @@ class AgenticRAGQandA:
         logger.info("🔧 Building Agentic RAG workflow")
         
         # Create workflow graph
-        workflow = StateGraph(MessagesState)
+        workflow = StateGraph(RAGState)
         
         # Add nodes (using exact tutorial names)
         workflow.add_node("generate_query_or_respond", self.query_generator)
@@ -690,7 +720,6 @@ class AgenticRAGQandA:
         workflow.add_edge("generate_answer", END)
         workflow.add_edge("rewrite_question", "generate_query_or_respond")
         
-        # Compile workflow with checkpointer for memory
         if self.checkpointer:
             compiled_workflow = workflow.compile(checkpointer=self.checkpointer)
             logger.info("✅ Agentic RAG workflow compiled with memory checkpointer")
@@ -738,9 +767,9 @@ class AgenticRAGQandA:
         else:
             logger.info("📋 No document filtering - searching all documents")
         
-        # Create initial state
         initial_state = {
-            "messages": [HumanMessage(content=query)]
+            "messages": [HumanMessage(content=query)],
+            "rewrite_count": 0
         }
         
         # Track workflow steps
@@ -749,10 +778,11 @@ class AgenticRAGQandA:
         query_rewrites = []
         
         try:
-            # Execute workflow with memory using thread_id
-            config = {"configurable": {"thread_id": thread_id}} if thread_id else {}
-            
+            # recursion_limit is a hard safety net on node invocations
+            # (rewrite_count handles the graceful path; this is the backstop)
+            config = {"recursion_limit": 12}
             if thread_id:
+                config["configurable"] = {"thread_id": thread_id}
                 logger.info(f"🧠 Using memory with thread_id: {thread_id}")
             else:
                 logger.info("🧠 No thread_id provided - conversation will not be persisted")

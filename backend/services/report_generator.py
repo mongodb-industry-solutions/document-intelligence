@@ -105,7 +105,7 @@ class ReportGenerator:
             if not bedrock_client:
                 bedrock_client = BedrockClient()._get_bedrock_client()
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
                 client=bedrock_client,
                 provider="anthropic",
                 temperature=0.3,  # Lower temperature for consistent reports
@@ -282,7 +282,7 @@ class ReportGenerator:
         use_case: str,
         section: Dict[str, Any],
         previous_context: List[Dict[str, Any]],
-        max_chunks: int = 20
+        max_chunks: int = 8
     ) -> List[Dict[str, Any]]:
         """
         Gather section-specific chunks using targeted vector search.
@@ -353,7 +353,7 @@ class ReportGenerator:
         self,
         industry: str,
         use_case: str,
-        max_chunks: int = 50
+        max_chunks: int = 20
     ) -> List[Dict[str, Any]]:
         """
         Gather initial relevant chunks using a general vector search.
@@ -566,7 +566,7 @@ class ReportGenerator:
             # Prepare context from chunks
             context = "\n\n".join([
                 f"[Document: {chunk.get('document_name', 'Unknown')}]\n{chunk.get('chunk_text', '')}"
-                for chunk in relevant_chunks[:30]  # Limit context to avoid token limits
+                for chunk in relevant_chunks[:10]
             ])
             
             # Add previous section summaries for consistency (if any)

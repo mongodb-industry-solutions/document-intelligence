@@ -1,5 +1,12 @@
 env:
   NODE_ENV: staging
+
+security:
+  dataClassification: "Internal"
+  dataDesignation: ["MI"]
+
+ownership:
+  driEmail: mehar.grewal@mongodb.com
   
 envSecrets:
   MONGODB_URI: document-intelligence
@@ -23,6 +30,7 @@ envSecrets:
   GDRIVE_ROOT_FOLDER_ID: document-intelligence
   BEDROCK_MODEL_ID: document-intelligence
   BEDROCK_MAX_TOKENS: document-intelligence
+  BEDROCK_FAST_MODEL_ID: document-intelligence
   VOYAGE_API_KEY: document-intelligence
   VOYAGE_MODEL: document-intelligence
   MAX_FILE_SIZE_MB: document-intelligence
