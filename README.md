@@ -19,44 +19,48 @@ A MongoDB Atlas-powered intelligent document processing system that demonstrates
    - **Optional**: AWS SSO configured for S3 document access
 
 2. **Environment Setup** (⚠️ CRITICAL - Demo won't work without this):
+
    ```bash
    # Create the backend .env file
    cd backend
    cp .env.example .env  # If example exists
-   # Edit .env with your actual values (see Configuration & Environment Variables section below)
+   # Edit .env with your actual value (see Configuration & Environment Variables section below)
    ```
 
 3. **Database Setup**:
+
    ```bash
    # Import seed data (from project root)
    cd backend/db/collections/seeds
-   
+
    # OPTIONAL: Only if using S3/GDrive sources (not required for local file upload)
    # Copy and configure S3/GDrive settings if needed
    cp document_intelligence.buckets.example.json document_intelligence.buckets.json
    cp document_intelligence.gdrive.example.json document_intelligence.gdrive.json
    # Edit these files with your actual bucket/folder IDs
-   
+
    # Import essential collections
    mongoimport --uri "$MONGODB_URI" --collection industry_mappings --file document_intelligence.industry_mappings.json --jsonArray
    mongoimport --uri "$MONGODB_URI" --collection report_templates --file document_intelligence.report_templates.json --jsonArray
    mongoimport --uri "$MONGODB_URI" --collection agent_personas --file document_intelligence.agent_personas.json --jsonArray
-   
+
    # Import S3/GDrive configs only if using those sources
    mongoimport --uri "$MONGODB_URI" --collection buckets --file document_intelligence.buckets.json --jsonArray
    mongoimport --uri "$MONGODB_URI" --collection gdrive --file document_intelligence.gdrive.json --jsonArray
-   
+
    # Optional: Import other sample data for testing
    # See all available seed files in backend/db/collections/seeds/
    ```
-   
+
    > **💡 Quick Demo**: For a fast start with local files only:
+   >
    > - Skip S3/GDrive configuration (steps above marked OPTIONAL)
    > - Use sample documents in `backend/data/seed/docs/`
    > - View pre-generated reports in `backend/data/seed/reports/`
    > - Upload your own documents via the API at `http://localhost:8080/api/upload/documents`
 
 4. **Run the Application**:
+
    ```bash
    # From project root
    docker-compose up --build
@@ -69,12 +73,14 @@ A MongoDB Atlas-powered intelligent document processing system that demonstrates
    - Use this JSON configuration:
    ```json
    {
-     "fields": [{
-       "type": "vector",
-       "path": "embedding",
-       "numDimensions": 1024,
-       "similarity": "cosine"
-     }]
+     "fields": [
+       {
+         "type": "vector",
+         "path": "embedding",
+         "numDimensions": 1024,
+         "similarity": "cosine"
+       }
+     ]
    }
    ```
 
@@ -85,6 +91,7 @@ A MongoDB Atlas-powered intelligent document processing system that demonstrates
 ![High Level Architecture](diagrams/1_high_level_architecture.png)
 
 **Key Features:**
+
 - 🎯 **Smart Ingestion**: Context-aware assessment based on industry and topic
 - 👁️ **Pure Vision Understanding**: Claude 3.5 Sonnet v2 for document extraction
 - 🔍 **Context-Aware Embeddings**: Each chunk maintains full document context via voyage-context-3
@@ -94,7 +101,6 @@ A MongoDB Atlas-powered intelligent document processing system that demonstrates
 - 🏭 **Industry-Specific**: Configurable mappings for different verticals
 - 🔄 **Agentic RAG**: Self-correcting Q&A with document grading and query rewriting
 - 📊 **Scheduled Reports**: Automated PDF generation with section-specific semantic search
-
 
 ## 🏛️ Architectural Patterns
 
@@ -110,31 +116,31 @@ graph TD
     A1[📁 Local Files] --> A
     A2[☁️ AWS S3] --> A
     A3[📊 Google Drive] --> A
-    
+
     B --> C{Routing Decision}
     C -->|"1. Discover"| D[📂 Scanner Agent<br/>Document Discovery]
     C -->|"2. Assess"| E[🔍 Evaluator Agent<br/>Relevance Check]
     C -->|"3. Extract"| F[📸 Extractor Agent<br/>Vision AI]
     C -->|"4. Process"| G[💾 Processor Agent<br/>Chunk & Embed]
     C -->|Complete| H[✅ End]
-    
+
     D -->|Found Docs| B
     E -->|Assessment| B
     F -->|Markdown| B
     G -->|Stored| B
-    
+
     subgraph "MongoDB Atlas Storage"
         P1[documents]
         P2[chunks]
         P3[assessments]
         P4[workflows]
     end
-    
+
     G --> P1
     G --> P2
     E --> P3
     B --> P4
-    
+
     style B fill:#e1f5fe,stroke:#01579b,stroke-width:3px
     style D fill:#f3e5f5
     style E fill:#e8f5e8
@@ -147,6 +153,7 @@ graph TD
 ![Supervisor Pattern Explanation](diagrams/3_part1_multiagent_supervisor_pattern_explanation.png)
 
 In our Document Intelligence system, the supervisor agent orchestrates:
+
 - **Scanner Agent**: Discovers documents from multiple sources (Local files, AWS S3, Google Drive)
 - **Evaluator Agent**: Assesses document relevance based on industry and use case context
 - **Extractor Agent**: Extracts content using vision AI (Claude 3.5 Sonnet v2) and converts to markdown
@@ -155,12 +162,14 @@ In our Document Intelligence system, the supervisor agent orchestrates:
 **Why Use a Supervisor?**
 
 Following the [LangChain supervisor pattern](https://docs.langchain.com/oss/python/langchain/supervisor), our multi-agent architecture allows us to:
+
 - **Partition tools across workers**: Each agent has access only to relevant tools (e.g., Scanner has S3/GDrive access, Extractor has vision AI)
 - **Focused expertise**: Each agent has individual prompts and instructions specific to their domain
 - **Manage complexity**: Instead of one agent handling document discovery, evaluation, extraction, AND processing, we separate concerns
 - **Iterative improvement**: If performance degrades, we can improve individual agents without affecting the entire system
 
 **MongoDB Value for Ingestion**:
+
 - **Unified Data Platform**: Structured metadata, unstructured documents, and vector embeddings all in one database
 - **Workflow Tracking**: Real-time state persistence across all agents
 - **Document Deduplication**: Prevent reprocessing with document status tracking
@@ -176,37 +185,37 @@ Following the [LangChain supervisor pattern](https://docs.langchain.com/oss/pyth
 graph TD
     A[User Query] --> B[🤖 Generate Query or Respond<br/>Retrieval Agent]
     B --> C{Tool Call?}
-    
+
     C -->|No Tool Call| D[Direct Response]
     C -->|retrieve_documents| E[🔧 Retrieve Tool<br/>Semantic Search]
-    
+
     E --> F[MongoDB Atlas<br/>Vector Search]
     F --> G[📄 Retrieved Chunks]
     G --> H[🔍 Grade Documents<br/>Relevance Check]
-    
+
     H --> I{Relevant?}
     I -->|Yes| J[📝 Generate Answer]
     I -->|No| K[✏️ Rewrite Question]
-    
+
     K --> L[Improved Query]
     L --> B
-    
+
     J --> M[Answer with Citations]
     D --> N[Response to User]
     M --> N
-    
+
     subgraph "MongoDB Collections"
         O[chunks]
         P[gradings]
         Q[checkpoints_aio]
         R[agent_personas]
     end
-    
+
     F --> O
     H --> P
     B --> Q
     B --> R
-    
+
     style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     style H fill:#e8f5e8
     style K fill:#fff3e0
@@ -222,7 +231,7 @@ Following the [LangGraph Agentic RAG pattern](https://langchain-ai.github.io/lan
 
 **Key Components**:
 
-1. **Retrieval Agent (Query Generator)**: 
+1. **Retrieval Agent (Query Generator)**:
    - Decides whether to retrieve context using semantic search or respond directly
    - Uses voyage-context-3 embeddings for semantic search
    - Bound with retriever tool that searches MongoDB chunks collection
@@ -243,6 +252,7 @@ Following the [LangGraph Agentic RAG pattern](https://langchain-ai.github.io/lan
    - Provides comprehensive answers based on context
 
 **MongoDB Integration**:
+
 - **Semantic Search**: Find relevant content based on meaning, not just keywords
 - **Memory Persistence**: checkpoint_writes_aio and checkpoints_aio for conversation state
 - **Agent Personas**: Use-case specific configurations (Credit Rating Analyst, Investment Research Analyst, etc.)
@@ -251,6 +261,7 @@ Following the [LangGraph Agentic RAG pattern](https://langchain-ai.github.io/lan
 **Why Agentic RAG?**
 
 Unlike traditional RAG that always retrieves, our system:
+
 - **Makes intelligent decisions**: Knows when retrieval is necessary vs. direct response
 - **Self-corrects**: If retrieved documents aren't relevant, rewrites query and tries again
 - **Maintains context**: Uses MongoDB checkpointing for multi-turn conversations
@@ -280,6 +291,7 @@ Unlike traditional RAG that always retrieves, our system:
    - Maximum iterations prevent infinite loops
 
 **Implementation Details**:
+
 - Uses `MessagesState` for state management
 - `tools_condition` for conditional routing after tool calls
 - Custom grading prompt for document relevance assessment
@@ -287,6 +299,7 @@ Unlike traditional RAG that always retrieves, our system:
 - Thread-based memory with MongoDB checkpointer for conversation persistence
 
 **MongoDB Value for Q&A**:
+
 - **Unified Data Platform**: Structured metadata, unstructured text chunks, and vector embeddings coexist seamlessly
 - **Vector Search**: Lightning-fast semantic search across millions of documents
 - **Conversation Memory**: Checkpointing system for multi-turn dialogue persistence
@@ -302,7 +315,7 @@ The reporting system generates weekly industry reports by leveraging MongoDB's s
 
 **Key Components**:
 
-1. **Report Templates**: 
+1. **Report Templates**:
    - MongoDB stores configurable templates by industry/use case
    - Each template defines report structure and section-specific prompts
    - Enables customized reports for Credit Rating, Investment Research, etc.
@@ -323,6 +336,7 @@ The reporting system generates weekly industry reports by leveraging MongoDB's s
    - Includes key metrics, analysis sections, and disclaimer
 
 **MongoDB Value for Reports**:
+
 - **Unified Data Platform**: Report templates, document chunks, and vector embeddings all accessible from one database
 - **Template Storage**: Flexible schema for industry-specific report structures
 - **Semantic Search**: Fast content retrieval based on meaning for each report section
@@ -492,12 +506,14 @@ The system uses 15 MongoDB collections organized by function:
 > 📁 **Sample Data**: See `backend/db/collections/seeds/` for JSON seed files to populate these collections for local development.
 
 ### Core Document Processing (4 collections)
+
 1. **chunks**: Document chunks with embeddings - stores text segments with voyage-context-3 vectors
-2. **documents**: Document metadata - tracks processing status and source information  
+2. **documents**: Document metadata - tracks processing status and source information
 3. **assessments**: Document evaluation results - stores relevance scores and processing decisions
 4. **workflows**: Ingestion workflow tracking - monitors multi-agent processing state
 
 ### Q&A and Memory (5 collections)
+
 5. **gradings**: Document relevance grading - binary scores from Q&A retrieval assessment
 6. **logs_qa**: Q&A session logs - tracks agentic RAG workflow steps and decisions
 7. **agent_personas**: Use-case specific AI configurations - stores prompts and capabilities per industry
@@ -505,15 +521,18 @@ The system uses 15 MongoDB collections organized by function:
 9. **checkpoints_aio**: Conversation memory - stores thread-based dialogue history
 
 ### Reports (2 collections)
+
 10. **scheduled_reports**: Generated report metadata - tracks PDF locations and generation history
 11. **report_templates**: Report structure templates - defines sections and prompts by use case
 
 ### Configuration (3 collections)
+
 12. **buckets**: S3 bucket configurations - stores AWS bucket paths and access settings
 13. **gdrive**: Google Drive configurations - public folder IDs for document scraping
 14. **industry_mappings**: Industry classifications - maps industries to relevant topics and keywords
 
 ### System (1 collection)
+
 15. **logs**: Workflow execution logs - INFO level logs for monitoring agent decisions
 
 ## 📦 Dependencies
@@ -580,12 +599,15 @@ The system supports ingesting documents from multiple sources:
 > **🔒 Security Note**: This repository includes only example configuration files (`.example.json`) in `backend/db/collections/seeds/`. You must create your own configuration files with real S3 bucket names and Google Drive folder IDs. Never commit these real configuration files to public repositories. See `backend/db/collections/seeds/README.md` for setup instructions.
 
 > **🎯 Demo Data**: Sample documents and reports are available in `backend/data/seed/` for testing:
+>
 > - **Documents**: FSI use case examples (credit rating, KYC, loan origination, etc.) in `docs/`
 > - **Reports**: Pre-generated PDF reports for each use case in `reports/`
 > - **Initial State**: Configuration for demo scenarios in `documents_initial_state_dict.json`
 
 ### 1. Local Files (Docker Volume)
+
 Documents can be uploaded via API and stored in the Docker volume:
+
 ```bash
 # Upload documents
 curl -X POST http://localhost:8080/api/upload/documents \
@@ -614,7 +636,9 @@ curl -X POST http://localhost:8080/api/ingestion/start \
 ```
 
 ### 2. AWS S3 Buckets
+
 S3 bucket configuration is stored in MongoDB `buckets` collection. First, create your configuration from the example:
+
 ```bash
 # Copy the example file
 cp backend/db/collections/seeds/document_intelligence.buckets.example.json backend/db/collections/seeds/document_intelligence.buckets.json
@@ -625,7 +649,9 @@ mongoimport --uri "$MONGODB_URI" --collection buckets --file backend/db/collecti
 ```
 
 ### 3. Google Drive Folders
+
 Google Drive folder configuration is stored in MongoDB `gdrive` collection. The system uses public folder web scraping (no API keys needed). First, create your configuration from the example:
+
 ```bash
 # Copy the example file
 cp backend/db/collections/seeds/document_intelligence.gdrive.example.json backend/db/collections/seeds/document_intelligence.gdrive.json
@@ -636,6 +662,7 @@ mongoimport --uri "$MONGODB_URI" --collection gdrive --file backend/db/collectio
 ```
 
 #### Google Drive Structure:
+
 ```
 📁 Document Intelligence Demo/
 └── 📁 fsi/
@@ -647,6 +674,7 @@ mongoimport --uri "$MONGODB_URI" --collection gdrive --file backend/db/collectio
 ```
 
 #### Google Drive Usage:
+
 ```bash
 # Ingest from Google Drive FSI folder
 curl -X POST http://localhost:8080/api/ingestion/start \
@@ -658,14 +686,18 @@ curl -X POST http://localhost:8080/api/ingestion/start \
 ```
 
 ### 4. Industry and Topic Mappings
+
 The system uses context-aware document assessment based on industry and topic. This file is included in the repository and safe to use directly:
+
 ```bash
 # Import industry mappings (no sensitive data - safe to use as-is)
 mongoimport --uri "$MONGODB_URI" --collection industry_mappings --file backend/db/collections/seeds/document_intelligence.industry_mappings.json --jsonArray
 ```
 
 #### S3 Document Sources by Industry:
+
 Configure your own S3 bucket structure following this pattern:
+
 - **FSI**: `s3://YOUR-BUCKET/your-path/fsi/`
 - **Healthcare**: `s3://YOUR-BUCKET/your-path/healthcare/`
 - **Insurance**: `s3://YOUR-BUCKET/your-path/insurance/`
@@ -674,6 +706,7 @@ Configure your own S3 bucket structure following this pattern:
 - **Retail**: `s3://YOUR-BUCKET/your-path/retail/`
 
 #### S3 Usage Examples
+
 ```bash
 # Ingest from S3 FSI folder
 curl -X POST http://localhost:8080/api/ingestion/start \
@@ -704,24 +737,30 @@ curl -X POST http://localhost:8080/api/ingestion/start \
 ```
 
 #### AWS Authentication for S3
+
 The system uses AWS SSO for authentication. No access keys required:
+
 1. Configure AWS SSO: `aws configure sso`
 2. Login: `aws sso login --profile your-profile`
 3. Set environment variable: `export AWS_PROFILE=your-profile`
 
 ### Source Path Format
+
 All source types use a consistent prefix pattern for clarity:
+
 - **Local files**: `@local@/docs/{industry}/{use_case}`
 - **S3 files**: `@s3@{industry}` or `@s3@{industry}/{subfolder}`
 - **Google Drive**: `@gdrive@{industry}/{use_case}`
 - All three sources can be mixed in the same ingestion workflow
 
 Document paths stored in MongoDB include full source information:
+
 - Local: `@local@/path/to/file.pdf`
 - S3: `@s3@bucket-name/path/to/file.pdf`
 - Google Drive: `@gdrive@industry/use_case/file.pdf`
 
 #### Mixed Source Example:
+
 ```bash
 curl -X POST http://localhost:8080/api/ingestion/start \
   -H "Content-Type: application/json" \
@@ -740,9 +779,9 @@ curl -X POST http://localhost:8080/api/ingestion/start \
 The system evaluates documents based on their industry and topic context extracted from the source path:
 
 ### How It Works
+
 1. **Path Analysis**: Extracts industry and topic from source paths
    - Example: `@s3@fsi/credit_rating` → Industry: "financial services", Topic: "credit rating"
-   
 2. **Relevance Scoring**: Documents are evaluated against:
    - Industry relevance (e.g., is this a financial services document?)
    - Topic relevance (e.g., is this about credit ratings?)
@@ -754,6 +793,7 @@ The system evaluates documents based on their industry and topic context extract
    - Test or sample documents
 
 ### Supported Industries
+
 - **fsi**: Financial Services
 - **healthcare**: Healthcare
 - **insurance**: Insurance
@@ -763,7 +803,8 @@ The system evaluates documents based on their industry and topic context extract
 
 ## 🛠️ Development Commands
 
-### UV 
+### UV
+
 ```bash
 # Ensure you are over /backend directory
 cd backend
@@ -773,6 +814,7 @@ uv run uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ```
 
 ### Docker
+
 ```bash
 # Build and run all services
 docker-compose up --build
@@ -786,10 +828,12 @@ docker-compose up document-intelligence-backend
 The system provides comprehensive API documentation through FastAPI's automatic documentation features:
 
 ### 📖 Interactive API Documentation
+
 - **Swagger UI**: Navigate to `{URL}/docs` (e.g., `http://localhost:8080/docs`)
 - **ReDoc**: Alternative documentation at `{URL}/redoc`
 
 ### 🔑 Key API Categories
+
 - **Document Management**: Upload, list, and manage documents
 - **Ingestion Workflows**: Start and monitor document processing
 - **Q&A System**: Query documents with agentic RAG
@@ -797,6 +841,7 @@ The system provides comprehensive API documentation through FastAPI's automatic 
 - **System Health**: Status and configuration endpoints
 
 > **💡 Tip**: The Swagger UI at `/docs` provides an interactive interface where you can:
+>
 > - Explore all available endpoints
 > - View request/response schemas
 > - Test API calls directly from your browser
@@ -807,6 +852,7 @@ The system provides comprehensive API documentation through FastAPI's automatic 
 The system implements sophisticated conversation persistence using MongoDB and LangGraph's checkpointing system:
 
 ### 📝 Conversation Memory Architecture
+
 - **Thread-Based Sessions**: Each conversation has a unique `thread_id` for state isolation
 - **Async Checkpointing**: Non-blocking state persistence using `checkpoint_writes_aio` collection
 - **State Recovery**: Automatic restoration of conversation context across requests
@@ -816,18 +862,21 @@ The system implements sophisticated conversation persistence using MongoDB and L
   - **Session Metadata**: Thread IDs, timestamps, and user context
 
 ### 🔄 How It Works
+
 1. **Session Initiation**: Generate unique session ID when user starts Q&A
 2. **State Checkpointing**: After each agent decision, state is saved to MongoDB
 3. **Context Retrieval**: Previous messages and decisions loaded for continuity
 4. **Memory Cleanup**: Optional session cleanup via API endpoints
 
 ### 💾 MongoDB Collections Used
+
 - **`checkpoints_aio`**: Stores complete conversation states
 - **`checkpoint_writes_aio`**: Handles async write operations
 - **`logs_qa`**: Tracks session events and agent decisions
 - **`gradings`**: Preserves document relevance assessments per session
 
 ### 🚀 Usage Example
+
 ```python
 # Start new session
 session_id = "user-123-session-456"
