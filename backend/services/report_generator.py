@@ -105,7 +105,7 @@ class ReportGenerator:
             if not bedrock_client:
                 bedrock_client = BedrockClient()._get_bedrock_client()
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-3-5-sonnet-20241022-v2:0"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
                 client=bedrock_client,
                 provider="anthropic",
                 temperature=0.3,  # Lower temperature for consistent reports

@@ -454,7 +454,7 @@ class AgenticRAGQandA:
 
         if not llm:
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-3-5-sonnet-20241022-v2:0"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
                 client=bedrock_client,
                 provider="anthropic",
                 temperature=0.0001,
@@ -467,7 +467,7 @@ class AgenticRAGQandA:
         else:
             self.llm = llm
 
-        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "anthropic.claude-3-haiku-20240307-v1:0")
+        fast_model_id = os.getenv("BEDROCK_FAST_MODEL_ID", "us.anthropic.claude-haiku-4-5-20251001-v1:0")
         self.fast_llm = ChatBedrock(
             model=fast_model_id,
             client=bedrock_client,

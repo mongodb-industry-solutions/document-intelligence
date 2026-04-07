@@ -47,7 +47,7 @@ class ClaudeVisionExtractor(BedrockClient):
     def __init__(
         self,
         region_name: str = "us-east-1",
-        model_id: str = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-3-5-sonnet-20241022-v2:0")
+        model_id: str = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0")
     ):
         """Initialize extractor with visual tracking capabilities"""
         super().__init__(
