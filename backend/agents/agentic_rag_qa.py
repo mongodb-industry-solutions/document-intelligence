@@ -780,7 +780,17 @@ class AgenticRAGQandA:
         try:
             # recursion_limit is a hard safety net on node invocations
             # (rewrite_count handles the graceful path; this is the backstop)
-            config = {"recursion_limit": 12}
+            try:
+                recursion_limit = int(os.getenv("AGENTIC_RAG_RECURSION_LIMIT", "32"))
+            except ValueError:
+                recursion_limit = 32
+                logger.warning(
+                    "Invalid AGENTIC_RAG_RECURSION_LIMIT; using default 32"
+                )
+            if recursion_limit < 1:
+                recursion_limit = 32
+            logger.info(f"LangGraph recursion_limit={recursion_limit}")
+            config = {"recursion_limit": recursion_limit}
             if thread_id:
                 config["configurable"] = {"thread_id": thread_id}
                 logger.info(f"🧠 Using memory with thread_id: {thread_id}")
