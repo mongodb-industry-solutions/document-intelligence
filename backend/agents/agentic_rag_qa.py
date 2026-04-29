@@ -11,6 +11,7 @@ from pydantic import BaseModel, Field
 from langchain_aws import ChatBedrock
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage, ToolMessage
 from langgraph.graph import StateGraph, MessagesState, START, END
+from langgraph.errors import GraphRecursionError
 from langgraph.prebuilt import ToolNode, tools_condition
 from langgraph.store.mongodb.base import MongoDBStore
 
@@ -781,14 +782,14 @@ class AgenticRAGQandA:
             # recursion_limit is a hard safety net on node invocations
             # (rewrite_count handles the graceful path; this is the backstop)
             try:
-                recursion_limit = int(os.getenv("AGENTIC_RAG_RECURSION_LIMIT", "32"))
+                recursion_limit = int(os.getenv("AGENTIC_RAG_RECURSION_LIMIT", "128"))
             except ValueError:
-                recursion_limit = 32
+                recursion_limit = 128
                 logger.warning(
-                    "Invalid AGENTIC_RAG_RECURSION_LIMIT; using default 32"
+                    "Invalid AGENTIC_RAG_RECURSION_LIMIT; using default 128"
                 )
             if recursion_limit < 1:
-                recursion_limit = 32
+                recursion_limit = 128
             logger.info(f"LangGraph recursion_limit={recursion_limit}")
             config = {"recursion_limit": recursion_limit}
             if thread_id:
@@ -807,6 +808,8 @@ class AgenticRAGQandA:
                     # Update the state with the node's output (following tutorial pattern)
                     if "messages" in update:
                         final_state["messages"].extend(update["messages"])
+                    if "rewrite_count" in update:
+                        final_state["rewrite_count"] = update["rewrite_count"]
                     
                     # Track specific node outputs
                     if node_name == "grade_documents":
@@ -816,6 +819,14 @@ class AgenticRAGQandA:
                         # Track query rewrites
                         if "messages" in update:
                             query_rewrites.append(update["messages"][-1].content)
+            
+            _steps_tail = workflow_steps[-15:] if len(workflow_steps) > 15 else workflow_steps
+            logger.info(
+                "Agentic RAG graph finished: step_count=%s rewrite_count=%s steps_tail=%s",
+                len(workflow_steps),
+                final_state.get("rewrite_count", 0),
+                _steps_tail,
+            )
             
             # Extract final answer from the final state messages
             final_messages = final_state.get("messages", [])
@@ -874,6 +885,23 @@ class AgenticRAGQandA:
             logger.info(f"✅ Agentic RAG completed with {len(workflow_steps)} steps")
             return response
             
+        except GraphRecursionError as e:
+            _tail = workflow_steps[-15:] if len(workflow_steps) > 15 else workflow_steps
+            logger.error(
+                "LangGraph recursion limit reached: step_count=%s rewrite_count=%s steps_tail=%s",
+                len(workflow_steps),
+                final_state.get("rewrite_count", 0),
+                _tail,
+                exc_info=True,
+            )
+            return AgenticRAGResponse(
+                answer=f"Error processing query: {str(e)}",
+                source_chunks=[],
+                source_documents=[],
+                confidence=0.0,
+                reasoning=f"Workflow error: {str(e)}",
+                workflow_steps=workflow_steps,
+            )
         except Exception as e:
             logger.error(f"Error in agentic RAG workflow: {e}")
             return AgenticRAGResponse(
