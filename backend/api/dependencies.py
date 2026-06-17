@@ -80,6 +80,8 @@ async def get_checkpointer() -> AsyncMongoDBSaver:
         client = await get_async_mongodb_client()
         _checkpointer = AsyncMongoDBSaver(
             client,
-            db_name=os.getenv("DATABASE_NAME")
+            db_name=os.getenv("DATABASE_NAME"),
+            checkpoint_collection_name=os.getenv("CHECKPOINTS_COLLECTION", "checkpoints_aio"),
+            writes_collection_name=os.getenv("CHECKPOINT_WRITES_COLLECTION", "checkpoint_writes_aio"),
         )
     return _checkpointer
