@@ -1,5 +1,16 @@
 env:
   NODE_ENV: staging
+  # Collections not wired via envSecrets default to snake_case in code; the
+  # leafy_bank_bian migration renamed them, so pin the docintel names here.
+  WORKFLOWS_COLLECTION: docintelWorkflows
+  BUCKETS_COLLECTION: docintelBuckets
+  GDRIVE_COLLECTION: docintelGdrive
+  INDUSTRY_MAPPINGS_COLLECTION: docintelIndustryMappings
+  LOGS_QA_COLLECTION: docintelLogsQa
+  REPORT_TEMPLATES_COLLECTION: docintelReportTemplates
+  SCHEDULED_REPORTS_COLLECTION: docintelScheduledReports
+  CHECKPOINTS_COLLECTION: docintelCheckpointsAio
+  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWritesAio
 
 security:
   dataClassification: "Internal"
