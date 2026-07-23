@@ -9,8 +9,8 @@ env:
   LOGS_QA_COLLECTION: docintelLogsQa
   REPORT_TEMPLATES_COLLECTION: docintelReportTemplates
   SCHEDULED_REPORTS_COLLECTION: docintelScheduledReports
-  CHECKPOINTS_COLLECTION: docintelCheckpointsAio
-  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWritesAio
+  CHECKPOINTS_COLLECTION: docintelCheckpoints
+  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWrites
 
 security:
   dataClassification: "Internal"
@@ -18,7 +18,7 @@ security:
 
 ownership:
   driEmail: mehar.grewal@mongodb.com
-  
+
 envSecrets:
   MONGODB_URI: document-intelligence
   DATABASE_NAME: document-intelligence
