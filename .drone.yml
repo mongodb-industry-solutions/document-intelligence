@@ -66,7 +66,7 @@ steps:
     settings:
       create_repository: true
       registry: 795250896452.dkr.ecr.us-east-1.amazonaws.com
-      repo: industrysolutions/document-intelligence
+      repo: industrysolutions/document-intelligence-bian
       tags:
         - git-${DRONE_COMMIT_SHA:0:7}
         - latest
@@ -86,12 +86,12 @@ steps:
       chart_version: 4.30.0
       add_repos: [mongodb=https://10gen.github.io/helm-charts]
       namespace: industrysolutions
-      release: document-intelligence
+      release: document-intelligence-bian-prod
       values:
         - "image.tag=git-${DRONE_COMMIT_SHA:0:7}"
-        - "image.repository=795250896452.dkr.ecr.us-east-1.amazonaws.com/industrysolutions/document-intelligence"
+        - "image.repository=795250896452.dkr.ecr.us-east-1.amazonaws.com/industrysolutions/document-intelligence-bian"
         - "ingress.enabled=true"
-        - "ingress.hosts[0]=document-intelligence.industrysolutions.prod.corp.mongodb.com"
+        - "ingress.hosts[0]=document-intelligence-bian.industrysolutions.prod.corp.mongodb.com"
         - "mesh.enabled=true"
         - "resources.limits.cpu=500m"
         - "resources.limits.memory=512Mi"
