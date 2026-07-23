@@ -104,3 +104,56 @@ steps:
     when:
       event:
         - push
+---
+kind: pipeline
+type: kubernetes
+name: prod-bian
+
+trigger:
+  branch:
+    - prod-green
+
+steps:
+  - name: publish-backend
+    image: plugins/kaniko-ecr
+    settings:
+      create_repository: true
+      registry: 795250896452.dkr.ecr.us-east-1.amazonaws.com
+      repo: industrysolutions/document-intelligence-bian
+      tags:
+        - git-${DRONE_COMMIT_SHA:0:7}
+        - latest
+      dockerfile: Dockerfile.backend
+      access_key:
+        from_secret: ecr_access_key
+      secret_key:
+        from_secret: ecr_secret_key
+    when:
+      event:
+        - push
+
+  - name: deploy-backend-prod-bian
+    image: public.ecr.aws/kanopy/drone-helm:v3
+    settings:
+      chart: mongodb/web-app
+      chart_version: 4.30.0
+      add_repos: [mongodb=https://10gen.github.io/helm-charts]
+      namespace: industrysolutions
+      release: document-intelligence-bian-prod
+      values:
+        - "image.tag=git-${DRONE_COMMIT_SHA:0:7}"
+        - "image.repository=795250896452.dkr.ecr.us-east-1.amazonaws.com/industrysolutions/document-intelligence-bian"
+        - "ingress.enabled=true"
+        - "ingress.hosts[0]=document-intelligence-bian.industrysolutions.prod.corp.mongodb.com"
+        - "mesh.enabled=true"
+        - "resources.limits.cpu=500m"
+        - "resources.limits.memory=512Mi"
+        - "resources.requests.cpu=100m"
+        - "resources.requests.memory=256Mi"
+      api_server: https://api.prod.corp.mongodb.com
+      kubernetes_token:
+        from_secret: prod_kubernetes_token
+      values_files: [ "environments/prod-bian.yaml" ]
+    when:
+      event:
+        - push

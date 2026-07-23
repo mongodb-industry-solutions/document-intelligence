@@ -1,0 +1,55 @@
+env:
+  NODE_ENV: prod
+  WORKFLOWS_COLLECTION: docintelWorkflows
+  BUCKETS_COLLECTION: docintelBuckets
+  GDRIVE_COLLECTION: docintelGdrive
+  INDUSTRY_MAPPINGS_COLLECTION: docintelIndustryMappings
+  LOGS_QA_COLLECTION: docintelLogsQa
+  REPORT_TEMPLATES_COLLECTION: docintelReportTemplates
+  SCHEDULED_REPORTS_COLLECTION: docintelScheduledReports
+  CHECKPOINTS_COLLECTION: docintelCheckpoints
+  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWrites
+
+security:
+  dataClassification: "Internal"
+  dataDesignation: ["MI"]
+
+ownership:
+  driEmail: mehar.grewal@mongodb.com
+
+envSecrets:
+  MONGODB_URI: document-intelligence-bian
+  DATABASE_NAME: document-intelligence-bian
+  APP_NAME: document-intelligence-bian
+  DOCUMENTS_COLLECTION: document-intelligence-bian
+  CHUNKS_COLLECTION: document-intelligence-bian
+  ASSESSMENTS_COLLECTION: document-intelligence-bian
+  GRADINGS_COLLECTION: document-intelligence-bian
+  LOGS_COLLECTION: document-intelligence-bian
+  AGENT_PERSONAS_COLLECTION: document-intelligence-bian
+  CHUNKS_VECTOR_INDEX: document-intelligence-bian
+  DOCUMENT_STORAGE_PATH: document-intelligence-bian
+  ALLOWED_INDUSTRIES: document-intelligence-bian
+  DEFAULT_INDUSTRY: document-intelligence-bian
+  MAX_UPLOAD_SIZE_MB: document-intelligence-bian
+  ALLOWED_FILE_EXTENSIONS: document-intelligence-bian
+  AWS_REGION: document-intelligence-bian
+  S3_BUCKET_NAME: document-intelligence-bian
+  S3_BASE_PREFIX: document-intelligence-bian
+  GDRIVE_ROOT_FOLDER_ID: document-intelligence-bian
+  BEDROCK_MODEL_ID: document-intelligence-bian
+  BEDROCK_MAX_TOKENS: document-intelligence-bian
+  BEDROCK_FAST_MODEL_ID: document-intelligence-bian
+  VOYAGE_API_KEY: document-intelligence-bian
+  VOYAGE_MODEL: document-intelligence-bian
+  MAX_FILE_SIZE_MB: document-intelligence-bian
+  MAX_PAGES_PER_DOCUMENT: document-intelligence-bian
+  CHUNK_SIZE: document-intelligence-bian
+  CHUNK_OVERLAP: document-intelligence-bian
+  NODE_ENV: document-intelligence-bian
+
+serviceAccount:
+  enabled: true
+  irsa:
+    accountId: "275662791714"
+    roleName: "kanopy-prod-cicd-irsa"
