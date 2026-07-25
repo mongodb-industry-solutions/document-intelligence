@@ -9,8 +9,8 @@ env:
   LOGS_QA_COLLECTION: docintelLogsQa
   REPORT_TEMPLATES_COLLECTION: docintelReportTemplates
   SCHEDULED_REPORTS_COLLECTION: docintelScheduledReports
-  CHECKPOINTS_COLLECTION: docintelCheckpointsAio
-  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWritesAio
+  CHECKPOINTS_COLLECTION: docintelCheckpoints
+  CHECKPOINT_WRITES_COLLECTION: docintelCheckpointWrites
 
 security:
   dataClassification: "Internal"
