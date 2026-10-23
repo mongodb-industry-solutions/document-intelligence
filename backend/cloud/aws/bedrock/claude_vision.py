@@ -47,7 +47,7 @@ class ClaudeVisionExtractor(BedrockClient):
     def __init__(
         self,
         region_name: str = "us-east-1",
-        model_id: str = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0")
+        model_id: str = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-5")
     ):
         """Initialize extractor with visual tracking capabilities"""
         super().__init__(
@@ -190,7 +190,6 @@ Respond in JSON format:
                 body=json.dumps({
                     "anthropic_version": "bedrock-2023-05-31",
                     "max_tokens": int(os.getenv("BEDROCK_MAX_TOKENS", "8192")),
-                    "temperature": 0.1,
                     "messages": [message]
                 })
             )
@@ -374,7 +373,6 @@ Respond in JSON format:
             "anthropic_version": "bedrock-2023-05-31",
             "messages": messages,
             "max_tokens": int(os.getenv("BEDROCK_MAX_TOKENS", "16384")),
-            "temperature": 0.1,
             "system": """You are a document extraction expert. Your response must be in valid JSON format.
 
 Extract all content from the image and convert to clean markdown with these rules:

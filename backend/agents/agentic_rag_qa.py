@@ -454,15 +454,15 @@ class AgenticRAGQandA:
                 bedrock_client = BedrockClient()._get_bedrock_client()
 
         if not llm:
+            # Sonnet 5 rejects sampling params (temperature/top_p) with a
+            # ValidationException, so they are omitted here.
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-5"),
                 client=bedrock_client,
                 provider="anthropic",
-                temperature=0.0001,
                 max_tokens=2048,
                 model_kwargs={
-                    "max_tokens": 2048,
-                    "temperature": 0.0001
+                    "max_tokens": 2048
                 }
             )
         else:
