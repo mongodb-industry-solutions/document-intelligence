@@ -104,11 +104,12 @@ class ReportGenerator:
             from cloud.aws.bedrock.client import BedrockClient
             if not bedrock_client:
                 bedrock_client = BedrockClient()._get_bedrock_client()
+            # Sonnet 5 rejects sampling params (temperature/top_p) with a
+            # ValidationException, so they are omitted here.
             self.llm = ChatBedrock(
-                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-4-5-20250929-v1:0"),
+                model=os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-sonnet-5"),
                 client=bedrock_client,
                 provider="anthropic",
-                temperature=0.3,  # Lower temperature for consistent reports
                 max_tokens=4096
             )
         else:
